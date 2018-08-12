@@ -27,6 +27,22 @@ class Tv66YsPipeline(object):
                 """select * from mybt where downLoadName = %s""",
                 item['downLoadName']
             )
+            repetition = self.cursor.fetchone()
+
+            if repetition is not None:
+                pass
+            else:
+                 self.cursor.execute(
+                    """insert into mybt(movClass, downLoadName, downLoadUrl, mvdesc,downimgurl,downdtitle )
+                    value (%s, %s, %s, %s, %s, %s)""",
+                    (item['movClass'],
+                     item['downLoadName'],
+                     item['downLoadUrl'],
+                     item['mvdesc'],
+                     item['downimgurl'],
+                     item['downdtitle']
+                     ))
+                self.connect.commit()
         except Exception as error:
             log(error)
         return item
