@@ -135,12 +135,44 @@ DOWNLOADER_MIDDLEWARES = {
     'tv66ys.middlewares.MyUserAgentMiddleware': 400,
 }
 
-ITEM_PIPELINES = {
-    'tv66ys.pipelines.Tv66YsPipeline': 1,
-}
+# ITEM_PIPELINES = {
+#     'tv66ys.pipelines.Tv66YsPipeline': 1,
+# }
 #Mysql数据库的配置信息
 MYSQL_HOST = '127.0.0.1'
-MYSQL_DBNAME = 'movie'         #数据库名字，请修改
+MYSQL_DBNAME = 'pycrawler'         #数据库名字，请修改
 MYSQL_USER = 'root'             #数据库账号，请修改
 MYSQL_PASSWD = '1'         #数据库密码，请修改
 MYSQL_PORT = 3306               #数据库端口，在dbhelper中使用
+
+
+# 使用scrapy-redis里的去重组件，不使用scrapy默认的去重方式
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+# # 使用scrapy-redis里的调度器组件，不使用默认的调度器
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+DUPEFILTER_KEY = 'dupefilter:%(timestamp)s'
+# # 允许暂停，redis请求记录不丢失
+SCHEDULER_PERSIST = True
+# # 默认的scrapy-redis请求队列形式（按优先级）
+# SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
+# 队列形式，请求先进先出
+#SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderQueue"
+# 栈形式，请求先进后出
+#SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderStack"
+
+# 只是将数据放到redis数据库，不需要写pipelines文件
+ITEM_PIPELINES = {
+    'tv66ys.pipelines.Tv66YsPipeline': 1,
+    'scrapy_redis.pipelines.RedisPipeline': 400,
+}
+
+# 指定数据库的主机IP
+REDIS_HOST = "127.0.0.1"
+# 指定数据库的端口号
+REDIS_PORT = 6379
+# REDIS_URL = 'redis://127.0.0.1:6379'
+# LOG_FILE = "mySpider.log"
+# LOG_LEVEL = "INFO"
+
+# SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+# SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"

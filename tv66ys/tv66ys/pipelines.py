@@ -8,8 +8,8 @@ import json
 from twisted.enterprise import adbapi
 import pymysql
 from tv66ys import settings
-from scrapy import log
-
+# from scrapy import log
+import logging
 class Tv66YsPipeline(object):
     def __init__(self):
         self.connect = pymysql.connect(
@@ -24,7 +24,7 @@ class Tv66YsPipeline(object):
     def process_item(self, item, spider):
         try:
             self.cursor.execute(
-                """select * from mybt where downLoadName = %s""",
+                """select * from tv66ys where downLoadName = %s""",
                 item['downLoadName']
             )
             repetition = self.cursor.fetchone()
@@ -32,17 +32,20 @@ class Tv66YsPipeline(object):
             if repetition is not None:
                 pass
             else:
-                 self.cursor.execute(
-                    """insert into mybt(movClass, downLoadName, downLoadUrl, mvdesc,downimgurl,downdtitle )
-                    value (%s, %s, %s, %s, %s, %s)""",
+                self.cursor.execute(
+                    """insert into tv66ys(movClass, downLoadName, downLoadUrl, mvdesc,downimgurl,downdtitle,mvUrl)
+                    value (%s, %s, %s, %s, %s, %s, %s)""",
                     (item['movClass'],
                      item['downLoadName'],
                      item['downLoadUrl'],
                      item['mvdesc'],
                      item['downimgurl'],
-                     item['downdtitle']
+                     item['downdtitle'],
+                     item['mvUrl']
                      ))
                 self.connect.commit()
         except Exception as error:
-            log(error)
+            print("error===================")
+            print(error)
+            logging.error(error)
         return item
