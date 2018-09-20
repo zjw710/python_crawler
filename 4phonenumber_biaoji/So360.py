@@ -1,6 +1,8 @@
 #coding=utf-8
 #360搜索
 #13800138006 ，18122363191 ， 02039999993 ， 17640298760
+from Common.MyDriver import MyDriver
+from Common.common import *
 from selenium import webdriver
 import time
 import sys
@@ -9,73 +11,99 @@ sys.setdefaultencoding('utf-8')
 class So360(object):
     def __init__(self):
         self.url = "https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q="
-        self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox()
         pass
-    def GetBiaoji(self,phone_num):
-        driver = self.driver
+    def GetBiaoji(self,myDriver,phone_num):
+        # driver = self.driver
         url = self.url+phone_num
+        driver = myDriver.GetUrl(url)
+        if not driver:
+            LogErrorSo360(u"浏览器异常，查询结束")
+            return
+        # try:
+        #     driver.get(url)
+        # except Exception as e:
+        #     print("浏览器异常,重新打开浏览器")
+        #     print(e)
+        #     try:
+        #         self.driver = webdriver.Firefox()
+        #         driver = self.driver
+        #         driver.get(url)
+        #     except Exception as e:
+        #         print("重新打开浏览器异常，不再尝试")
+        #         print(e)
+        #         return
         try:
-            driver.get(url)
-        except Exception as e:
-            print("浏览器异常,重新打开浏览器")
-            print(e)
-            try:
-                self.driver = webdriver.Firefox()
-                driver = self.driver
-                driver.get(url)
-            except Exception as e:
-                print("重新打开浏览器异常，不再尝试")
-                print(e)
-                return
-        try:
-            print("等待1s...")
-            time.sleep(1)
-
+            #初始化数据
+            code = 0
+            remark = com_img = tip_img =""
+            info = u"开始查询..."
+            # print(info)
+            LogInfoSo360(info)
+            # time.sleep(1)
             check_num = 1#检查次数
             check_max_num = 2
             while True:
                 if check_num>check_max_num:
                     remark = ""
-                    print("查询%s次查无标记，结束查询"%check_max_num)
+                    info = u"查询%s次查无标记，结束查询"%check_max_num
+                    # print(info)
+                    LogInfoSo360(info)
                     break
                 try:
                     remark = driver.find_element_by_class_name("mohe-ph-mark").text#查询被标记
                 except Exception as e:
                     remark = ""
-                    print(e)
+                    LogInfoSo360(e)
                 try:
                     com_img = driver.find_element_by_class_name("mh-hy-img").get_attribute("src")#查询企业标记
                 except Exception as e:
                     com_img = ""
-                    print(e)
+                    LogInfoSo360(e)
                 try:
                     tip_img = driver.find_element_by_xpath('//*[@class="mohe-tips"]/strong/img').get_attribute("src")
                 except Exception as e:
                     tip_img = ""
-                    print(e)
+                    LogInfoSo360(e)
                 if not remark.strip() and not com_img.strip() and not tip_img.strip():
-                    print("第%s次查询,未查到结果,继续执行查询"%check_num)
+                    info = u"第%s次查询,未查到结果,继续执行查询"%check_num
+                    # print(info)
+                    LogInfoSo360(info)
                     check_num = check_num+1
                     time.sleep(1)
                     continue
                 #结束循环
                 break
             if not remark.strip() and not com_img.strip() and not tip_img.strip():
-                print("查不到标记")
+                info = u"查不到标记"
+                # print(info)
+                LogInfoSo360(info)
             else:
-                print("查找到被标记remark:%s"%(remark))
-                print("查找到公司标记com_img:%s"%(com_img))
-                print("查找到被标记tip_img:%s"%(tip_img))
+                code = 1
+                info = "查找到被标记remark:%s"%(remark)
+                LogInfoSo360(info)
+                info = "查找到公司标记com_img:%s"%(com_img)
+                LogInfoSo360(info)
+                info = "查找到被标记tip_img:%s"%(tip_img)
+                LogInfoSo360(info)
         except Exception as e:
-            print("查找异常")
-            print(e)
+            info = u"查找异常"
+            LogErrorSo360(info)
+            LogErrorSo360(e)
+        result = {"type":"So360","code":code,"remark":remark,"com_img":com_img,"tip_img":tip_img}
+        return result
 def get_data(so360):
+    myDriver = MyDriver()
     while True:
         phone_num = raw_input("请输入手机号：")
         if phone_num=='exit':
             return
-        so360.GetBiaoji(phone_num)
-
+        result = so360.GetBiaoji(myDriver,phone_num)
+        LogInfoSo360(result)
+def LogInfoSo360(str):
+    log_info("[So360]%s"%str)
+def LogErrorSo360(str):
+    log_error("[So360]%s"%str)
 if __name__ == '__main__':
     so360 = So360()
     get_data(so360)

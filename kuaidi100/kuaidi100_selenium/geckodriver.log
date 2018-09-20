@@ -1,19 +1,14 @@
-1537255245287	geckodriver	INFO	geckodriver 0.19.1
-1537255245296	geckodriver	INFO	Listening on 127.0.0.1:51703
-1537255248356	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.X4Wke3lzRBYu"
-1537255250853	Marionette	INFO	Listening on port 51735
-1537255251581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537320445011	geckodriver	INFO	geckodriver 0.19.1
+1537320445031	geckodriver	INFO	Listening on 127.0.0.1:51123
+1537320448095	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Daj48kT7Jos1"
+1537320452408	Marionette	INFO	Listening on port 51141
+1537320452481	Marionette	WARN	TLS certificate errors will be ignored for this session
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
 JavaScript warning: https://cdn.kuaidi100.com/js/page/smart/query/index_v6.js?version=201804201140, line 277: unreachable code after return statement
 JavaScript warning: https://cdn.kuaidi100.com/js/page/smart/query/index_v6.js?version=201804201140, line 277: unreachable code after return statement
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-[Parent 11924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 13116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 13116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-[Child 12244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 12244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
-[Child 12392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 12392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1537260355768	geckodriver::marionette	ERROR	Failed to kill browser process
+[Parent 7948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

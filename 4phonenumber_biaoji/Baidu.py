@@ -2,6 +2,8 @@
 #百度手机卫士
 #13800138006 ，18122363191 ， 02039999993
 from selenium import webdriver
+from Common.MyDriver import MyDriver
+from Common.common import *
 import time
 import sys
 reload(sys)
@@ -9,25 +11,32 @@ sys.setdefaultencoding('utf-8')
 class Baidu(object):
     def __init__(self):
         self.url = "https://haoma.baidu.com/query"
-        self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox()
         pass
-    def GetBiaoji(self,phone_num):
-        driver = self.driver
+    def GetBiaoji(self,myDriver,phone_num):
+        url = self.url
+        driver = myDriver.GetUrl(url)
+        if not driver:
+            LogErrorBaidu(u"浏览器异常，查询结束")
+            return
+        # driver = self.driver
+        # try:
+        #     driver.get(self.url)
+        # except Exception as e:
+        #     LogInfoBaidu("浏览器异常,重新打开浏览器")
+        #     LogInfoBaidu(e)
+        #     try:
+        #         self.driver = webdriver.Firefox()
+        #         driver = self.driver
+        #         driver.get(self.url)
+        #     except Exception as e:
+        #         LogInfoBaidu("重新打开浏览器异常，不再尝试")
+        #         LogInfoBaidu(e)
+        #         return
         try:
-            driver.get(self.url)
-        except Exception as e:
-            print("浏览器异常,重新打开浏览器")
-            print(e)
-            try:
-                self.driver = webdriver.Firefox()
-                driver = self.driver
-                driver.get(self.url)
-            except Exception as e:
-                print("重新打开浏览器异常，不再尝试")
-                print(e)
-                return
-        try:
-            print("等待1s...")
+            code = 0
+            remark = ""
+            LogInfoBaidu("等待1s...")
             time.sleep(1)
             search_input = driver.find_element_by_id("id_phone")
             search_input.send_keys(phone_num)
@@ -39,13 +48,14 @@ class Baidu(object):
             while True:
                 if check_num>5:
                     remark = ""
+                    code = 0
                     break
                 try:
                     remark = driver.find_element_by_xpath('//*[@class="category"]/h2').text
                 except Exception as e:
                     check_num = check_num+1
-                    print("第%s次查询,未查到结果,继续执行查询"%check_num)
-                    print(e)
+                    LogInfoBaidu("第%s次查询,未查到结果,继续执行查询"%check_num)
+                    LogInfoBaidu(e)
                     time.sleep(1)
                     continue
 
@@ -53,21 +63,30 @@ class Baidu(object):
                 try:
                     num_remark = driver.find_element_by_xpath('//*[@class="category"]/span[1]').text
                 except Exception as e:
-                    print("未获得标记人数")
-                    print(e)
+                    LogInfoBaidu("未获得标记人数")
+                    LogInfoBaidu(e)
                 #结束循环
                 break
-            print("查找到的标记remark:%s %s"%(remark,num_remark))
+            LogInfoBaidu("查找到的标记remark:%s %s"%(remark,num_remark))
+            code=1
         except Exception as e:
-            print("查找异常")
-            print(e)
+            LogErrorBaidu("查找异常")
+            LogErrorBaidu(e)
+        result = {"type":"Baidu","code":code,"remark":remark}
+        return result
 def get_data(baidu):
+    myDriver = MyDriver()
     while True:
         phone_num = raw_input("请输入手机号：")
         if phone_num=='exit':
             return
-        baidu.GetBiaoji(phone_num)
-
+        result = baidu.GetBiaoji(myDriver,phone_num)
+        LogInfoBaidu(result)
+#写日志
+def LogInfoBaidu(str):
+    log_info("[Baidu]%s"%str)
+def LogErrorBaidu(str):
+    log_error("[Baidu]%s"%str)
 if __name__ == '__main__':
     baidu = Baidu()
     get_data(baidu)

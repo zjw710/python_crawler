@@ -2,73 +2,89 @@
 #手机号标记查询
 ##13800138006 ，18122363191 ， 02039999993
 from selenium import webdriver
+from Common.MyDriver import MyDriver
+from Common.common import *
 import time
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
 class Best114(object):
     def __init__(self):
         self.url = "http://www.114best.com/dh/114.aspx?w="
         self.baseUrl = "http://www.114best.com"
-        self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox()
         pass
-    def GetBiaoji(self,phone_num):
-        driver = self.driver
+    def GetBiaoji(self,myDriver,phone_num):
         url = self.url+phone_num
+        driver = myDriver.GetUrl(url)
+        if not driver:
+            LogErrorBest(u"浏览器异常，查询结束")
+            return
+        # try:
+        #     driver.get(url)
+        # except Exception as e:
+        #     print("浏览器异常,重新打开浏览器")
+        #     print(e)
+        #     try:
+        #         self.driver = webdriver.Firefox()
+        #         driver = self.driver
+        #         driver.get(url)
+        #     except Exception as e:
+        #         print("重新打开浏览器异常，不再尝试")
+        #         print(e)
+        #         return
         try:
-            driver.get(url)
-        except Exception as e:
-            print("浏览器异常,重新打开浏览器")
-            print(e)
-            try:
-                self.driver = webdriver.Firefox()
-                driver = self.driver
-                driver.get(url)
-            except Exception as e:
-                print("重新打开浏览器异常，不再尝试")
-                print(e)
-                return
-        try:
-            time.sleep(1)
+            # time.sleep(1)
             # search_input = driver.find_element_by_id("w")
             # search_input.clear()
             # search_input.send_keys(phone_num)
             #
             # search_btn = driver.find_element_by_id("query")
             # search_btn.click()
+            code = 0
             check_num = 1
-            tag_url = ""
+            tip_img = ""
             while True:
                 if check_num>2:#检查2次失败，则退出
                     break
                 try:
-                    tag_url = driver.find_element_by_xpath('//*[@id="gsName"]/img').get_attribute("src")
+                    tip_img = driver.find_element_by_xpath('//*[@id="gsName"]/img').get_attribute("src")
                 except Exception as e:
-                    print(e)
+                    LogInfoBest(e)
                 try:
-                    tag_url = driver.find_element_by_xpath('//*[@id="tag_Name"]/img').get_attribute("src")
+                    tip_img = driver.find_element_by_xpath('//*[@id="tag_Name"]/img').get_attribute("src")
                 except Exception as e:
-                    print(e)
-                if not tag_url.strip():#如果为空，则继续查询
-                    time.sleep(1)
+                    LogInfoBest(e)
+                if not tip_img.strip():#如果为空，则继续查询
                     check_num = check_num+1
-                    print("第%s次查询,未查到结果,继续执行查询"%check_num)
+                    LogInfoBest("第%s次查询,未查到结果,继续执行查询"%check_num)
+                    time.sleep(1)
                     continue
                 break
 
         except Exception as e:
-            tag_url = "无标记"
-            print(e)
-        if not tag_url.strip():
-            print("查找不到标记")
+            LogInfoBest(e)
+        if not tip_img.strip():
+            LogInfoBest("查找不到标记")
+            code = 1
         else:
-            print("查找到标记:%s"%tag_url)
+            LogInfoBest("查找到标记:%s"%tip_img)
+        result = {"type":"Best114","code":code,"tip_img":tip_img}
+        return result
+
 def get_data(best):
+    myDriver = MyDriver()
     while True:
         phone_num = raw_input("请输入手机号：")
         if phone_num=='exit':
             return
-        best.GetBiaoji(phone_num)
+        result = best.GetBiaoji(myDriver,phone_num)
+        LogInfoBest(result)
+def LogInfoBest(str):
+    log_info("[Best]%s"%str)
+def LogErrorBest(str):
+    log_error("[Best]%s"%str)
 if __name__ == '__main__':
     best = Best114()
     get_data(best)
