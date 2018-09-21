@@ -12,10 +12,10 @@ class PhoneList:
     def isNull(self):
         self.lock.acquire()#加锁，锁住相应的资源
         if len(self.phone_list)>0:
-            # self.phone_list = []
-            status = self.phone_list.pop()
+            self.phone_list = []
+            status = False#有数据
         else:
-            status = False
+            status = True#为空
         self.lock.release()#解锁，离开该资源
         return status
     def getData(self):

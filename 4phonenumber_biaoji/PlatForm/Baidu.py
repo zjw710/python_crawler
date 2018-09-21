@@ -72,7 +72,7 @@ class Baidu(object):
         except Exception as e:
             LogErrorBaidu("查找异常")
             LogErrorBaidu(e)
-        result = {"type":"Baidu","code":code,"remark":remark}
+        result = remark
         return result
 def get_data(baidu):
     myDriver = MyDriver()

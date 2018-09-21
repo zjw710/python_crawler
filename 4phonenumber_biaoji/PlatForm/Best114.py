@@ -70,7 +70,8 @@ class Best114(object):
             code = 1
         else:
             LogInfoBest("查找到标记:%s"%tip_img)
-        result = {"type":"Best114","code":code,"tip_img":tip_img}
+        # result = {"type":"Best114","code":code,"tip_img":tip_img}
+        result = tip_img
         return result
 
 def get_data(best):
