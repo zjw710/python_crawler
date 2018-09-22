@@ -5,7 +5,7 @@ import time
 from  PhoneList import phoneList
 class MyRedis(object):
     def __init__(self,channel):
-        self.redis_pool = redis.ConnectionPool(host='127.0.0.1',port=6379,db=0)
+        self.redis_pool = redis.ConnectionPool(host='119.23.155.24',port=6379,db=0,password='dgTigo003.')
         self.channel = channel  # 定义频道名称
 
     #从连接池中获取redis连接

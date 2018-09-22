@@ -1,0 +1,7 @@
+1537606177944	geckodriver	INFO	geckodriver 0.19.1
+1537606177954	geckodriver	INFO	Listening on 127.0.0.1:63877
+1537606180989	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.GaiJqGuosiJt"
+1537606183414	Marionette	INFO	Listening on port 63894
+1537606184103	Marionette	WARN	TLS certificate errors will be ignored for this session
+ette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down

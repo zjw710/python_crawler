@@ -2,12 +2,12 @@
 #电话邦查询
 #13800138006 ，18122363191 ， 02039999993 ， 17640298760
 from selenium import webdriver
+import sys
+sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
 import time
 from PIL import Image
-
-import sys
 # from ShowapiRequest import ShowapiRequest
 from CodeApi.ShowapiRequest import ShowapiRequest
 import base64
