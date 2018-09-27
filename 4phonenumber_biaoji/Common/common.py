@@ -1,36 +1,20 @@
 #coding=utf-8
 __author__ = 'Administrator'
-import logging
 import os
 import sys
-from logging import handlers
-class Logger(object):
-    level_relations = {
-        'debug':logging.DEBUG,
-        'info':logging.INFO,
-        'warning':logging.WARNING,
-        'error':logging.ERROR,
-        'crit':logging.CRITICAL
-    }
-
-    def __init__(self,filename,level='info',when='D',backCount=3,fmt='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s'):
-        self.logger = logging.getLogger(filename)
-        format_str = logging.Formatter(fmt)
-        self.logger.setLevel(self.level_relations.get(level))
-        sh = logging.StreamHandler()
-        sh.setFormatter(format_str)
-        th = handlers.TimedRotatingFileHandler(filename=filename,when=when,backupCount=backCount,encoding='utf-8')
-
-        th.setFormatter(format_str)
-        self.logger.addHandler(sh)
-        self.logger.addHandler(th)
+from MyLog import Logger
+from Config import Config
+'''
+全局函数
+'''
 #写信息类日志
 def log_info(str):
     my_log.logger.info(str)
+    # my_log.put_log("info",str)
 #写异常日志
 def log_error(str):
     my_log.logger.error(str)
-
+    # my_log.put_log("error",str)
 #判断是脚本还是exe文件，获取工作目录真实路径
 def cur_file_dir():
     #获取脚本路径
@@ -46,6 +30,20 @@ def check_path(filename):
     file_dir = os.path.split(filename )[0]
     if not os.path.isdir(file_dir):
         os.makedirs(file_dir)
+        return 1#表示路径不存在，已创建文件
+    return 2#表示路径已存在
+'''
+全局参数
+'''
 #获取路径
 dirpath = cur_file_dir()
-my_log = Logger('all.log',level='debug')
+# my_log = Logger(os.path.join(dirpath, "./log/service%s.log"%(time.strftime("%Y-%m-%d_%H%M", time.localtime()) )),level='debug')
+log_path = os.path.join(dirpath,"./log/service")
+check_path(log_path)
+my_log = Logger(log_path,level='debug')
+#获取配置
+config_path = os.path.join(dirpath,"config.ini")
+print(config_path)
+config = Config(config_path)
+my_host,my_port,my_db,my_pw,my_browser = config.get_config()
+log_info([my_host,my_port,my_db,my_pw,my_browser])

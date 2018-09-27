@@ -11,28 +11,13 @@ sys.setdefaultencoding('utf-8')
 class So360(object):
     def __init__(self):
         self.url = "https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q="
-        # self.driver = webdriver.Firefox()
         pass
     def GetBiaoji(self,myDriver,phone_num):
-        # driver = self.driver
         url = self.url+phone_num
         driver = myDriver.GetUrl(url)
         if not driver:
             LogErrorSo360(u"浏览器异常，查询结束")
             return
-        # try:
-        #     driver.get(url)
-        # except Exception as e:
-        #     print("浏览器异常,重新打开浏览器")
-        #     print(e)
-        #     try:
-        #         self.driver = webdriver.Firefox()
-        #         driver = self.driver
-        #         driver.get(url)
-        #     except Exception as e:
-        #         print("重新打开浏览器异常，不再尝试")
-        #         print(e)
-        #         return
         try:
             #初始化数据
             code = 0
@@ -91,7 +76,7 @@ class So360(object):
             LogErrorSo360(info)
             LogErrorSo360(e)
         # result = {"type":"So360","code":code,"remark":remark,"com_img":com_img,"tip_img":tip_img}
-        result = remark+";"+com_img+";"+tip_img
+        result = remark+","+com_img+","+tip_img
         return result
 def get_data(so360):
     myDriver = MyDriver()

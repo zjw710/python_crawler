@@ -12,28 +12,13 @@ sys.setdefaultencoding('utf-8')
 class Sogo(object):
     def __init__(self):
         self.url = "https://www.sogou.com/web?query="
-        # self.driver = webdriver.Firefox()
         pass
     def GetBiaoji(self,myDriver,phone_num):
-        # driver = self.driver
         url = self.url+phone_num
         driver = myDriver.GetUrl(url)
         if not driver:
             LogErrorSogo(u"浏览器异常，查询结束")
             return
-        # try:
-        #     driver.get(url)
-        # except Exception as e:
-        #     print("浏览器异常,重新打开浏览器")
-        #     print(e)
-        #     try:
-        #         self.driver = webdriver.Firefox()
-        #         driver = self.driver
-        #         driver.get(url)
-        #     except Exception as e:
-        #         print("重新打开浏览器异常，不再尝试")
-        #         print(e)
-        #         return
         try:
             #初始化数据
             code = 0#code为0表示查不到信息，为1表示查找到标记
@@ -99,7 +84,5 @@ def LogErrorSogo(str):
 if __name__ == '__main__':
     sogo = Sogo()
     get_data(sogo)
-    # phone_num = "13113140381"
-    # baidu.GetBiaoji(phone_num)
 
 

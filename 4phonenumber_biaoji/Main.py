@@ -6,14 +6,15 @@ from Common.MyRedisThread import MyRedisThread
 from Common.MainThread import MainThread
 if __name__ == '__main__':
     try:
-        print("123")
         thread1 = MainThread()
         channel = 'phonemark'
         thread2 = MyRedisThread(channel)
 
+        # my_log.start()
         thread1.start()
         thread2.start()
 
+        # my_log.join()
         thread1.join()
         thread2.join()
     except Exception as e:

@@ -21,27 +21,7 @@ class Best114(object):
         if not driver:
             LogErrorBest(u"浏览器异常，查询结束")
             return
-        # try:
-        #     driver.get(url)
-        # except Exception as e:
-        #     print("浏览器异常,重新打开浏览器")
-        #     print(e)
-        #     try:
-        #         self.driver = webdriver.Firefox()
-        #         driver = self.driver
-        #         driver.get(url)
-        #     except Exception as e:
-        #         print("重新打开浏览器异常，不再尝试")
-        #         print(e)
-        #         return
         try:
-            # time.sleep(1)
-            # search_input = driver.find_element_by_id("w")
-            # search_input.clear()
-            # search_input.send_keys(phone_num)
-            #
-            # search_btn = driver.find_element_by_id("query")
-            # search_btn.click()
             code = 0
             check_num = 1
             tip_img = ""

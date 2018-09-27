@@ -1,6 +1,0 @@
-2018-09-22 16:50:02,461 - common.py[line:27] - INFO: [Baidu]等待输入验证码...
-2018-09-22 16:50:02,579 - common.py[line:27] - INFO: [Baidu]无需验证码
-2018-09-22 16:50:02,579 - common.py[line:27] - INFO: [Baidu][Errno 2] No such file or directory: './screenshot_img/13800138006.png'
-2018-09-22 16:50:02,579 - common.py[line:27] - INFO: [Baidu]等待1s...
-2018-09-22 16:50:03,594 - common.py[line:27] - INFO: [Baidu]找不到标记
-2018-09-22 16:50:03,595 - common.py[line:27] - INFO: [Baidu]{'tip_img': '', 'remark': '', 'code': 0, 'type': 'Dianhuaban'}

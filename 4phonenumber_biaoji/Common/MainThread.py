@@ -31,17 +31,18 @@ class MainThread(threading.Thread):
     #线程
     def run(self):
         try:
-            print("thread main start...")
+            log_info("thread main start...")
             task_status = True #True表示网络查不到任务，需要等待订阅消息，否则表示有任务，需要不断查询网络处理
             while self.status:
-                self.result_data = []
+
                 # phone_num = raw_input("请输入手机号：")
                 # if phone_num=='exit':
                 #     self.myDriver.driver.quit()
                 #     return
                 # print("phone_num:%s"%phone_num)
+                self.result_data = []
                 if task_status and phoneList.isNull():
-                    time.sleep(5)
+                    time.sleep(1)
                     continue
                 else:#非空，则说明有任务，进行请求
                     task_status = False
@@ -51,8 +52,10 @@ class MainThread(threading.Thread):
                         phone_num = res['data']['p']
                         plat_form = res['data']['f']
                     else:
+                        # sleep_time = res['st']
                         log_info("+++++++++查询不到任务+++++++++++")
                         task_status = True
+                        # time.sleep(sleep_time)
                         continue
                 #查询各个平台的标记情况
                 if plat_form == "baidu":
@@ -68,10 +71,19 @@ class MainThread(threading.Thread):
                 log_info("结束查询,查询结果如下:")
                 log_info(result)
                 self.update_task(phone_num,plat_form,result)
+            #线程结束，浏览器关闭
+            self.myDriver.DriverQuit()
             pass
         except Exception as e:
             log_error("Run error:")
             log_error(e)
+            try:
+                #线程结束，浏览器关闭
+                self.myDriver.DriverQuit()
+            except Exception as e:
+                pass
+        log_info("thread main stop...")
+
     #获取任务
     def get_task(self):
         try:
@@ -81,7 +93,7 @@ class MainThread(threading.Thread):
         except Exception as e:
             log_error("请求异常")
             log_error(e)
-            return {'code':-1}
+            return {'code':-1,'st':1}#st为请求睡眠时间
     #更新任务
     def update_task(self,phone,platform,mark):
         try:
@@ -93,3 +105,6 @@ class MainThread(threading.Thread):
             log_error("请求异常")
             log_error(e)
             return {'code':-1}
+    #停止线程
+    def stop_thread(self):
+        self.status = False

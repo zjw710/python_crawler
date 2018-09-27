@@ -18,7 +18,6 @@ class DianHuaBan(object):
         #测试电话：076922762885 ， 13800138006 ，18122363191 ， 02039999993
         self.key = "13800138006"
         self.url = "http://www.dianhua.cn/search/dongguan?key="
-        # self.driver = webdriver.Firefox()
         pass
     #将图片验证码转成base64格式
     def GetBase64(self,img_url):
@@ -62,20 +61,6 @@ class DianHuaBan(object):
         if not driver:
             LogErrorDianHuaBan(u"浏览器异常，查询结束")
             return
-        # driver = self.driver
-        # try:
-        #     driver.get(self.url+phone_num)
-        # except Exception as e:
-        #     LogInfoDianHuaBan("浏览器异常,重新打开浏览器")
-        #     LogInfoDianHuaBan(e)
-        #     try:
-        #         self.driver = webdriver.Firefox()
-        #         driver = self.driver
-        #         driver.get(self.url+phone_num)
-        #     except Exception as e:
-        #         LogInfoDianHuaBan("重新打开浏览器异常，不再尝试")
-        #         LogInfoDianHuaBan(e)
-        #         return
         summit_times = 0#检查验证码次数，如果2次失败就不再尝试
         try:
             code = 0
@@ -156,7 +141,5 @@ def LogErrorDianHuaBan(str):
 if __name__ == '__main__':
     dianhuaban = DianHuaBan()
     get_data(dianhuaban)
-    # phone_num = "13113140381"
-    # best.GetBiaoji(phone_num)
 
 

@@ -22,22 +22,26 @@ class MyDriver(object):
             log_error(e)
         #创建浏览器对象
         try:
-            browser = "firefox"
+            browser = my_browser
             if browser == "firefox":
-                options = webdriver.FirefoxOptions()
-                options.set_headless()#或者使用options.add_argument('-headless')
-                options.add_argument('--disable-gpu')#禁用GPU加速
-                self.driver = webdriver.Firefox(firefox_options=options)
+                # options = webdriver.FirefoxOptions()
+                # options.set_headless()#或者使用options.add_argument('-headless')
+                # options.add_argument('--disable-gpu')#禁用GPU加速
+                # self.driver = webdriver.Firefox(firefox_options=options)
                 self.driver = webdriver.Firefox()
             elif browser == "chrome":
                 self.driver = webdriver.Chrome()
-            else:
+            elif browser == "ie":
+                self.driver = webdriver.Ie()
+            elif browser == "phantomjs":
                 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
                 dcap = dict(DesiredCapabilities.PHANTOMJS)
                 # dcap['phantomjs.page.settings.userAgent'] = ('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36')
                 dcap['phantomjs.page.settings.userAgent'] = ('Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36')
                 self.driver = webdriver.PhantomJS(executable_path=r"./phantomjs",desired_capabilities=dcap,service_args=['--ignore-ssl-errors=true'])
                 # self.driver = webdriver.PhantomJS(executable_path = "./phantomjs")
+            else:
+                self.driver = webdriver.Firefox()
             tag = True
         except Exception as e:
             log_error("打开浏览器异常")
@@ -55,3 +59,6 @@ class MyDriver(object):
         except Exception as e:
             log_error("GetUrl error:%s"%e)
             return False
+    #退出浏览器
+    def DriverQuit(self):
+        self.driver.quit()
