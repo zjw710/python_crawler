@@ -4,19 +4,21 @@
 from Common.common import *
 from Common.MyRedisThread import MyRedisThread
 from Common.MainThread import MainThread
+'''
+MainThread为处理任务的主线程
+MyRedisThread为接收任务的线程，使用redis的订阅消息方式，由于时间久了，会接收不到订阅消息，暂时使用http轮询的方式
+'''
 if __name__ == '__main__':
     try:
         thread1 = MainThread()
-        channel = 'phonemark'
-        thread2 = MyRedisThread(channel)
-
+        # channel = 'phonemark'
+        # thread2 = MyRedisThread(channel)
         # my_log.start()
         thread1.start()
-        thread2.start()
-
+        # thread2.start()
         # my_log.join()
         thread1.join()
-        thread2.join()
+        # thread2.join()
     except Exception as e:
         log_error("main error:")
         log_error(e)

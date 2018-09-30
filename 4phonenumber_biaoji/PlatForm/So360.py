@@ -42,11 +42,13 @@ class So360(object):
                     LogInfoSo360(e)
                 try:
                     com_img = driver.find_element_by_class_name("mh-hy-img").get_attribute("src")#查询企业标记
+                    com_img = com_img.replace('+','%2B')
                 except Exception as e:
                     com_img = ""
                     LogInfoSo360(e)
                 try:
                     tip_img = driver.find_element_by_xpath('//*[@class="mohe-tips"]/strong/img').get_attribute("src")
+                    tip_img = tip_img.replace('+','%2B')
                 except Exception as e:
                     tip_img = ""
                     LogInfoSo360(e)

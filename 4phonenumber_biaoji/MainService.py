@@ -24,14 +24,12 @@ class PySerTest(win32serviceutil.ServiceFramework):
         try:
             log_info("service start...")
             self.thread1 = MainThread()
-            channel = 'phonemark'
-            self.thread2 = MyRedisThread(channel)
-
+            # channel = 'phonemark'
+            # self.thread2 = MyRedisThread(channel)
             self.thread1.start()
-            self.thread2.start()
-
+            # self.thread2.start()
             self.thread1.join()
-            self.thread2.join()
+            # self.thread2.join()
         except Exception as e:
             log_error("main error:")
             log_error(e)

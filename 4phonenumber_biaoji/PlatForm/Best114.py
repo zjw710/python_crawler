@@ -1,12 +1,13 @@
 #coding=utf-8
 #手机号标记查询
 ##13800138006 ，18122363191 ， 02039999993
-from selenium import webdriver
+import sys
+reload(sys)
+sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
 import time
-import sys
-reload(sys)
+
 sys.setdefaultencoding('utf-8')
 
 class Best114(object):
@@ -29,13 +30,15 @@ class Best114(object):
                 if check_num>2:#检查2次失败，则退出
                     break
                 try:
-                    tip_img = driver.find_element_by_xpath('//*[@id="gsName"]/img').get_attribute("src")
+                    tip_img = driver.find_element_by_xpath('//*[@id="gsName"]/img').get_attribute("src")#测试号码02039999993
                 except Exception as e:
                     LogInfoBest(e)
-                try:
-                    tip_img = driver.find_element_by_xpath('//*[@id="tag_Name"]/img').get_attribute("src")
-                except Exception as e:
-                    LogInfoBest(e)
+                #如果查不到公司标记，则查个人标记
+                if not tip_img:
+                    try:
+                        tip_img = driver.find_element_by_xpath('//*[@id="tag_Name"]/img').get_attribute("src")#测试号码：15900773083
+                    except Exception as e:
+                        LogInfoBest(e)
                 if not tip_img.strip():#如果为空，则继续查询
                     check_num = check_num+1
                     LogInfoBest("第%s次查询,未查到结果,继续执行查询"%check_num)

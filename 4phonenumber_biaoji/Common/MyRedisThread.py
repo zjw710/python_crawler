@@ -4,8 +4,10 @@ import threading
 import time
 from  PhoneList import phoneList
 from common import log_info,log_error,my_host,my_port,my_db,my_pw
-
-
+'''
+根据redis的发布订阅进行任务监控
+由于订阅一段时间会收不到消息，因此暂时修改为http轮循的方式
+'''
 class MyRedis(object):
     def __init__(self):
         self.redis_pool = redis.ConnectionPool(host=my_host,port=my_port,db=my_db,password=my_pw)

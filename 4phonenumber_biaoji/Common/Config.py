@@ -24,6 +24,7 @@ class Config(object):
         self.cf.set("db", "pw", '')
         self.cf.add_section("base")
         self.cf.set("base", "browser", "firefox")
+        self.cf.set("base", "secret", '')#秘钥
         with open(self.cf_path,"w+") as f:
             self.cf.write(f)
     #读取配置文件
@@ -37,7 +38,8 @@ class Config(object):
         db = self.cf.getint("db", "db")
         pw = self.cf.get("db", "pw")
         browser = self.cf.get("base", "browser")
-        return host,port,db,pw,browser
+        secret = self.cf.get("base","secret")
+        return host,port,db,pw,browser,secret
 if __name__ == '__main__':
     # os.chdir("D:\\Python_config")
     config_path = "./config.ini"# os.path.join(dirpath,"./config.ini")
