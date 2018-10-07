@@ -3,11 +3,13 @@ import sys
 sys.path.append('..')
 from PlatForm.Baidu import Baidu
 from PlatForm.Best114 import Best114
-from PlatForm.dianhuaban import DianHuaBan
+# from PlatForm.dianhuaban import DianHuaBan
 from PlatForm.So360 import So360
 from PlatForm.Sogo import Sogo
 from PlatForm.Baiduhaoma import Baiduhaoma
 from PlatForm.Baiduwap import Baiduwap
+from PlatForm.Wxguanjia import Wxguanjia
+from PlatForm.Wxshouhu import Wxshouhu
 import time
 import urllib2
 import json
@@ -22,11 +24,14 @@ class MainThread(threading.Thread):
         self.result_data = []
         self.myDriver = MyDriver()
         self.baidu = Baidu()
+        self.baiduhaoma = Baiduhaoma()
+        self.baiduwap = Baiduwap()
         self.best114 = Best114()
         self.so360 = So360()
         self.sogo = Sogo()
-        self.baiduhaoma = Baiduhaoma()
-        self.baiduwap = Baiduwap()
+        self.wxguanjia = Wxguanjia()
+        self.wxshouhu = Wxshouhu()
+
         self.status = True
         #数据请求url
         self.get_task_url = "http://ptu.my/api/Psign/get_task?sc=%s"%my_secret#获取任务
@@ -71,6 +76,10 @@ class MainThread(threading.Thread):
                     result = self.so360.GetBiaoji(self.myDriver,phone_num)
                 elif plat_form == "sogo":
                     result = self.sogo.GetBiaoji(self.myDriver,phone_num)
+                elif plat_form == "wxguanjia":
+                    result = self.wxguanjia.GetBiaoji(self.myDriver,phone_num)
+                elif plat_form == "wxshouhu":
+                    result = self.wxshouhu.GetBiaoji(self.myDriver,phone_num)
                 else:
                     result = "选择平台异常"
                 log_info("结束查询,查询结果如下:")
