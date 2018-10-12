@@ -7,7 +7,6 @@ sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
 import time
-
 import json
 sys.setdefaultencoding('utf-8')
 class Wxguanjia(object):
@@ -76,7 +75,9 @@ class Wxguanjia(object):
             log_error("[Wxguanjia]%s"%info)
             log_error("[Wxguanjia]%s"%e)
         # result = {"type":"Sogo","code":code,"remark":remark}
-        result = remark
+        # result = remark
+        result = [{"p":"wxguanjia","m":remark}]
+        result = json.dumps(result)
         return result
 def get_data(sogo):
     myDriver = MyDriver()

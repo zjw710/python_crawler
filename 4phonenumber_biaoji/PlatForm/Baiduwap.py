@@ -8,6 +8,7 @@ sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
 import time
+import json
 sys.setdefaultencoding('utf-8')
 class Baiduwap(object):
     def __init__(self):
@@ -16,10 +17,6 @@ class Baiduwap(object):
     def GetBiaoji(self,myDriver,phone_num):
         url = self.url+phone_num
         platform = remark = ""
-
-        # if not driver:
-        #     LogErrorBaidu(u"浏览器异常，查询结束")
-        #     return
         try:
             check_num = 0#检查次数
             while True:
@@ -44,9 +41,9 @@ class Baiduwap(object):
                     m_index = ori_platform.find("标记为")
                     # print(platform)
                     if ori_platform.find(u"百度手机卫士")>0:#测试号码：13800138006
-                        platform = "百度手机卫士"
+                        platform = "baiduweishi"
                     elif ori_platform.find(u"电话邦")>0:#测试号码：13256391586
-                        platform = "电话邦"
+                        platform = "dianhuaban"
                     if m_index>0 and remark=="":
                         remark1 = ori_platform[m_index+3:]
                         remark += remark1
@@ -65,7 +62,9 @@ class Baiduwap(object):
         except Exception as e:
             my_log.logger.error("查找异常")
             my_log.logger.error(e)
-        result = remark+"-"+platform
+        # result = remark+"-"+platform
+        result = [{"p":platform,"m":remark}]
+        result = json.dumps(result)
         return result
 def get_data(baidu):
     myDriver = MyDriver()

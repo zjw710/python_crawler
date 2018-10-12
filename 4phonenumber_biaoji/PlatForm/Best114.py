@@ -7,6 +7,7 @@ sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
 import time
+import json
 
 sys.setdefaultencoding('utf-8')
 
@@ -54,7 +55,9 @@ class Best114(object):
         else:
             LogInfoBest("查找到标记:%s"%tip_img)
         # result = {"type":"Best114","code":code,"tip_img":tip_img}
-        result = tip_img
+        # result = tip_img
+        result = [{"p":"best114","m":tip_img}]
+        result = json.dumps(result)
         return result
 
 def get_data(best):

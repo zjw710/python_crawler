@@ -1,12 +1,14 @@
 #coding=utf-8
 #360搜索
 #13800138006 ，18122363191 ， 02039999993 ， 17640298760
+import sys
+sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
 from selenium import webdriver
 import time
-import sys
 reload(sys)
+import json
 sys.setdefaultencoding('utf-8')
 class So360(object):
     def __init__(self):
@@ -79,6 +81,8 @@ class So360(object):
             LogErrorSo360(e)
         # result = {"type":"So360","code":code,"remark":remark,"com_img":com_img,"tip_img":tip_img}
         result = remark+","+com_img+","+tip_img
+        result = [{"p":"360mark","m":remark},{"p":"360com","m":com_img},{"p":"360bus","m":tip_img}]
+        result = json.dumps(result)
         return result
 def get_data(so360):
     myDriver = MyDriver()

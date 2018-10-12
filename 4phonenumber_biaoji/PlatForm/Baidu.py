@@ -2,10 +2,13 @@
 #百度手机卫士
 #13800138006 ，18122363191 ， 02039999993
 from selenium import webdriver
+import sys
+sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
+import json
 import time
-import sys
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 class Baidu(object):
@@ -19,20 +22,6 @@ class Baidu(object):
         if not driver:
             LogErrorBaidu(u"浏览器异常，查询结束")
             return
-        # driver = self.driver
-        # try:
-        #     driver.get(self.url)
-        # except Exception as e:
-        #     LogInfoBaidu("浏览器异常,重新打开浏览器")
-        #     LogInfoBaidu(e)
-        #     try:
-        #         self.driver = webdriver.Firefox()
-        #         driver = self.driver
-        #         driver.get(self.url)
-        #     except Exception as e:
-        #         LogInfoBaidu("重新打开浏览器异常，不再尝试")
-        #         LogInfoBaidu(e)
-        #         return
         try:
             code = 0
             remark = ""
@@ -72,7 +61,9 @@ class Baidu(object):
         except Exception as e:
             LogErrorBaidu("查找异常")
             LogErrorBaidu(e)
-        result = remark
+        # result = remark
+        result = [{"p":"baidu","m":remark}]
+        result = json.dumps(result)
         return result
 def get_data(baidu):
     myDriver = MyDriver()

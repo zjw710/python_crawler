@@ -18,7 +18,7 @@ class Wxshouhu(object):
         url = self.url+phone_num
         driver = myDriver.GetUrl(url)
         if not driver:
-            log_error("[Wxguanjia]%s"%u"浏览器异常，查询结束")
+            log_error("[Wxshouhu]%s"%u"浏览器异常，查询结束")
             return
         try:
             #初始化数据
@@ -26,7 +26,7 @@ class Wxshouhu(object):
             remark = ""
             info = u"开始查询..."
             # print(info)
-            log_info("[Wxguanjia]%s"%info)
+            log_info("[Wxshouhu]%s"%info)
             # time.sleep(1)
 
             check_num = 1#检查次数
@@ -36,17 +36,17 @@ class Wxshouhu(object):
                     remark = ""
                     info = u"查询%s次查无标记，结束查询"%check_max_num
                     # print(info)
-                    log_info("[Wxguanjia]%s"%info)
+                    log_info("[Wxshouhu]%s"%info)
                     break
                 try:
                     remark = driver.find_element_by_class_name('result-title').text
                 except Exception as e:
                     remark = ""
-                    log_error("[Wxguanjia]%s"%e)
+                    log_error("[Wxshouhu]%s"%e)
                 if not remark.strip():
                     info = u"第%s次查询,未查到结果,继续执行查询"%check_num
                     # print(info)
-                    log_info("[Wxguanjia]%s"%info)
+                    log_info("[Wxshouhu]%s"%info)
                     check_num = check_num+1
                     time.sleep(1)
                     continue
@@ -55,18 +55,20 @@ class Wxshouhu(object):
             if not remark.strip():
                 info = u"查不到标记"
                 # print(info)
-                log_info("[Wxguanjia]%s"%info)
+                log_info("[Wxshouhu]%s"%info)
             else:
                 info = u"查找到被标记remark:%s"%(remark)
                 # print(info)
                 code = 1
-                log_info("[Wxguanjia]%s"%info)
+                log_info("[Wxshouhu]%s"%info)
         except Exception as e:
             info = u"查找异常"
-            log_error("[Wxguanjia]%s"%info)
-            log_error("[Wxguanjia]%s"%e)
+            log_error("[Wxshouhu]%s"%info)
+            log_error("[Wxshouhu]%s"%e)
         # result = {"type":"Sogo","code":code,"remark":remark}
-        result = remark
+        # result = remark
+        result = [{"p":"wxshouhu","m":remark}]
+        result = json.dumps(result)
         return result
 def get_data(sogo):
     myDriver = MyDriver()

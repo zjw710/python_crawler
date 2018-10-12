@@ -12,6 +12,7 @@ from PIL import Image
 from CodeApi.ShowapiRequest import ShowapiRequest
 import base64
 reload(sys)
+import json
 sys.setdefaultencoding('utf-8')
 class DianHuaBan(object):
     def __init__(self):
@@ -123,7 +124,9 @@ class DianHuaBan(object):
             code = 1
         except:
             LogInfoDianHuaBan("找不到标记")
-        result = {"type":"Dianhuaban","code":code,"remark":remark,"tip_img":tip_img}
+        # result = {"type":"Dianhuaban","code":code,"remark":remark,"tip_img":tip_img}
+        result = [{"p":"p1","m":remark},{"p":"p2","m":tip_img}]
+        result = json.dumps(result)
         return result
 
 def get_data(dianhuaban):

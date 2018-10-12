@@ -8,6 +8,7 @@ import time
 import sys
 import json
 reload(sys)
+import json
 sys.setdefaultencoding('utf-8')
 class Sogo(object):
     def __init__(self):
@@ -67,7 +68,9 @@ class Sogo(object):
             LogErrorSogo(info)
             LogErrorSogo(e)
         # result = {"type":"Sogo","code":code,"remark":remark}
-        result = remark
+        # result = remark
+        result = [{"p":"sogo","m":remark}]
+        result = json.dumps(result)
         return result
 def get_data(sogo):
     myDriver = MyDriver()

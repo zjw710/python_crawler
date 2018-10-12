@@ -8,6 +8,7 @@ sys.path.append('..')
 from Common.MyDriver import MyDriver
 from Common.common import *
 import time
+import json
 sys.setdefaultencoding('utf-8')
 class Baiduhaoma(object):
     def __init__(self):
@@ -49,7 +50,9 @@ class Baiduhaoma(object):
         except Exception as e:
             LogErrorBaidu("查找异常")
             LogErrorBaidu(e)
-        result = remark
+        # result = remark
+        result = [{"p":"baiduhaoma","m":remark}]
+        result = json.dumps(result)
         return result
 def get_data(baidu):
     myDriver = MyDriver()

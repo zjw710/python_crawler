@@ -25,6 +25,8 @@ class Config(object):
         self.cf.add_section("base")
         self.cf.set("base", "browser", "firefox")
         self.cf.set("base", "secret", '')#秘钥
+        self.cf.set("base", "svc_name", 'PyCheckPhone')#服务名
+        self.cf.set("base", "svc_display_name", 'Py CheckPhone')#服务显示名
         with open(self.cf_path,"w+") as f:
             self.cf.write(f)
     #读取配置文件
@@ -39,7 +41,9 @@ class Config(object):
         pw = self.cf.get("db", "pw")
         browser = self.cf.get("base", "browser")
         secret = self.cf.get("base","secret")
-        return host,port,db,pw,browser,secret
+        svc_name = self.cf.get("base","svc_name")
+        svc_display_name = self.cf.get("base","svc_display_name")
+        return host,port,db,pw,browser,secret,svc_name,svc_display_name
 if __name__ == '__main__':
     # os.chdir("D:\\Python_config")
     config_path = "./config.ini"# os.path.join(dirpath,"./config.ini")

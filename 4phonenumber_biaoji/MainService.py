@@ -12,8 +12,8 @@ from Common.MainThread import MainThread
 #获取路径
 dirpath = cur_file_dir()
 class PySerTest(win32serviceutil.ServiceFramework):
-    _svc_name_ = "PyCheckPhone"
-    _svc_display_name_ = "Py CheckPhone"
+    _svc_name_ = svc_name#"PyCheckPhone"
+    _svc_display_name_ = svc_display_name#"Py CheckPhone"
     _svc_description_ = "This is a python service checkPhone"
     def __init__(self, args):
         win32serviceutil.ServiceFramework.__init__(self, args)
@@ -37,7 +37,7 @@ class PySerTest(win32serviceutil.ServiceFramework):
     def SvcStop(self):
         log_info("service stop...")
         self.thread1.stop_thread()
-        self.thread2.stop_thread()
+        # self.thread2.stop_thread()
         self.ReportServiceStatus(win32service.SERVICE_STOP_PENDING)
         win32event.SetEvent(self.hWaitStop)
         self.ReportServiceStatus(win32service.SERVICE_STOPPED)
