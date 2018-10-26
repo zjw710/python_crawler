@@ -91,6 +91,20 @@ class MainThread(threading.Thread):
     def run(self):
         try:
             log_info("thread main start...")
+            #判断浏览器是否已经打开
+            waittime = 0
+            while self.status:
+                #等待10s浏览器打开失败则退出
+                if waittime>=10:
+                    log_info("Wait for browser to open more than 10s, quit directly.")
+                    return
+                if not self.myDriver.GetDriver():
+                    time.sleep(1)
+                    waittime += 1
+                    log_info("Browser exception Wait for 1s")
+                else:
+                    log_info("The browser has been opened.")
+                    break
             # task_status = True #True表示网络查不到任务，需要等待订阅消息，否则表示有任务，需要不断查询网络处理
             self.client.StartChannel()
             #线程结束，浏览器关闭

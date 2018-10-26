@@ -6,7 +6,7 @@ import time
 class MyDriver(object):
     def __init__(self):
         self.driver = None
-        self.InitDriver()
+        self.status = self.InitDriver()
         pass
     #初始化浏览器
     def InitDriver(self):
@@ -45,12 +45,12 @@ class MyDriver(object):
                 # PIXEL_RATIO = 3.0
                 # UA = 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N7100 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/6.3'
                 # mobileEmulation = {"deviceMetrics": {"width": WIDTH, "height": HEIGHT, "pixelRatio": PIXEL_RATIO}, "userAgent": UA}
-                options = webdriver.ChromeOptions()
+                # options = webdriver.ChromeOptions()
                 # options.add_experimental_option('mobileEmulation', mobileEmulation)
                 # self.driver = webdriver.Chrome(chrome_options=options)
-                prefs = {"profile.managed_default_content_settings.images": 2}
-                options.add_experimental_option("prefs", prefs)
-                self.driver = webdriver.Chrome(chrome_options=options)
+                # prefs = {"profile.managed_default_content_settings.images": 2}#禁止加载图片
+                # options.add_experimental_option("prefs", prefs)
+                self.driver = webdriver.Chrome()
 
             elif browser == "ie":
                 self.driver = webdriver.Ie()
@@ -64,9 +64,11 @@ class MyDriver(object):
             else:
                 self.driver = webdriver.Firefox()
             tag = True
+            log_info("打开浏览器成功Open browser successfully")
         except Exception as e:
-            log_error("打开浏览器异常")
+            log_error("打开浏览器异常Failed to open browser")
             log_error(e)
+            tag = False
         return tag
     def GetDriver(self):
         return self.driver
