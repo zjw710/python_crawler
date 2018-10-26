@@ -2,10 +2,12 @@
 #搜狗搜索
 #13800138006 ，18122363191 ， 02039999993 ， 17640298760
 from selenium import webdriver
-from Common.MyDriver import MyDriver
-from Common.common import *
+
 import time
 import sys
+sys.path.append('..')
+from Common.MyDriver import MyDriver
+from Common.common import *
 import json
 reload(sys)
 import json
@@ -34,6 +36,7 @@ class Sogo(object):
             while True:
                 if check_num>check_max_num:
                     remark = ""
+                    haoma_link = ""
                     info = u"查询%s次查无标记，结束查询"%check_max_num
                     # print(info)
                     LogInfoSogo(info)
@@ -43,6 +46,14 @@ class Sogo(object):
                 except Exception as e:
                     remark = ""
                     LogErrorSogo(e)
+                try:
+                    haoma_link = driver.find_element_by_class_name("haoma-link").text#判断是否是 搜狗号码通
+                    print(haoma_link)
+                except Exception as e:
+                    haoma_link = ""
+                    LogErrorSogo(e)
+                if haoma_link.strip().decode('utf-8') == "搜狗号码通".decode('utf-8'):
+                    haoma_link = "sogohaoma"
                 if not remark.strip():
                     info = u"第%s次查询,未查到结果,继续执行查询"%check_num
                     # print(info)
@@ -69,7 +80,10 @@ class Sogo(object):
             LogErrorSogo(e)
         # result = {"type":"Sogo","code":code,"remark":remark}
         # result = remark
-        result = [{"p":"sogo","m":remark}]
+        if not haoma_link.strip():
+            result = [{"p":"sogo","m":remark}]
+        else:
+            result = [{"p":"sogo","m":remark},{"p":haoma_link,"m":remark}]
         result = json.dumps(result)
         return result
 def get_data(sogo):

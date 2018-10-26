@@ -63,7 +63,7 @@ class Baiduwap(object):
             my_log.logger.error("查找异常")
             my_log.logger.error(e)
         # result = remark+"-"+platform
-        result = [{"p":platform,"m":remark}]
+        result = [{"p":platform,"m":remark},{"p":"baiduwap","m":remark}]
         result = json.dumps(result)
         return result
 def get_data(baidu):

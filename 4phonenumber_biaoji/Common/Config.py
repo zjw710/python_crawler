@@ -17,11 +17,11 @@ class Config(object):
         return self.read_config()
     #写配置文件
     def write_config(self):
-        self.cf.add_section("db")
-        self.cf.set("db", "host", '127.0.0.1')
-        self.cf.set("db", "port", 6379)
-        self.cf.set("db", "db", 0)
-        self.cf.set("db", "pw", '')
+        # self.cf.add_section("db")
+        # self.cf.set("db", "host", '127.0.0.1')
+        # self.cf.set("db", "port", 6379)
+        # self.cf.set("db", "db", 0)
+        # self.cf.set("db", "pw", '')
         self.cf.add_section("base")
         self.cf.set("base", "browser", "firefox")
         self.cf.set("base", "secret", '')#秘钥
@@ -32,18 +32,19 @@ class Config(object):
     #读取配置文件
     def read_config(self):
         self.cf.read(self.cf_path)
-        try:
-            host = self.cf.get("db", "host")
-        except Exception as e:
-            host = '127.0.0.1'
-        port = self.cf.getint("db", "port")
-        db = self.cf.getint("db", "db")
-        pw = self.cf.get("db", "pw")
+        # try:
+        #     host = self.cf.get("db", "host")
+        # except Exception as e:
+        #     host = '127.0.0.1'
+        # port = self.cf.getint("db", "port")
+        # db = self.cf.getint("db", "db")
+        # pw = self.cf.get("db", "pw")
         browser = self.cf.get("base", "browser")
         secret = self.cf.get("base","secret")
         svc_name = self.cf.get("base","svc_name")
         svc_display_name = self.cf.get("base","svc_display_name")
-        return host,port,db,pw,browser,secret,svc_name,svc_display_name
+        # return host,port,db,pw,browser,secret,svc_name,svc_display_name
+        return browser,secret,svc_name,svc_display_name
 if __name__ == '__main__':
     # os.chdir("D:\\Python_config")
     config_path = "./config.ini"# os.path.join(dirpath,"./config.ini")

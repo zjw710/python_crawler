@@ -29,7 +29,14 @@ class MyDriver(object):
                 # options.add_argument('--disable-gpu')#禁用GPU加速
                 # self.driver = webdriver.Firefox(firefox_options=options)
 
+                # firefox_profile = webdriver.FirefoxProfile()
+                # firefox_profile.set_preference('permissions.default.image', 2)#禁止加载图片，某些firefox只需要这个
+                # firefox_profile.set_preference('browser.migration.version', 9001)#禁止加载图片，部分需要加上这个
+                # firefox_profile.set_preference('permissions.default.stylesheet', 2)#禁用css
+                # firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')#禁用flash
+                # firefox_profile.set_preference('javascript.enabled', 'false')#禁用js
 
+                # self.driver = webdriver.Firefox(firefox_profile=firefox_profile)
                 self.driver = webdriver.Firefox()
             elif browser == "chrome":
 
@@ -38,10 +45,12 @@ class MyDriver(object):
                 # PIXEL_RATIO = 3.0
                 # UA = 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N7100 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/6.3'
                 # mobileEmulation = {"deviceMetrics": {"width": WIDTH, "height": HEIGHT, "pixelRatio": PIXEL_RATIO}, "userAgent": UA}
-                # options = webdriver.ChromeOptions()
+                options = webdriver.ChromeOptions()
                 # options.add_experimental_option('mobileEmulation', mobileEmulation)
                 # self.driver = webdriver.Chrome(chrome_options=options)
-                self.driver = webdriver.Chrome()
+                prefs = {"profile.managed_default_content_settings.images": 2}
+                options.add_experimental_option("prefs", prefs)
+                self.driver = webdriver.Chrome(chrome_options=options)
 
             elif browser == "ie":
                 self.driver = webdriver.Ie()
@@ -64,9 +73,9 @@ class MyDriver(object):
     def GetUrl(self,url):
         try:
             self.driver.get(url)
-            t = int(time.time())#获取秒级时间戳
-            img_url = "./screenshot_img/"+str(t)+".png"
-            self.driver.save_screenshot(img_url)
+            # t = int(time.time())#获取秒级时间戳
+            # img_url = "./screenshot_img/"+str(t)+".png"
+            # self.driver.save_screenshot(img_url)
             return self.driver
         except Exception as e:
             log_error("GetUrl error:%s"%e)

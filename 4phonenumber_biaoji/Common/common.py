@@ -45,5 +45,10 @@ my_log = Logger(log_path,level='debug')
 config_path = os.path.join(dirpath,"config.ini")
 print(config_path)
 config = Config(config_path)
-my_host,my_port,my_db,my_pw,my_browser,my_secret,svc_name,svc_display_name = config.get_config()
-log_info([my_host,my_port,my_db,my_pw,my_browser,my_secret,svc_name,svc_display_name])
+# my_host,my_port,my_db,my_pw,my_browser,my_secret,svc_name,svc_display_name = config.get_config()
+my_browser,my_secret,svc_name,svc_display_name = config.get_config()
+my_host = '127.0.0.1'
+my_port = 6379
+my_db = 0
+my_pw = ''
+log_info([my_browser,my_secret,svc_name,svc_display_name])

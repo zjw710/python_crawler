@@ -26,12 +26,12 @@ class Baidu(object):
             code = 0
             remark = ""
             LogInfoBaidu("等待0.5s...")
-            time.sleep(0.5)
+            # time.sleep(0.5)
             search_input = driver.find_element_by_id("id_phone")
             search_input.send_keys(phone_num)
             submit_btn = driver.find_element_by_xpath('//*[@class="submit"]')
             submit_btn.click()
-            time.sleep(0.1)#等待1秒
+            time.sleep(0.2)#等待1秒
             submit_btn.click()
             check_num = 0#检查次数
             while True:

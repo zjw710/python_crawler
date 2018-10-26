@@ -10,6 +10,7 @@ from PlatForm.Baiduhaoma import Baiduhaoma
 from PlatForm.Baiduwap import Baiduwap
 from PlatForm.Wxguanjia import Wxguanjia
 from PlatForm.Wxshouhu import Wxshouhu
+from RabbitMqClient import RabbitMqClient
 import time
 import json
 import threading
@@ -24,6 +25,7 @@ class MainThread(threading.Thread):
         threading.Thread.__init__(self)
         self.result_data = []
         self.myDriver = MyDriver()
+        #各查询平台对象
         self.baidu = Baidu()
         self.baiduhaoma = Baiduhaoma()
         self.baiduwap = Baiduwap()
@@ -32,15 +34,17 @@ class MainThread(threading.Thread):
         self.sogo = Sogo()
         self.wxguanjia = Wxguanjia()
         self.wxshouhu = Wxshouhu()
+        #消息队列
+        self.client = RabbitMqClient(callback=self.rabit_callback)
 
         self.status = True
         #数据请求url
         self.get_task_url = "https://ptuadmin.tigonetwork.com/api/Psign/get_task?sc=%s"%my_secret#获取任务
         # self.update_task_url = "https://ptuadmin.tigonetwork.com/api/Psign/update_task"#更新任务
-        self.update_task_url = "http://ptu.my/api/Psign/update_task"#更新任务
+        self.update_task_url = "https://ptuadmin.tigonetwork.com/api/Psign/update_task"#更新任务
 
     #线程
-    def run(self):
+    def run_old(self):
         try:
             log_info("thread main start...")
             # task_status = True #True表示网络查不到任务，需要等待订阅消息，否则表示有任务，需要不断查询网络处理
@@ -84,25 +88,11 @@ class MainThread(threading.Thread):
                 pass
         log_info("thread main stop...")
     #使用消息队列的线程
-    def run1(self):
+    def run(self):
         try:
             log_info("thread main start...")
             # task_status = True #True表示网络查不到任务，需要等待订阅消息，否则表示有任务，需要不断查询网络处理
-            while self.status:
-
-                res = self.get_task()
-                if res['code'] != -1:
-                    log_info("+++++++++%s+++++++++++"%res['msg'])
-                    phone_num = res['data']['p']
-                    plat_form = res['data']['f']
-                else:
-                    log_info("+++++++++%s+++++++++++"%res['msg'])
-                    continue
-                #到各平台查结果
-                result = self.deal_task(plat_form,phone_num)
-                log_info("结束查询,查询结果如下:")
-                log_info(result)
-                self.update_task(phone_num,plat_form,result)
+            self.client.StartChannel()
             #线程结束，浏览器关闭
             self.myDriver.DriverQuit()
             pass
@@ -115,6 +105,24 @@ class MainThread(threading.Thread):
             except Exception as e:
                 pass
         log_info("thread main stop...")
+    #消息队列的
+    def rabit_callback(self,ch, method, properties, body):
+        result = body.split(',')
+        try:
+            plat_form = result[0]
+            phone_num = result[1]
+        except:
+            plat_form = ''
+            phone_num = ''
+        my_log.logger.info(" [x] Received Task %r" % body)
+        #到各平台查结果
+        if plat_form.strip()!='':
+            result = self.deal_task(plat_form,phone_num)
+            log_info("结束查询,查询结果如下:")
+            log_info(result)
+            self.update_task(phone_num,plat_form,result)
+        ch.basic_ack(delivery_tag=method.delivery_tag)  #告诉发送端我已经处理完了
+        pass
     #处理任务
     def deal_task(self,plat_form,phone_num):
         #查询各个平台的标记情况
@@ -164,7 +172,6 @@ class MainThread(threading.Thread):
                 'f':platform,
                 'm':mark,
             }
-            log_info("++++++++++++++")
             log_info(postData)
             postData = urllib.urlencode(postData)
             req = urllib2.Request(url=self.update_task_url,data=postData)
@@ -180,4 +187,5 @@ class MainThread(threading.Thread):
             return {'code':-1}
     #停止线程
     def stop_thread(self):
+        self.client.StopChannel()
         self.status = False

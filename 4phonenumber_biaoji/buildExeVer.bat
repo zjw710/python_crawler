@@ -1,0 +1,1 @@
+pyinstaller --version-file=file_version_info.txt --icon=ico.ico --onefile --windowed MainService.py
