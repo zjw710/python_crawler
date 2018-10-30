@@ -8,7 +8,6 @@ from Common.MyDriver import MyDriver
 from Common.common import *
 import time
 import json
-
 sys.setdefaultencoding('utf-8')
 
 class Best114(object):
@@ -18,7 +17,8 @@ class Best114(object):
         # self.driver = webdriver.Firefox()
         pass
     def GetBiaoji(self,myDriver,phone_num):
-        url = self.url+phone_num
+        phone_num = str(phone_num)
+        url = self.url+str(phone_num)
         driver = myDriver.GetUrl(url)
         if not driver:
             LogErrorBest(u"浏览器异常，查询结束")
@@ -42,12 +42,13 @@ class Best114(object):
                         LogInfoBest(e)
                 if not tip_img.strip():#如果为空，则继续查询
                     check_num = check_num+1
-                    LogInfoBest("第%s次查询,未查到结果,继续执行查询"%check_num)
+                    LogInfoBest("第%s次查询,未查到结果,继续执行查询"%str(check_num))
                     time.sleep(1)
                     continue
                 break
-
+            myDriver.ScreenShot(str(phone_num)+"best114")
         except Exception as e:
+            myDriver.ScreenShot(str(phone_num)+"best114","error")
             LogInfoBest(e)
         if not tip_img.strip():
             LogInfoBest("查找不到标记")

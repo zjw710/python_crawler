@@ -3,6 +3,7 @@
 from selenium import webdriver
 from common import *
 import time
+from selenium.common.exceptions import TimeoutException
 class MyDriver(object):
     def __init__(self):
         self.driver = None
@@ -24,20 +25,25 @@ class MyDriver(object):
         try:
             browser = my_browser
             if browser == "firefox":
-                # options = webdriver.FirefoxOptions()
+                options = webdriver.FirefoxOptions()
                 # options.set_headless()#或者使用options.add_argument('-headless')
-                # options.add_argument('--disable-gpu')#禁用GPU加速
-                # self.driver = webdriver.Firefox(firefox_options=options)
+                options.add_argument('--disable-gpu')#禁用GPU加速
 
-                # firefox_profile = webdriver.FirefoxProfile()
-                # firefox_profile.set_preference('permissions.default.image', 2)#禁止加载图片，某些firefox只需要这个
+                firefox_profile = webdriver.FirefoxProfile()
+                user_agent = get_header()#随机user_agent
+                my_log.logger.info("get random user_agent:%s"%user_agent)
+                firefox_profile.set_preference("general.useragent.override", user_agent)
+                #如果要截图，则加载图片，否则不加载
+                if is_screenshot != '1':
+                    firefox_profile.set_preference('permissions.default.image', 2)#禁止加载图片，某些firefox只需要这个
+                firefox_profile.update_preferences()
                 # firefox_profile.set_preference('browser.migration.version', 9001)#禁止加载图片，部分需要加上这个
                 # firefox_profile.set_preference('permissions.default.stylesheet', 2)#禁用css
                 # firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')#禁用flash
                 # firefox_profile.set_preference('javascript.enabled', 'false')#禁用js
 
-                # self.driver = webdriver.Firefox(firefox_profile=firefox_profile)
-                self.driver = webdriver.Firefox()
+                self.driver = webdriver.Firefox(firefox_profile=firefox_profile,firefox_options=options)
+                # self.driver = webdriver.Firefox()
             elif browser == "chrome":
 
                 # WIDTH = 320
@@ -63,6 +69,9 @@ class MyDriver(object):
                 # self.driver = webdriver.PhantomJS(executable_path = "./phantomjs")
             else:
                 self.driver = webdriver.Firefox()
+            #设置请求超时时间
+            self.driver.set_page_load_timeout(5)
+            self.driver.set_script_timeout(5)
             tag = True
             log_info("打开浏览器成功Open browser successfully")
         except Exception as e:
@@ -73,15 +82,41 @@ class MyDriver(object):
     def GetDriver(self):
         return self.driver
     def GetUrl(self,url):
-        try:
-            self.driver.get(url)
-            # t = int(time.time())#获取秒级时间戳
-            # img_url = "./screenshot_img/"+str(t)+".png"
-            # self.driver.save_screenshot(img_url)
-            return self.driver
-        except Exception as e:
-            log_error("GetUrl error:%s"%e)
-            return False
+        try_num = 1
+        max_try_num = 3
+        #由于访问一个页面后，再访问一次会失败，因此需要多次尝试，最多尝试3次
+        while True:
+            try:
+                if try_num >= max_try_num:
+                    break
+                self.driver.get(url)
+                return self.driver
+            except TimeoutException as e:#处理超时问题
+                my_log.logger.info(e)
+                return self.driver
+            except Exception as e:
+                log_error("GetUrl error:%s,try again"%e)
+                try_num += 1
+                time.sleep(1)
+        return False
     #退出浏览器
     def DriverQuit(self):
         self.driver.quit()
+    #截图
+    #type 如果为error,则表示异常
+    def ScreenShot(self,phone,type=""):
+        #是否截图
+        if is_screenshot == '1':
+            timestruct = time.localtime(time.time())
+            path = time.strftime('%Y%m%d', timestruct)+type
+            screenshot_path = os.path.join(my_dirpath,"./screenshot_img/"+path+"/")
+            # my_log.logger.info(path)
+            # my_log.logger.info(screenshot_path)
+            check_path(screenshot_path)
+            t = int(time.time())#获取秒级时间戳
+            img_url = screenshot_path+str(t)+"_"+phone+".png"
+            # my_log.logger.info(img_url)
+            self.driver.save_screenshot(img_url)
+
+if __name__ == '__main__':
+    my_driver = MyDriver()

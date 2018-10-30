@@ -6,7 +6,6 @@ from Common.common import *
 from Common.MainThread import MainThread
 '''
 MainThread为处理任务的主线程
-MyRedisThread为接收任务的线程，使用redis的订阅消息方式，由于时间久了，会接收不到订阅消息，暂时使用http轮询的方式
 '''
 if __name__ == '__main__':
     try:

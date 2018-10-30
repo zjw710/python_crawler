@@ -15,7 +15,8 @@ class Baiduwap(object):
         self.url = "http://wap.baidu.com/s?word="
         pass
     def GetBiaoji(self,myDriver,phone_num):
-        url = self.url+phone_num
+        phone_num = str(phone_num)
+        url = self.url+str(phone_num)
         platform = remark = ""
         try:
             check_num = 0#检查次数
@@ -53,13 +54,15 @@ class Baiduwap(object):
                 #如果两个都查不到，则查多一次
                 if not remark:
                     check_num = check_num+1
-                    LogInfoBaidu("第%s次查询,未查到结果,继续执行查询"%check_num)
+                    LogInfoBaidu("第%s次查询,未查到结果,继续执行查询"%str(check_num))
                     time.sleep(1)
                     continue
                 #结束循环
                 break
+            myDriver.ScreenShot(str(phone_num)+"baiduwap")
             my_log.logger.info("查找到的标记remark:%s 平台:%s"%(remark,platform))
         except Exception as e:
+            myDriver.ScreenShot(str(phone_num)+"baiduwap","error")
             my_log.logger.error("查找异常")
             my_log.logger.error(e)
         # result = remark+"-"+platform

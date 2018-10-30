@@ -57,6 +57,7 @@ class DianHuaBan(object):
             return 'error'
         pass
     def GetBiaoji(self,myDriver,phone_num):
+        phone_num = str(phone_num)
         url = self.url+phone_num
         driver = myDriver.GetUrl(url)
         if not driver:

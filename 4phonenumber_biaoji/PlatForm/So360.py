@@ -15,7 +15,8 @@ class So360(object):
         self.url = "https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q="
         pass
     def GetBiaoji(self,myDriver,phone_num):
-        url = self.url+phone_num
+        phone_num = str(phone_num)
+        url = self.url+str(phone_num)
         driver = myDriver.GetUrl(url)
         if not driver:
             LogErrorSo360(u"浏览器异常，查询结束")
@@ -33,7 +34,7 @@ class So360(object):
             while True:
                 if check_num>check_max_num:
                     remark = ""
-                    info = u"查询%s次查无标记，结束查询"%check_max_num
+                    info = u"查询%s次查无标记，结束查询"%str(check_max_num)
                     # print(info)
                     LogInfoSo360(info)
                     break
@@ -55,7 +56,7 @@ class So360(object):
                     tip_img = ""
                     LogInfoSo360(e)
                 if not remark.strip() and not com_img.strip() and not tip_img.strip():
-                    info = u"第%s次查询,未查到结果,继续执行查询"%check_num
+                    info = u"第%s次查询,未查到结果,继续执行查询"%str(check_num)
                     # print(info)
                     LogInfoSo360(info)
                     check_num = check_num+1
@@ -75,7 +76,9 @@ class So360(object):
                 LogInfoSo360(info)
                 info = "查找到被标记tip_img:%s"%(tip_img)
                 LogInfoSo360(info)
+            myDriver.ScreenShot(str(phone_num)+"so360")
         except Exception as e:
+            myDriver.ScreenShot(str(phone_num)+"so360","error")
             info = u"查找异常"
             LogErrorSo360(info)
             LogErrorSo360(e)

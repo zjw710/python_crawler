@@ -14,6 +14,7 @@ class Wxguanjia(object):
         self.url = "https://guanjia.qq.com/online_server/txwz/"
         pass
     def GetBiaoji(self,myDriver,phone_num):
+        phone_num = str(phone_num)
         url = self.url
         driver = myDriver.GetUrl(url)
         if not driver:
@@ -53,7 +54,7 @@ class Wxguanjia(object):
                     remark = ""
                     log_error("[Wxguanjia]%s"%e)
                 if not remark.strip():
-                    info = u"第%s次查询,未查到结果,继续执行查询"%check_num
+                    info = u"第%s次查询,未查到结果,继续执行查询"%str(check_num)
                     # print(info)
                     log_info("[Wxguanjia]%s"%info)
                     check_num = check_num+1
@@ -70,7 +71,9 @@ class Wxguanjia(object):
                 # print(info)
                 code = 1
                 log_info("[Wxguanjia]%s"%info)
+            myDriver.ScreenShot(str(phone_num)+"wxguanjia")
         except Exception as e:
+            myDriver.ScreenShot(str(phone_num)+"wxguanjia","error")
             info = u"查找异常"
             log_error("[Wxguanjia]%s"%info)
             log_error("[Wxguanjia]%s"%e)

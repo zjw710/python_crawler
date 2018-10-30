@@ -17,7 +17,8 @@ class Sogo(object):
         self.url = "https://www.sogou.com/web?query="
         pass
     def GetBiaoji(self,myDriver,phone_num):
-        url = self.url+phone_num
+        phone_num = str(phone_num)
+        url = self.url+str(phone_num)
         driver = myDriver.GetUrl(url)
         if not driver:
             LogErrorSogo(u"浏览器异常，查询结束")
@@ -37,7 +38,7 @@ class Sogo(object):
                 if check_num>check_max_num:
                     remark = ""
                     haoma_link = ""
-                    info = u"查询%s次查无标记，结束查询"%check_max_num
+                    info = u"查询%s次查无标记，结束查询"%str(check_max_num)
                     # print(info)
                     LogInfoSogo(info)
                     break
@@ -55,7 +56,7 @@ class Sogo(object):
                 if haoma_link.strip().decode('utf-8') == "搜狗号码通".decode('utf-8'):
                     haoma_link = "sogohaoma"
                 if not remark.strip():
-                    info = u"第%s次查询,未查到结果,继续执行查询"%check_num
+                    info = u"第%s次查询,未查到结果,继续执行查询"%str(check_num)
                     # print(info)
                     LogInfoSogo(info)
                     check_num = check_num+1
@@ -72,7 +73,9 @@ class Sogo(object):
                 # print(info)
                 code = 1
                 LogInfoSogo(info)
+            myDriver.ScreenShot(str(phone_num)+"sogo")
         except Exception as e:
+            myDriver.ScreenShot(str(phone_num)+"sogo","error")
             info = u"查找异常"
             # print(info)
             # print(e)

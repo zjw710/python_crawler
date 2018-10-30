@@ -7,7 +7,12 @@ class RabbitMqClient():
         self.sleep_time = 5#异常重连等待时间
         self.run_status = True
         self.callback = callback
-        self.queue_name = 'TigoPhoneMark'
+        if my_debug=='1':
+            my_log.logger.info("Start debug message queue...")
+            self.queue_name = 'PhoneMarkTest'#如果是调试状态，则使用测试通道
+        else:
+            my_log.logger.info("Start formal message queue...")
+            self.queue_name = 'TigoPhoneMark'
         self.channel = self.InitClient()
 
         pass

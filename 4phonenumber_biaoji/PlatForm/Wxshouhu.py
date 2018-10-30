@@ -15,7 +15,8 @@ class Wxshouhu(object):
         self.url = "https://txwz.qq.com/shouguan/wx.html?wd="
         pass
     def GetBiaoji(self,myDriver,phone_num):
-        url = self.url+phone_num
+        phone_num = str(phone_num)
+        url = self.url+str(phone_num)
         driver = myDriver.GetUrl(url)
         if not driver:
             log_error("[Wxshouhu]%s"%u"浏览器异常，查询结束")
@@ -34,7 +35,7 @@ class Wxshouhu(object):
             while True:
                 if check_num>check_max_num:
                     remark = ""
-                    info = u"查询%s次查无标记，结束查询"%check_max_num
+                    info = u"查询%s次查无标记，结束查询"%str(check_max_num)
                     # print(info)
                     log_info("[Wxshouhu]%s"%info)
                     break
@@ -44,7 +45,7 @@ class Wxshouhu(object):
                     remark = ""
                     log_error("[Wxshouhu]%s"%e)
                 if not remark.strip():
-                    info = u"第%s次查询,未查到结果,继续执行查询"%check_num
+                    info = u"第%s次查询,未查到结果,继续执行查询"%str(check_num)
                     # print(info)
                     log_info("[Wxshouhu]%s"%info)
                     check_num = check_num+1
@@ -61,7 +62,9 @@ class Wxshouhu(object):
                 # print(info)
                 code = 1
                 log_info("[Wxshouhu]%s"%info)
+            myDriver.ScreenShot(phone_num+"wxshouhu")
         except Exception as e:
+            myDriver.ScreenShot(phone_num+"wxshouhu","error")
             info = u"查找异常"
             log_error("[Wxshouhu]%s"%info)
             log_error("[Wxshouhu]%s"%e)

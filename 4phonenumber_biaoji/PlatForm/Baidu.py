@@ -17,6 +17,7 @@ class Baidu(object):
         # self.driver = webdriver.Firefox()
         pass
     def GetBiaoji(self,myDriver,phone_num):
+        phone_num = str(phone_num)
         url = self.url
         driver = myDriver.GetUrl(url)
         if not driver:
@@ -43,22 +44,17 @@ class Baidu(object):
                     remark = driver.find_element_by_xpath('//*[@class="category"]/h2').text
                 except Exception as e:
                     check_num = check_num+1
-                    LogInfoBaidu("第%s次查询,未查到结果,继续执行查询"%check_num)
+                    LogInfoBaidu("第%s次查询,未查到结果,继续执行查询"%str(check_num))
                     LogInfoBaidu(e)
                     time.sleep(1)
                     continue
-
-                num_remark = ""
-                try:
-                    num_remark = driver.find_element_by_xpath('//*[@class="category"]/span[1]').text
-                except Exception as e:
-                    LogInfoBaidu("未获得标记人数")
-                    LogInfoBaidu(e)
                 #结束循环
                 break
-            LogInfoBaidu("查找到的标记remark:%s %s"%(remark,num_remark))
+            myDriver.ScreenShot(str(phone_num)+"baidu")
+            LogInfoBaidu("查找到的标记remark:%s"%remark)
             code=1
         except Exception as e:
+            myDriver.ScreenShot(str(phone_num)+"baidu","error")
             LogErrorBaidu("查找异常")
             LogErrorBaidu(e)
         # result = remark
