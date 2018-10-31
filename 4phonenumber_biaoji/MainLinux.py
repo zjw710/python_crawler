@@ -15,11 +15,11 @@ def quit(signum, frame):
     while True:
         if thread1.is_alive():
             time.sleep(1)
-            my_log.logger.info(thread1.is_alive())
-            my_log.logger.info("quit sleep 1s")
+            # my_log.logger.info(thread1.is_alive())
+            my_log.logger.info("Thread1 is alive ,quit sleep 1s")
             continue
         else:
-            my_log.logger.info("quit break")
+            my_log.logger.info("Thread1 has died,quit break")
             break
     my_log.logger.info('You choose to stop me.')
     sys.exit()
