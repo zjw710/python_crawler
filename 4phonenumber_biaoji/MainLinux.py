@@ -6,7 +6,7 @@ from Common.common import *
 from Common.MainThread import MainThread
 import threading, time, signal
 '''
-MainThread为处理任务的主线程
+linux版
 '''
 thread1 = MainThread()
 

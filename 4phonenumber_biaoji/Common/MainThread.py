@@ -15,11 +15,9 @@ import time
 import json
 import threading
 from MyDriver import MyDriver
-from PhoneList import phoneList
 from common import *
 import urllib
 import urllib2
-import win32api
 
 class MainThread(threading.Thread):
     def __init__(self):

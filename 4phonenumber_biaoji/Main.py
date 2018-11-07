@@ -5,7 +5,7 @@ from Common.common import *
 # from Common.MyRedisThread import MyRedisThread
 from Common.MainThread import MainThread
 '''
-MainThread为处理任务的主线程
+windows版
 '''
 if __name__ == '__main__':
     try:

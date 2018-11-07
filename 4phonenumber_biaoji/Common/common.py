@@ -1,10 +1,14 @@
 #coding=utf-8
 __author__ = 'Administrator'
 import os
-import sys
 from MyLog import Logger
 from Config import Config
 import random
+import platform
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 '''
 全局函数
 '''
@@ -46,7 +50,8 @@ my_dirpath = cur_file_dir()
 log_path = os.path.join(my_dirpath,"./log/service")
 check_path(log_path)
 my_log = Logger(log_path,level='debug')
-
+#获取平台类型
+my_sys_platform = platform.system()
 #获取配置
 config_path = os.path.join(my_dirpath,"config.ini")
 print(config_path)

@@ -26,7 +26,8 @@ class MyDriver(object):
             browser = my_browser
             if browser == "firefox":
                 options = webdriver.FirefoxOptions()
-                # options.set_headless()#或者使用options.add_argument('-headless')
+                if my_sys_platform=="Linux":
+                    options.set_headless()#或者使用options.add_argument('-headless')
                 options.add_argument('--disable-gpu')#禁用GPU加速
 
                 firefox_profile = webdriver.FirefoxProfile()
@@ -41,8 +42,10 @@ class MyDriver(object):
                 # firefox_profile.set_preference('permissions.default.stylesheet', 2)#禁用css
                 # firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')#禁用flash
                 # firefox_profile.set_preference('javascript.enabled', 'false')#禁用js
-
-                self.driver = webdriver.Firefox(firefox_profile=firefox_profile,firefox_options=options)
+                if my_sys_platform=="Linux":
+                    self.driver = webdriver.Firefox(executable_path="./geckodriver",firefox_profile=firefox_profile,firefox_options=options)
+                else:
+                    self.driver = webdriver.Firefox(firefox_profile=firefox_profile,firefox_options=options)
                 # self.driver = webdriver.Firefox()
             elif browser == "chrome":
 
@@ -120,3 +123,10 @@ class MyDriver(object):
 
 if __name__ == '__main__':
     my_driver = MyDriver()
+    driver = my_driver.GetDriver()
+    driver.get("https://httpbin.org/get?show_env=1")
+    html = driver.find_element_by_xpath("//*").get_attribute("outerHTML")
+    my_log.logger.info(html)
+    print("sleep 10s")
+    time.sleep(10)
+    driver.close()

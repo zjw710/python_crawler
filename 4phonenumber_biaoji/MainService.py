@@ -8,7 +8,9 @@ from selenium import webdriver
 from Common.common import *
 from Common.MyRedisThread import MyRedisThread
 from Common.MainThread import MainThread
-
+'''
+windows服务版
+'''
 #获取路径
 dirpath = cur_file_dir()
 class PySerTest(win32serviceutil.ServiceFramework):
