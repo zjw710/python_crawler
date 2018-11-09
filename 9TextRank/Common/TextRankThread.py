@@ -9,12 +9,14 @@ from common import *
 import urllib
 import urllib2
 from textrank4zh import TextRank4Keyword, TextRank4Sentence
-
+from WordCloud import MyWordCloud
+import codecs
 class TextRankThread(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
         self.result_data = []
         self.textRank4w = TextRank4Keyword()
+        self.my_wordcloud = MyWordCloud()
         self.status = True
         #数据请求url
         self.get_task_url = "https://ptuadmin.tigonetwork.com/api/Psign/get_task?sc=%s"%my_secret#获取任务
@@ -41,14 +43,25 @@ class TextRankThread(threading.Thread):
     #消息队列的
     def rabit_callback(self,ch, method, properties, body):
         try:
-
             my_log.logger.info(" [x] Received Task %r" % body)
             #分析获取关键字
+            # text = codecs.open('./data/01.txt', 'r', 'utf-8').read()
             self.textRank4w.analyze(text=body, lower=True, window=2)   # py2中text必须是utf8编码的str或者unicode对象，py3中必须是utf8编码的bytes或者str对象
             my_log.logger.info("Analysis results:")
-            for item in self.textRank4w.get_keywords(10, word_min_len=2):
-                my_log.logger.info(item.word, item.weight)
-            #self.update_task(phone_num,plat_form,result)
+            #提取关键字
+            result = {}
+            for item in self.textRank4w.get_keywords(30, word_min_len=2):
+                # my_log.logger.info("%s %s"%(item.word,item.weight))
+                result[item.word] = item.weight
+            my_log.logger.info(result)
+
+            #生成云图
+            self.my_wordcloud.build_img(b_color_img_name="love.jpg",txt_freq=result)
+            #分词
+            # my_log.logger.info("words_no_filter results:")
+            # for words in self.textRank4w.words_no_filter:
+            #     print('/'.join(words))
+
             ch.basic_ack(delivery_tag=method.delivery_tag)  #告诉发送端我已经处理完了
         except Exception as e:
             my_log.logger.error("rabit_callback error..")
