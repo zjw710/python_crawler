@@ -1,0 +1,2165 @@
+2018-12-06 16:32:30,313 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:32:30,326 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+2018-12-06 16:32:37,203 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:33:27,410 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:33:27,418 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; zh-cn) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
+2018-12-06 16:33:34,063 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:35:59,891 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:35:59,907 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11
+2018-12-06 16:36:08,197 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:36:13,726 - ganji.py[line:28] - ERROR: 查找异常
+2018-12-06 16:36:13,726 - ganji.py[line:29] - ERROR: 'list' object has no attribute 'get_attribute'
+2018-12-06 16:39:18,141 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:39:18,167 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+2018-12-06 16:39:25,045 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:40:19,098 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:40:19,105 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)
+2018-12-06 16:40:24,651 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:42:51,602 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:42:51,627 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)
+2018-12-06 16:43:00,592 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:43:03,924 - ganji.py[line:30] - ERROR: 查找异常
+2018-12-06 16:43:03,927 - ganji.py[line:31] - ERROR: Message: Unable to locate element: [name="a"]
+
+2018-12-06 16:43:38,846 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:43:38,864 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5
+2018-12-06 16:43:45,572 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:48:15,434 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:48:15,440 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0
+2018-12-06 16:48:21,390 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:48:24,809 - ganji.py[line:30] - ERROR: 查找异常
+2018-12-06 16:48:24,809 - ganji.py[line:31] - ERROR: Message: Unable to locate element: a
+
+2018-12-06 16:49:23,249 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:49:23,255 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+2018-12-06 16:49:29,244 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:51:41,285 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:51:41,292 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+2018-12-06 16:51:46,671 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:51:51,770 - ganji.py[line:31] - ERROR: 查找异常
+2018-12-06 16:51:51,772 - ganji.py[line:32] - ERROR: Message: Unable to locate element: a
+
+2018-12-06 16:53:58,805 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:53:58,812 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER
+2018-12-06 16:54:04,874 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 16:54:31,061 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 16:54:31,066 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+2018-12-06 16:54:36,627 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:04:51,221 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:04:51,249 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)
+2018-12-06 17:04:57,923 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:13:19,628 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:13:19,635 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0
+2018-12-06 17:13:25,684 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:34:45,575 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:34:45,782 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)
+2018-12-06 17:34:52,085 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:34:55,259 - ganji.py[line:42] - ERROR: 查找异常
+2018-12-06 17:34:55,260 - ganji.py[line:43] - ERROR: unbound method addHouseItemUrl() must be called with MyRedis instance as first argument (got unicode instance instead)
+2018-12-06 17:35:44,598 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:35:44,630 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+2018-12-06 17:35:50,711 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:35:58,000 - ganji.py[line:42] - ERROR: 查找异常
+2018-12-06 17:35:58,002 - ganji.py[line:43] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:45:43,134 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:45:43,252 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko Fedora/1.9.0.8-1.fc10 Kazehakase/0.5.6
+2018-12-06 17:45:50,466 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:45:55,509 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 17:46:14,362 - ganji.py[line:44] - ERROR: [Errno 10053] 
+2018-12-06 17:46:14,364 - ganji.py[line:45] - INFO: 尝试第2次
+2018-12-06 17:46:15,374 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:15,375 - ganji.py[line:45] - INFO: 尝试第3次
+2018-12-06 17:46:16,384 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:16,385 - ganji.py[line:45] - INFO: 尝试第4次
+2018-12-06 17:46:17,392 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:17,398 - ganji.py[line:45] - INFO: 尝试第5次
+2018-12-06 17:46:18,407 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:18,407 - ganji.py[line:45] - INFO: 尝试第6次
+2018-12-06 17:46:19,486 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:19,487 - ganji.py[line:45] - INFO: 尝试第7次
+2018-12-06 17:46:20,548 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:20,551 - ganji.py[line:45] - INFO: 尝试第8次
+2018-12-06 17:46:21,561 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:21,563 - ganji.py[line:45] - INFO: 尝试第9次
+2018-12-06 17:46:22,575 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:22,581 - ganji.py[line:45] - INFO: 尝试第10次
+2018-12-06 17:46:23,588 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:23,589 - ganji.py[line:45] - INFO: 尝试第11次
+2018-12-06 17:46:24,596 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:24,599 - ganji.py[line:45] - INFO: 尝试第12次
+2018-12-06 17:46:25,618 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:25,625 - ganji.py[line:45] - INFO: 尝试第13次
+2018-12-06 17:46:26,640 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:26,644 - ganji.py[line:45] - INFO: 尝试第14次
+2018-12-06 17:46:27,654 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:27,655 - ganji.py[line:45] - INFO: 尝试第15次
+2018-12-06 17:46:28,664 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:28,667 - ganji.py[line:45] - INFO: 尝试第16次
+2018-12-06 17:46:29,674 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:29,680 - ganji.py[line:45] - INFO: 尝试第17次
+2018-12-06 17:46:30,694 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:30,703 - ganji.py[line:45] - INFO: 尝试第18次
+2018-12-06 17:46:31,714 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:31,717 - ganji.py[line:45] - INFO: 尝试第19次
+2018-12-06 17:46:32,723 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:32,724 - ganji.py[line:45] - INFO: 尝试第20次
+2018-12-06 17:46:33,729 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:33,734 - ganji.py[line:45] - INFO: 尝试第21次
+2018-12-06 17:46:34,746 - ganji.py[line:44] - ERROR: Message: Unable to locate element: .next
+
+2018-12-06 17:46:34,749 - ganji.py[line:45] - INFO: 尝试第22次
+2018-12-06 17:49:01,578 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:49:01,605 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)
+2018-12-06 17:49:07,236 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:53:53,480 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:53:53,515 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2pre) Gecko/20070215 K-Ninja/2.1.1
+2018-12-06 17:53:59,575 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:54:04,753 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 17:54:15,349 - ganji.py[line:51] - ERROR: 查找异常
+2018-12-06 17:54:15,354 - ganji.py[line:52] - ERROR: not all arguments converted during string formatting
+2018-12-06 17:57:03,694 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:57:03,724 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+2018-12-06 17:57:11,045 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:57:16,315 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 17:57:24,803 - ganji.py[line:53] - ERROR: 查找异常
+2018-12-06 17:57:24,809 - ganji.py[line:54] - ERROR: not all arguments converted during string formatting
+2018-12-06 17:58:14,302 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:58:14,331 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)
+2018-12-06 17:58:20,420 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:59:11,644 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 17:59:11,678 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.71 Safari/537.1 LBBROWSER
+2018-12-06 17:59:17,200 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 17:59:23,342 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:00:02,908 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:00:02,937 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)
+2018-12-06 18:00:09,007 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:00:14,203 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:01:11,546 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:01:11,575 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1
+2018-12-06 18:01:17,704 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:01:22,888 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:01:28,831 - ganji.py[line:45] - ERROR: 查找异常
+2018-12-06 18:01:28,832 - ganji.py[line:46] - ERROR: not all arguments converted during string formatting
+2018-12-06 18:01:47,315 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:01:47,346 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+2018-12-06 18:01:53,246 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:01:58,270 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:03:52,647 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:03:52,680 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)
+2018-12-06 18:03:58,852 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:04:04,019 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:13:18,101 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:13:18,219 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.04506.30)
+2018-12-06 18:13:25,164 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:13:25,165 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn1
+2018-12-06 18:13:25,167 - ganji.py[line:26] - INFO: http://gz.ganji.com/wblist/ershoufang/pn1
+2018-12-06 18:13:30,358 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:13:40,875 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn2
+2018-12-06 18:13:40,878 - ganji.py[line:26] - INFO: http://gz.ganji.com/wblist/ershoufang/pn2
+2018-12-06 18:13:40,882 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:14:15,913 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:14:15,941 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; zh-cn) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
+2018-12-06 18:14:21,503 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:14:21,503 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn1
+2018-12-06 18:14:21,506 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn2
+2018-12-06 18:15:04,117 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:15:04,148 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11
+2018-12-06 18:15:09,594 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:15:09,595 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn1
+2018-12-06 18:15:09,598 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn2
+2018-12-06 18:15:09,599 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn3
+2018-12-06 18:15:22,290 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn4
+2018-12-06 18:15:22,298 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:15:30,556 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn5
+2018-12-06 18:15:30,559 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:15:44,328 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn6
+2018-12-06 18:15:44,335 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:15:56,555 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn7
+2018-12-06 18:15:56,562 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:16:07,750 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn8
+2018-12-06 18:16:07,753 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:16:16,461 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn9
+2018-12-06 18:18:12,566 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:18:12,595 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.71 Safari/537.1 LBBROWSER
+2018-12-06 18:18:18,665 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:18:18,667 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn1
+2018-12-06 18:18:18,670 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn2
+2018-12-06 18:18:18,671 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn3
+2018-12-06 18:18:18,674 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn4
+2018-12-06 18:18:18,676 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn5
+2018-12-06 18:18:18,678 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn6
+2018-12-06 18:18:18,680 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn7
+2018-12-06 18:18:18,681 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn8
+2018-12-06 18:18:18,684 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn9
+2018-12-06 18:18:18,684 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn10
+2018-12-06 18:18:23,834 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:18:29,269 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn11
+2018-12-06 18:18:34,290 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:18:41,661 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn12
+2018-12-06 18:18:41,664 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:18:53,204 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn13
+2018-12-06 18:18:53,211 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:19:04,348 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn14
+2018-12-06 18:19:11,253 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn15
+2018-12-06 18:19:22,766 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn16
+2018-12-06 18:19:22,772 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:19:33,895 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn17
+2018-12-06 18:19:33,903 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:19:45,058 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn18
+2018-12-06 18:19:45,065 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:19:56,654 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn19
+2018-12-06 18:19:56,657 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:20:05,502 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn20
+2018-12-06 18:20:15,690 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn21
+2018-12-06 18:20:15,697 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:20:25,421 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn22
+2018-12-06 18:20:35,723 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn23
+2018-12-06 18:20:35,730 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:20:45,752 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn24
+2018-12-06 18:20:45,759 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:20:54,869 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn25
+2018-12-06 18:21:06,303 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn26
+2018-12-06 18:21:06,311 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:21:14,210 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn27
+2018-12-06 18:21:19,223 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:21:22,568 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn28
+2018-12-06 18:21:31,157 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn29
+2018-12-06 18:21:43,299 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn30
+2018-12-06 18:21:43,305 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:21:49,348 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:21:54,700 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn31
+2018-12-06 18:22:04,282 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn32
+2018-12-06 18:22:04,289 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:22:13,338 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn33
+2018-12-06 18:22:23,072 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn34
+2018-12-06 18:22:23,076 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:22:35,200 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn35
+2018-12-06 18:22:35,207 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:22:43,634 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn36
+2018-12-06 18:22:54,358 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn37
+2018-12-06 18:22:54,365 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:23:03,105 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn38
+2018-12-06 18:23:13,424 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn39
+2018-12-06 18:23:13,427 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:23:24,605 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn40
+2018-12-06 18:23:24,611 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:23:37,017 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn41
+2018-12-06 18:23:37,022 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:23:44,486 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn42
+2018-12-06 18:23:51,684 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn43
+2018-12-06 18:24:03,786 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn44
+2018-12-06 18:24:03,789 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:24:16,424 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn45
+2018-12-06 18:24:16,430 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:24:24,749 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn46
+2018-12-06 18:24:31,132 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn47
+2018-12-06 18:24:37,503 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn48
+2018-12-06 18:24:44,997 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:24:45,028 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b13pre) Gecko/20110307 Firefox/4.0b13pre
+2018-12-06 18:24:50,648 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:24:50,650 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn1
+2018-12-06 18:24:50,651 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn2
+2018-12-06 18:24:50,653 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn3
+2018-12-06 18:24:50,654 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn4
+2018-12-06 18:24:50,654 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn5
+2018-12-06 18:24:50,657 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn6
+2018-12-06 18:24:50,657 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn7
+2018-12-06 18:24:50,660 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn8
+2018-12-06 18:24:50,661 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn9
+2018-12-06 18:24:50,664 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn10
+2018-12-06 18:24:50,665 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn11
+2018-12-06 18:24:50,667 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn12
+2018-12-06 18:24:50,668 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn13
+2018-12-06 18:24:50,670 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn14
+2018-12-06 18:24:50,671 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn15
+2018-12-06 18:24:50,673 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn16
+2018-12-06 18:24:50,674 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn17
+2018-12-06 18:24:50,677 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn18
+2018-12-06 18:24:50,677 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn19
+2018-12-06 18:24:50,680 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn20
+2018-12-06 18:24:50,680 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn21
+2018-12-06 18:24:50,683 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn22
+2018-12-06 18:24:50,684 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn23
+2018-12-06 18:24:50,686 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn24
+2018-12-06 18:24:50,687 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn25
+2018-12-06 18:24:50,688 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn26
+2018-12-06 18:24:50,690 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn27
+2018-12-06 18:24:50,693 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn28
+2018-12-06 18:24:50,694 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn29
+2018-12-06 18:24:50,696 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn30
+2018-12-06 18:24:50,697 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn31
+2018-12-06 18:24:50,698 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn32
+2018-12-06 18:24:50,700 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn33
+2018-12-06 18:24:50,701 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn34
+2018-12-06 18:24:50,703 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn35
+2018-12-06 18:24:50,704 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn36
+2018-12-06 18:24:50,706 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn37
+2018-12-06 18:24:50,707 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn38
+2018-12-06 18:24:50,709 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn39
+2018-12-06 18:24:50,711 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn40
+2018-12-06 18:24:50,717 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn41
+2018-12-06 18:24:50,720 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn42
+2018-12-06 18:24:50,721 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn43
+2018-12-06 18:24:50,723 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn44
+2018-12-06 18:24:50,726 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn45
+2018-12-06 18:24:50,727 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn46
+2018-12-06 18:24:50,730 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn47
+2018-12-06 18:24:50,730 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn48
+2018-12-06 18:24:56,168 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:25:00,562 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn49
+2018-12-06 18:25:09,263 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn50
+2018-12-06 18:25:17,187 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn51
+2018-12-06 18:25:27,181 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn52
+2018-12-06 18:25:27,187 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:27:15,997 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:27:16,026 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1
+2018-12-06 18:27:21,618 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:27:21,619 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn1
+2018-12-06 18:27:21,621 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn2
+2018-12-06 18:27:21,622 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn3
+2018-12-06 18:27:21,625 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn4
+2018-12-06 18:27:21,625 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn5
+2018-12-06 18:27:21,625 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn6
+2018-12-06 18:27:21,627 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn7
+2018-12-06 18:27:21,628 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn8
+2018-12-06 18:27:21,628 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn9
+2018-12-06 18:27:21,631 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn10
+2018-12-06 18:27:21,632 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn11
+2018-12-06 18:27:21,634 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn12
+2018-12-06 18:27:21,634 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn13
+2018-12-06 18:27:21,637 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn14
+2018-12-06 18:27:21,638 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn15
+2018-12-06 18:27:21,640 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn16
+2018-12-06 18:27:21,641 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn17
+2018-12-06 18:27:21,641 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn18
+2018-12-06 18:27:21,642 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn19
+2018-12-06 18:27:21,644 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn20
+2018-12-06 18:27:21,647 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn21
+2018-12-06 18:27:21,648 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn22
+2018-12-06 18:27:21,653 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn23
+2018-12-06 18:27:21,655 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn24
+2018-12-06 18:27:21,657 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn25
+2018-12-06 18:27:21,661 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn26
+2018-12-06 18:27:21,661 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn27
+2018-12-06 18:27:21,664 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn28
+2018-12-06 18:27:21,664 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn29
+2018-12-06 18:27:21,667 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn30
+2018-12-06 18:27:21,667 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn31
+2018-12-06 18:27:21,670 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn32
+2018-12-06 18:27:21,671 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn33
+2018-12-06 18:27:21,674 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn34
+2018-12-06 18:27:21,674 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn35
+2018-12-06 18:27:21,677 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn36
+2018-12-06 18:27:21,677 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn37
+2018-12-06 18:27:21,680 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn38
+2018-12-06 18:27:21,681 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn39
+2018-12-06 18:27:21,683 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn40
+2018-12-06 18:27:21,684 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn41
+2018-12-06 18:27:21,686 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn42
+2018-12-06 18:27:21,687 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn43
+2018-12-06 18:27:21,688 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn44
+2018-12-06 18:27:21,690 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn45
+2018-12-06 18:27:21,690 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn46
+2018-12-06 18:27:21,693 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn47
+2018-12-06 18:27:21,694 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn48
+2018-12-06 18:27:21,694 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn49
+2018-12-06 18:27:21,696 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn50
+2018-12-06 18:27:21,697 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn51
+2018-12-06 18:27:21,698 - ganji.py[line:25] - INFO: 页面已采集：http://gz.ganji.com/wblist/ershoufang/pn52
+2018-12-06 18:27:21,700 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn53
+2018-12-06 18:27:26,966 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:27:34,763 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn54
+2018-12-06 18:27:34,770 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:27:40,792 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:27:47,194 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn55
+2018-12-06 18:27:47,200 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:27:57,523 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn56
+2018-12-06 18:28:09,677 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn57
+2018-12-06 18:28:09,684 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:28:22,730 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn58
+2018-12-06 18:28:22,733 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:28:31,645 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn59
+2018-12-06 18:28:42,209 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn60
+2018-12-06 18:28:42,213 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:28:53,924 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn61
+2018-12-06 18:28:53,930 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:28:59,959 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:29:05,325 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn62
+2018-12-06 18:29:13,888 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn63
+2018-12-06 18:29:21,930 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn64
+2018-12-06 18:29:32,586 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn65
+2018-12-06 18:29:32,594 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:29:42,075 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn66
+2018-12-06 18:29:53,671 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn67
+2018-12-06 18:29:53,677 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:29:59,709 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:30:03,072 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn68
+2018-12-06 18:30:14,430 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn69
+2018-12-06 18:30:14,438 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:30:27,533 - ganji.py[line:27] - INFO: http://gz.ganji.com/wblist/ershoufang/pn70
+2018-12-06 18:30:27,539 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 18:38:49,088 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:38:49,124 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b13pre) Gecko/20110307 Firefox/4.0b13pre
+2018-12-06 18:38:55,157 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:39:00,354 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:39:00,523 - houseDetail.py[line:25] - ERROR: 查找异常
+2018-12-06 18:39:00,526 - houseDetail.py[line:26] - ERROR: 'unicode' object is not callable
+2018-12-06 18:40:05,098 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:40:05,128 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b13pre) Gecko/20110307 Firefox/4.0b13pre
+2018-12-06 18:40:11,269 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:40:16,690 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:42:37,642 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:42:37,825 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+2018-12-06 18:42:44,910 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:42:50,140 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:42:50,211 - houseDetail.py[line:27] - ERROR: 查找异常
+2018-12-06 18:42:50,213 - houseDetail.py[line:28] - ERROR: Message: Unable to locate element: .phone_num js_person_phone
+
+2018-12-06 18:43:00,881 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:43:00,910 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+2018-12-06 18:43:07,493 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:43:12,687 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:43:13,275 - houseDetail.py[line:27] - ERROR: 查找异常
+2018-12-06 18:43:13,276 - houseDetail.py[line:28] - ERROR: value is not an integer or out of range
+2018-12-06 18:43:36,288 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:43:36,434 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER
+2018-12-06 18:43:44,260 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:43:49,407 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:43:49,450 - houseDetail.py[line:25] - INFO: 获取到号码：15918867324 温玉林
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 18:44:37,036 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:44:37,167 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5
+2018-12-06 18:44:46,690 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:44:52,263 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:44:53,740 - houseDetail.py[line:27] - ERROR: 查找异常
+2018-12-06 18:44:53,742 - houseDetail.py[line:28] - ERROR: value is not an integer or out of range
+2018-12-06 18:46:15,210 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:46:15,362 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)
+2018-12-06 18:46:23,568 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:46:29,085 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:46:29,174 - houseDetail.py[line:25] - INFO: 获取到号码：15918867324 温玉林
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 18:57:05,506 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 18:57:05,622 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; QQBrowser/7.0.3698.400)
+2018-12-06 18:57:13,091 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 18:57:18,111 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:57:18,164 - houseDetail.py[line:26] - INFO: 获取到号码：15800232073 李圆圆
+广州英腾房地产代理有限公司
+英腾地产
+2018-12-06 18:57:23,190 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 18:57:23,253 - houseDetail.py[line:26] - INFO: 获取到号码：15800232073 李圆圆
+广州英腾房地产代理有限公司
+英腾地产
+2018-12-06 18:57:27,306 - houseDetail.py[line:26] - INFO: 获取到号码：15800232073 李圆圆
+广州英腾房地产代理有限公司
+英腾地产
+2018-12-06 18:57:30,500 - houseDetail.py[line:26] - INFO: 获取到号码：15800232073 李圆圆
+广州英腾房地产代理有限公司
+英腾地产
+2018-12-06 18:57:33,878 - houseDetail.py[line:26] - INFO: 获取到号码：15800232073 李圆圆
+广州英腾房地产代理有限公司
+英腾地产
+2018-12-06 19:01:21,944 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 19:01:22,049 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER
+2018-12-06 19:01:28,615 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 19:01:33,980 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:01:34,417 - houseDetail.py[line:29] - INFO: 获取到号码：19879360986 李涌
+安居乐地产
+安居乐地产
+2018-12-06 19:01:40,427 - houseDetail.py[line:29] - INFO: 获取到号码：15521405731 黄涛
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:01:48,289 - houseDetail.py[line:29] - INFO: 获取到号码：18520321108 朱钦
+广州市德程地产代理有限公司
+德程地产
+2018-12-06 19:02:28,823 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 19:02:28,937 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2pre) Gecko/20070215 K-Ninja/2.1.1
+2018-12-06 19:02:35,413 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 19:02:40,757 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:02:41,026 - houseDetail.py[line:29] - INFO: 获取到号码：13802747431 路可攀
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:02:48,315 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:02:48,918 - houseDetail.py[line:29] - INFO: 获取到号码：13828477708 曾嘉豪
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:02:55,947 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:02:56,046 - houseDetail.py[line:29] - INFO: 获取到号码：13119582239 潘济
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:03:03,526 - houseDetail.py[line:29] - INFO: 获取到号码：18688014171 李鸿宇
+广东创世置业代理有限公司
+创世置业
+2018-12-06 19:03:10,262 - houseDetail.py[line:29] - INFO: 获取到号码：18318636896 陈婵
+广州市中深房地产代理有限公司
+中深地产
+2018-12-06 19:03:19,150 - houseDetail.py[line:29] - INFO: 获取到号码：13539063468 邹琴
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:03:25,362 - houseDetail.py[line:29] - INFO: 获取到号码：13129397413 黄型焕
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:03:31,443 - houseDetail.py[line:29] - INFO: 获取到号码：15521405200 温科琳
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:03:37,529 - houseDetail.py[line:29] - INFO: 获取到号码：18617322721 林小凤
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:03:45,813 - houseDetail.py[line:29] - INFO: 获取到号码：18898578106 林善正
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:03:50,391 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:03:50,392 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:03:54,648 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:03:54,650 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:03:57,891 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:03:57,891 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:04:06,305 - common.py[line:21] - ERROR: GetUrl error:Message: Failed to decode response from marionette
+,try again
+2018-12-06 19:04:07,305 - common.py[line:21] - ERROR: GetUrl error:Message: Tried to run command without establishing a connection
+,try again
+2018-12-06 19:04:08,308 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:04:08,309 - houseDetail.py[line:37] - ERROR: 'bool' object has no attribute 'find_element_by_class_name'
+2018-12-06 19:04:11,313 - common.py[line:21] - ERROR: GetUrl error:Message: Tried to run command without establishing a connection
+,try again
+2018-12-06 19:05:23,022 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 19:05:23,046 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0b13pre) Gecko/20110307 Firefox/4.0b13pre
+2018-12-06 19:05:28,654 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 19:05:29,483 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:05:29,484 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:05:33,670 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:05:33,671 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:06:59,055 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 19:06:59,089 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0
+2018-12-06 19:07:04,642 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 19:08:01,895 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 19:08:01,924 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)
+2018-12-06 19:08:07,424 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 19:08:58,453 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 19:08:58,489 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.0.3705; .NET CLR 1.1.4322)
+2018-12-06 19:09:04,607 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 19:09:05,509 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:09:05,510 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:09:10,743 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:09:10,744 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:09:15,938 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:09:15,940 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:09:19,496 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:09:19,497 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:09:23,811 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:09:23,812 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:09:27,108 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 19:09:27,111 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 19:09:36,151 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:09:36,194 - houseDetail.py[line:29] - INFO: 获取到号码：19974841839 程勇彬
+广州雄宇房地产代理有限公司
+雄宇地产
+2018-12-06 19:09:42,216 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:09:42,276 - houseDetail.py[line:29] - INFO: 获取到号码：18620559943 吴学欢
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:09:48,739 - houseDetail.py[line:29] - INFO: 获取到号码：17676536118 覃挥峻
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:09:55,625 - houseDetail.py[line:29] - INFO: 获取到号码：13556524652 谢晓州
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:10:03,628 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:10:09,566 - houseDetail.py[line:29] - INFO: 获取到号码：15521400946 唐上梁
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:10:17,292 - houseDetail.py[line:29] - INFO: 获取到号码：15989097570 李创阳
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:10:24,296 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:10:29,953 - houseDetail.py[line:29] - INFO: 获取到号码：13602850771 吴意姝
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:10:37,973 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:10:38,017 - houseDetail.py[line:29] - INFO: 获取到号码：15521407326 邓权
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:10:48,022 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:10:54,193 - houseDetail.py[line:29] - INFO: 获取到号码：18026378998 陈丽珍
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:11:02,993 - houseDetail.py[line:29] - INFO: 获取到号码：18620599801 陈伟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:11:10,996 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:11:16,967 - houseDetail.py[line:29] - INFO: 获取到号码：13434143371 吴清华
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:11:25,970 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:11:31,911 - houseDetail.py[line:29] - INFO: 获取到号码：15521406345 张文
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:11:40,809 - houseDetail.py[line:29] - INFO: 获取到号码：13724053383 李莲
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:11:46,811 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:11:52,911 - houseDetail.py[line:29] - INFO: 获取到号码：16620053543 叶君
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:12:01,915 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:12:22,403 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 19:12:22,430 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)
+2018-12-06 19:12:28,019 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 19:12:33,165 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:12:33,207 - houseDetail.py[line:29] - INFO: 获取到号码：13710831150 戚健庭
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:12:39,323 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:12:39,448 - houseDetail.py[line:29] - INFO: 获取到号码：18211432876 李慧
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:12:47,453 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:12:53,528 - houseDetail.py[line:29] - INFO: 获取到号码：15913185158 陈剑平
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:13:00,614 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:13:00,812 - houseDetail.py[line:29] - INFO: 获取到号码：16626726602 欧国强
+广州中祈房地产中介服务有限公司
+中祈地产
+2018-12-06 19:13:08,815 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:13:14,615 - houseDetail.py[line:29] - INFO: 获取到号码：13042073028 刘玉生
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:13:21,619 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:13:26,943 - houseDetail.py[line:29] - INFO: 获取到号码：18027157293 刘锐
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:13:34,944 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:13:40,960 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:13:41,013 - houseDetail.py[line:29] - INFO: 获取到号码：18589230538 余灿坤
+广州市番禺区钟村世代房地产中介服务部
+世代地产
+2018-12-06 19:13:48,017 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:13:53,456 - houseDetail.py[line:29] - INFO: 获取到号码：15521190565 林少丽
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:14:02,142 - houseDetail.py[line:29] - INFO: 获取到号码：15521400891 冯继立
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:14:08,144 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:14:14,180 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:14:14,239 - houseDetail.py[line:29] - INFO: 获取到号码：15011698171 吴超龙
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:14:20,240 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:14:25,951 - houseDetail.py[line:29] - INFO: 获取到号码：13428850021 陈刚
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:14:32,960 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:14:33,023 - houseDetail.py[line:29] - INFO: 获取到号码：18819261238 岳奇成
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:14:37,901 - houseDetail.py[line:29] - INFO: 获取到号码：18578783364 沈丕超
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:14:44,473 - houseDetail.py[line:29] - INFO: 获取到号码：13189492350 徐舒龙
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:14:50,477 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:14:55,698 - houseDetail.py[line:29] - INFO: 获取到号码：18680521954 刘倩
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:15:04,585 - houseDetail.py[line:29] - INFO: 获取到号码：18318023700 路军
+广州中祈房地产中介服务有限公司
+中祈地产
+2018-12-06 19:15:10,585 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:15:16,408 - houseDetail.py[line:29] - INFO: 获取到号码：15013145480 张素平
+广州碧桂园物业服务有限公司租售服务中心
+碧桂园物业
+2018-12-06 19:15:23,599 - houseDetail.py[line:29] - INFO: 获取到号码：13556014825 李理
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:15:33,604 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:15:38,430 - houseDetail.py[line:29] - INFO: 获取到号码：13928765840 何嘉怡
+广州市家腾房地产中介服务有限公司
+家腾地产
+2018-12-06 19:15:47,434 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:15:53,457 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:15:53,535 - houseDetail.py[line:29] - INFO: 获取到号码：18589266436 李玲燕
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:16:00,555 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:16:00,598 - houseDetail.py[line:29] - INFO: 获取到号码：13128271869 陈满霞
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:16:06,852 - houseDetail.py[line:29] - INFO: 获取到号码：17875434696 黄福康
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:16:15,857 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:16:21,881 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:16:21,982 - houseDetail.py[line:29] - INFO: 获取到号码：13922251152 刘付增锦
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:16:28,206 - houseDetail.py[line:29] - INFO: 获取到号码：15521407202 陈华瑜
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:16:37,232 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:16:42,411 - houseDetail.py[line:29] - INFO: 获取到号码：13711474504 黄俊霖
+广州市诚善房地产咨询有限公司
+诚善置业
+2018-12-06 19:16:48,032 - houseDetail.py[line:29] - INFO: 获取到号码：18824108143 钱伟鹏
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:16:54,036 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:16:59,255 - houseDetail.py[line:29] - INFO: 获取到号码：18928719775 陈长金
+广州广厦房地产中介有限公司
+广厦置业
+2018-12-06 19:17:07,661 - houseDetail.py[line:29] - INFO: 获取到号码：13725423057 蔡昌鹏
+广州市益众房地产代理有限公司
+益众地产
+2018-12-06 19:17:13,674 - houseDetail.py[line:29] - INFO: 获取到号码：15918706233 彭邦梁
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:17:22,859 - houseDetail.py[line:29] - INFO: 获取到号码：17688461386 王锡炎
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:17:29,885 - houseDetail.py[line:29] - INFO: 获取到号码：13288832912 全华超
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:17:37,888 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:17:43,263 - houseDetail.py[line:29] - INFO: 获取到号码：18613025274 张锦华
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:17:51,427 - houseDetail.py[line:29] - INFO: 获取到号码：17377857385 骆缘威
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:17:58,801 - houseDetail.py[line:29] - INFO: 获取到号码：13808843367 钟维文
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:18:05,803 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:18:11,246 - houseDetail.py[line:29] - INFO: 获取到号码：13263060319 陈礼义
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:18:15,802 - houseDetail.py[line:29] - INFO: 获取到号码：13512778314 林天明
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:18:25,312 - houseDetail.py[line:29] - INFO: 获取到号码：13078854026 许海
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:18:31,948 - houseDetail.py[line:29] - INFO: 获取到号码：18102644488 崔哲灏
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:18:41,953 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:18:47,996 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:18:48,035 - houseDetail.py[line:29] - INFO: 获取到号码：13025187717 段生辰
+广州连家地产代理有限公司
+连家地产
+2018-12-06 19:18:54,964 - houseDetail.py[line:29] - INFO: 获取到号码：13202547142 周燕
+广州市满居房地产经纪有限公司
+满居地产
+2018-12-06 19:19:02,967 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:19:08,821 - houseDetail.py[line:29] - INFO: 获取到号码：18899726365 谭小盼
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:19:17,825 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:19:23,157 - houseDetail.py[line:29] - INFO: 获取到号码：18928719775 陈长金
+广州广厦房地产中介有限公司
+广厦置业
+2018-12-06 19:19:31,273 - houseDetail.py[line:29] - INFO: 获取到号码：18620640818 陈奕民
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 19:19:40,882 - houseDetail.py[line:29] - INFO: 获取到号码：15627292979 莫冬玲
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:19:49,887 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:19:55,808 - houseDetail.py[line:29] - INFO: 获取到号码：13553540493 陈石养
+广州泰福房地产中介服务有限公司
+泰福房地产
+2018-12-06 19:20:03,812 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:20:09,851 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:20:09,913 - houseDetail.py[line:29] - INFO: 获取到号码：13533296592 陈思静
+广州置鼎房地产代理有限公司
+置鼎地产
+2018-12-06 19:20:15,519 - houseDetail.py[line:29] - INFO: 获取到号码：13533511477 邓子成
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:20:22,523 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:20:27,496 - houseDetail.py[line:29] - INFO: 获取到号码：18011985928 黄林英
+2018-12-06 19:20:37,500 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:20:43,046 - houseDetail.py[line:29] - INFO: 获取到号码：18620730674 罗添和
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:20:53,049 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:20:58,216 - houseDetail.py[line:29] - INFO: 获取到号码：16620371145 杨志铨
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:21:04,217 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:21:09,664 - houseDetail.py[line:29] - INFO: 获取到号码：15011779646 张博
+广州致盛房地产有限公司
+致盛房地产
+2018-12-06 19:21:17,687 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:21:17,822 - houseDetail.py[line:29] - INFO: 获取到号码：18666081120 李海龙
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:21:25,246 - houseDetail.py[line:29] - INFO: 获取到号码：16620039656 郑文坚
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:21:31,252 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:21:36,776 - houseDetail.py[line:29] - INFO: 获取到号码：15521407326 邓权
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:21:46,111 - houseDetail.py[line:29] - INFO: 获取到号码：13826462586 梁凯翔
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:21:53,112 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:21:58,316 - houseDetail.py[line:29] - INFO: 获取到号码：18011985928 黄林英
+2018-12-06 19:22:04,980 - houseDetail.py[line:29] - INFO: 获取到号码：16620355561 李富
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 19:22:11,983 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:22:18,006 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:22:18,088 - houseDetail.py[line:29] - INFO: 获取到号码：18520707072 李闯
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:22:23,701 - houseDetail.py[line:29] - INFO: 获取到号码：18688014171 李鸿宇
+广东创世置业代理有限公司
+创世置业
+2018-12-06 19:22:28,680 - houseDetail.py[line:29] - INFO: 获取到号码：13536495832 刘胜泽
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:22:35,894 - houseDetail.py[line:29] - INFO: 获取到号码：13692949914 陈文城
+广东碧桂园物业服务股份有限公司增城分公司
+碧桂园增城分公司
+2018-12-06 19:22:43,328 - houseDetail.py[line:29] - INFO: 获取到号码：18520833477 何贵述
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:22:49,470 - houseDetail.py[line:29] - INFO: 获取到号码：17520077798 邹家琪
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:22:54,457 - houseDetail.py[line:29] - INFO: 获取到号码：15521405468 沈春凤
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:23:04,460 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:23:09,203 - houseDetail.py[line:29] - INFO: 获取到号码：15711964835 郭俊谋
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:23:14,003 - houseDetail.py[line:29] - INFO: 获取到号码：18475949773 陈锡彬
+广州泰福房地产中介服务有限公司
+泰福房地产
+2018-12-06 19:23:21,522 - houseDetail.py[line:29] - INFO: 获取到号码：18825080441 袁杰豪
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:23:27,246 - houseDetail.py[line:29] - INFO: 获取到号码：15521400169 赵茜茜
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:23:36,252 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:23:41,562 - houseDetail.py[line:29] - INFO: 获取到号码：17520077798 邹家琪
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:23:50,566 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:23:55,607 - houseDetail.py[line:29] - INFO: 获取到号码：18520112214 张惠
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:24:05,611 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:24:10,209 - houseDetail.py[line:29] - INFO: 获取到号码：18320444042 刘洋
+广州市领盛房地产经纪有限公司
+领盛地产
+2018-12-06 19:24:18,680 - houseDetail.py[line:29] - INFO: 获取到号码：15521404879 李斌
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:24:28,684 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:24:33,651 - houseDetail.py[line:29] - INFO: 获取到号码：13922482009 邓锦洪
+广州市番禺区沙湾顺碧房地产中介服务部
+顺碧地产
+2018-12-06 19:24:39,651 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:24:44,292 - houseDetail.py[line:29] - INFO: 获取到号码：13202537654 李永赋
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:24:51,296 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:24:56,845 - houseDetail.py[line:29] - INFO: 获取到号码：17728185875 谭秀美
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:25:02,848 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:25:08,839 - houseDetail.py[line:29] - INFO: 获取到号码：17825943152 黎晓峰
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:25:14,851 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:25:14,990 - houseDetail.py[line:29] - INFO: 获取到号码：18924241272 林金源
+清远市文凤地产代理有限公司
+文凤地产
+2018-12-06 19:25:23,993 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:25:30,015 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:25:30,075 - houseDetail.py[line:29] - INFO: 获取到号码：13609719293 周伟
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:25:38,078 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:25:43,773 - houseDetail.py[line:29] - INFO: 获取到号码：18824706686 陈文鸿
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:25:52,778 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:25:58,799 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:25:58,907 - houseDetail.py[line:29] - INFO: 获取到号码：15013331163 曹威
+2018-12-06 19:26:07,911 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:26:13,520 - houseDetail.py[line:29] - INFO: 获取到号码：17576085919 戚林
+广州市好房好屋房地产代理有限公司
+好房好屋
+2018-12-06 19:26:19,246 - houseDetail.py[line:29] - INFO: 获取到号码：15800232073 李圆圆
+广州英腾房地产代理有限公司
+英腾地产
+2018-12-06 19:26:25,247 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:26:30,971 - houseDetail.py[line:29] - INFO: 获取到号码：18824706686 陈文鸿
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:26:36,973 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:26:42,984 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:26:43,108 - houseDetail.py[line:29] - INFO: 获取到号码：15978838291 王占稳
+中原
+好盘在线1
+2018-12-06 19:26:50,138 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:26:50,288 - houseDetail.py[line:29] - INFO: 获取到号码：18620606716 赖秀珍
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:26:59,217 - houseDetail.py[line:29] - INFO: 获取到号码：18589266436 李玲燕
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:27:09,276 - houseDetail.py[line:29] - INFO: 获取到号码：13729885713 潘永祥
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:27:16,447 - houseDetail.py[line:29] - INFO: 获取到号码：18011985928 黄林英
+2018-12-06 19:27:25,408 - houseDetail.py[line:29] - INFO: 获取到号码：18011985928 黄林英
+2018-12-06 19:27:33,411 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:27:39,257 - houseDetail.py[line:29] - INFO: 获取到号码：15521404988 陈倩
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:27:47,967 - houseDetail.py[line:29] - INFO: 获取到号码：13928899710 李炜杰
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:27:55,973 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:28:02,045 - houseDetail.py[line:29] - INFO: 获取到号码：17377857385 骆缘威
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:28:11,049 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:28:16,776 - houseDetail.py[line:29] - INFO: 获取到号码：15521405364 黄远华
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:28:23,779 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:28:29,332 - houseDetail.py[line:29] - INFO: 获取到号码：15622283717 王子琦
+广州市番禺区钟村世代房地产中介服务部
+世代地产
+2018-12-06 19:28:38,470 - houseDetail.py[line:29] - INFO: 获取到号码：18588873818 陆婷婷
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:28:45,474 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:28:51,203 - houseDetail.py[line:29] - INFO: 获取到号码：18664779378 詹培莹
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:28:58,345 - houseDetail.py[line:29] - INFO: 获取到号码：18664697009 许泽涛
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:29:08,348 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:29:12,693 - houseDetail.py[line:29] - INFO: 获取到号码：18122797717 郑刘涛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:29:21,697 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:29:27,717 - houseDetail.py[line:29] - INFO: 获取到号码：15013331163 曹威
+2018-12-06 19:29:36,311 - houseDetail.py[line:29] - INFO: 获取到号码：13229955834 马志坚
+广州市宝徳置业有限公司
+宝德地产
+2018-12-06 19:29:45,122 - houseDetail.py[line:29] - INFO: 获取到号码：13246859466 伍春燕
+广州市言成房地产有限公司
+言成地产
+2018-12-06 19:29:52,358 - houseDetail.py[line:29] - INFO: 获取到号码：15876549117 戴梓贤
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:29:57,970 - houseDetail.py[line:29] - INFO: 获取到号码：18620914910 王吉光
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:30:06,974 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:30:12,615 - houseDetail.py[line:29] - INFO: 获取到号码：13268000393 蓝清
+广州市壹邦房地产代理有限公司
+壹邦地产
+2018-12-06 19:30:18,223 - houseDetail.py[line:29] - INFO: 获取到号码：13928736856 沈玩琴
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:30:23,526 - houseDetail.py[line:29] - INFO: 获取到号码：13360020082 黄婉婷
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:30:28,934 - houseDetail.py[line:29] - INFO: 获取到号码：13711501445 黄江彬
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:30:34,467 - houseDetail.py[line:29] - INFO: 获取到号码：18620220244 吴永锋
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:30:42,470 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:30:48,086 - houseDetail.py[line:29] - INFO: 获取到号码：18680521954 刘倩
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:30:56,091 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:31:01,911 - houseDetail.py[line:29] - INFO: 获取到号码：18664719090 戚灼荣
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:31:09,601 - houseDetail.py[line:29] - INFO: 获取到号码：18588883579 李灿华
+2018-12-06 19:31:15,128 - houseDetail.py[line:29] - INFO: 获取到号码：13802940695 何磊
+中原
+好盘在线1
+2018-12-06 19:31:24,494 - houseDetail.py[line:29] - INFO: 获取到号码：13824465319 张义琴
+广州市德程地产代理有限公司
+德程地产
+2018-12-06 19:31:32,976 - houseDetail.py[line:29] - INFO: 获取到号码：13138643603 麦海志
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:31:38,979 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:31:44,023 - houseDetail.py[line:29] - INFO: 获取到号码：19924534921 王翠燕
+2018-12-06 19:31:52,026 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:31:57,599 - houseDetail.py[line:29] - INFO: 获取到号码：18028051332 杨智
+广州市保利房地产中介有限公司
+保利地产
+2018-12-06 19:32:03,611 - houseDetail.py[line:29] - INFO: 获取到号码：13570123410 林科成
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:32:10,637 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:32:10,766 - houseDetail.py[line:29] - INFO: 获取到号码：13263060319 陈礼义
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:32:16,665 - houseDetail.py[line:29] - INFO: 获取到号码：18898578106 林善正
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:32:24,752 - houseDetail.py[line:29] - INFO: 获取到号码：18816783146 林立辉
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:32:33,772 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:32:33,855 - houseDetail.py[line:29] - INFO: 获取到号码：13928768039 刘建平
+广州致盛房地产有限公司
+致盛房地产
+2018-12-06 19:32:40,858 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:32:45,525 - houseDetail.py[line:29] - INFO: 获取到号码：13392455011 杨環菁
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:32:54,688 - houseDetail.py[line:29] - INFO: 获取到号码：15920196255 吴华根
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:33:04,693 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:33:09,710 - houseDetail.py[line:29] - INFO: 获取到号码：13434143371 吴清华
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:33:18,345 - houseDetail.py[line:29] - INFO: 获取到号码：13609654383 梁永超
+广州市言成房地产有限公司
+言成地产
+2018-12-06 19:33:28,349 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:33:33,782 - houseDetail.py[line:29] - INFO: 获取到号码：15521400891 冯继立
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:33:40,096 - houseDetail.py[line:29] - INFO: 获取到号码：13750151113 黄宝林
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:33:49,101 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:33:54,614 - houseDetail.py[line:29] - INFO: 获取到号码：18200886126 胥顺平
+广东古格控股股份有限公司
+古格地产
+2018-12-06 19:34:00,017 - houseDetail.py[line:29] - INFO: 获取到号码：18588872715 陈烨
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:34:09,456 - houseDetail.py[line:29] - INFO: 获取到号码：18122797717 郑刘涛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:34:16,457 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:34:21,361 - houseDetail.py[line:29] - INFO: 获取到号码：13719488683 何彭业
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:34:30,322 - houseDetail.py[line:29] - INFO: 获取到号码：18218265006 陈远炽
+中原
+好盘在线1
+2018-12-06 19:34:39,325 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:34:45,101 - houseDetail.py[line:29] - INFO: 获取到号码：18926208046 彭桑
+广州中凯房地产中介有限公司
+中凯地产
+2018-12-06 19:34:54,877 - houseDetail.py[line:29] - INFO: 获取到号码：18316662765 陈翠婷
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:35:00,480 - houseDetail.py[line:29] - INFO: 获取到号码：18898640898 崔明威
+广州市胜逸房地产代理有限公司
+胜逸地产
+2018-12-06 19:35:09,453 - houseDetail.py[line:29] - INFO: 获取到号码：18617385376 李心兰
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:35:17,482 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:35:17,559 - houseDetail.py[line:29] - INFO: 获取到号码：13711501445 黄江彬
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:35:26,207 - houseDetail.py[line:29] - INFO: 获取到号码：13420127271 李建兰
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:35:33,920 - houseDetail.py[line:29] - INFO: 获取到号码：13802940695 何磊
+中原
+好盘在线1
+2018-12-06 19:35:42,476 - houseDetail.py[line:29] - INFO: 获取到号码：13826100971 李威
+广州市纵博房地产代理有限公司
+纵博房地产
+2018-12-06 19:35:51,312 - houseDetail.py[line:29] - INFO: 获取到号码：13168882032 陆婵娟
+2018-12-06 19:35:58,315 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:36:03,588 - houseDetail.py[line:29] - INFO: 获取到号码：17728185875 谭秀美
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:36:12,180 - houseDetail.py[line:29] - INFO: 获取到号码：15918850014 戚冬梅
+广州市中营房地产代理有限公司
+中营地产
+2018-12-06 19:36:21,538 - houseDetail.py[line:29] - INFO: 获取到号码：18899726365 谭小盼
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:36:29,542 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:36:34,910 - houseDetail.py[line:29] - INFO: 获取到号码：15521406735 梁韵
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:36:41,591 - houseDetail.py[line:29] - INFO: 获取到号码：13527838869 张志勇
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:36:49,029 - houseDetail.py[line:29] - INFO: 获取到号码：13450124496 罗可富
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:36:58,950 - houseDetail.py[line:29] - INFO: 获取到号码：13226632617 施康远
+广州市迅展房地产销售代理有限公司
+迅展地产
+2018-12-06 19:37:06,739 - houseDetail.py[line:29] - INFO: 获取到号码：18218265006 陈远炽
+中原
+好盘在线1
+2018-12-06 19:37:13,742 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:37:19,161 - houseDetail.py[line:29] - INFO: 获取到号码：15521404988 陈倩
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:37:28,163 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:37:33,865 - houseDetail.py[line:29] - INFO: 获取到号码：18620640818 陈奕民
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 19:37:43,510 - houseDetail.py[line:29] - INFO: 获取到号码：18814095716 全文景
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:37:51,513 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:37:56,657 - houseDetail.py[line:29] - INFO: 获取到号码：17875813153 胡廷涛
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:38:05,661 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:38:11,680 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:38:11,793 - houseDetail.py[line:29] - INFO: 获取到号码：15920196255 邓江密
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:38:20,017 - houseDetail.py[line:29] - INFO: 获取到号码：18520321108 朱钦
+广州市德程地产代理有限公司
+德程地产
+2018-12-06 19:38:30,023 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:38:35,223 - houseDetail.py[line:29] - INFO: 获取到号码：18520321108 朱钦
+广州市德程地产代理有限公司
+德程地产
+2018-12-06 19:38:44,226 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:38:49,546 - houseDetail.py[line:29] - INFO: 获取到号码：13710896405 黄素娟
+广州创先房地产代理有限公司
+创先地产
+2018-12-06 19:38:59,332 - houseDetail.py[line:29] - INFO: 获取到号码：13392660582 陈土玲
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 19:39:05,335 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:39:10,759 - houseDetail.py[line:29] - INFO: 获取到号码：15986971578 温学文
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:39:19,404 - houseDetail.py[line:29] - INFO: 获取到号码：18529109966 郑忠孝
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:39:25,966 - houseDetail.py[line:29] - INFO: 获取到号码：13434143354 李业健
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:39:32,479 - houseDetail.py[line:29] - INFO: 获取到号码：13232869610 何志鸿
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:39:41,480 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:39:47,296 - houseDetail.py[line:29] - INFO: 获取到号码：13682218037 李卓玲
+广州市力博房地产代理有限公司
+力博地产
+2018-12-06 19:39:54,349 - houseDetail.py[line:29] - INFO: 获取到号码：15015698212 梁汝绍
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:40:00,352 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:40:05,430 - houseDetail.py[line:29] - INFO: 获取到号码：13149365883 李浩辉
+中原
+好盘在线1
+2018-12-06 19:40:12,588 - houseDetail.py[line:29] - INFO: 获取到号码：17876515005 刘建辉
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:40:21,142 - houseDetail.py[line:29] - INFO: 获取到号码：18529441551 徐马明
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:40:31,148 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:40:36,792 - houseDetail.py[line:29] - INFO: 获取到号码：15800017094 叶竞
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:40:42,796 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:40:48,581 - houseDetail.py[line:29] - INFO: 获取到号码：13829771996 李济伶
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:40:54,585 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:40:59,627 - houseDetail.py[line:29] - INFO: 获取到号码：18028051332 杨智
+广州市保利房地产中介有限公司
+保利地产
+2018-12-06 19:41:05,013 - houseDetail.py[line:29] - INFO: 获取到号码：17676536118 覃挥峻
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:41:13,338 - houseDetail.py[line:29] - INFO: 获取到号码：15521400162 马文辉
+中原
+好盘在线1
+2018-12-06 19:41:21,342 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:41:27,365 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:41:27,417 - houseDetail.py[line:29] - INFO: 获取到号码：15815834523 王育庭
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 19:41:37,423 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:41:42,806 - houseDetail.py[line:29] - INFO: 获取到号码：18620220244 吴永锋
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:41:52,072 - houseDetail.py[line:29] - INFO: 获取到号码：15521406149 邓国显
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:41:58,075 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:42:03,198 - houseDetail.py[line:29] - INFO: 获取到号码：17620914393 李东宸
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:42:08,604 - houseDetail.py[line:29] - INFO: 获取到号码：13710622724 谢晓东
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 19:42:14,490 - houseDetail.py[line:29] - INFO: 获取到号码：18565218000 张碧霞
+广州市名成置业房地产咨询有限公司
+中盟置业
+2018-12-06 19:42:21,494 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:42:26,658 - houseDetail.py[line:29] - INFO: 获取到号码：18011983343 胡建扬
+广州市永泽房地产代理有限公司
+永泽地产
+2018-12-06 19:42:34,493 - houseDetail.py[line:29] - INFO: 获取到号码：18565218000 张碧霞
+广州市名成置业房地产咨询有限公司
+中盟置业
+2018-12-06 19:42:41,496 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:42:46,236 - houseDetail.py[line:29] - INFO: 获取到号码：17620151324 虞国平
+广州星原网络科技有限公司
+星原地产
+2018-12-06 19:42:56,262 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:42:56,346 - houseDetail.py[line:29] - INFO: 获取到号码：13802437274 侯镇昌
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 19:43:06,349 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:43:11,698 - houseDetail.py[line:29] - INFO: 获取到号码：13078880032 陈荣安
+广州中祈房地产中介服务有限公司
+中祈地产
+2018-12-06 19:43:20,703 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:43:25,871 - houseDetail.py[line:29] - INFO: 获取到号码：18898578106 林善正
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:43:33,874 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:43:38,881 - houseDetail.py[line:29] - INFO: 获取到号码：18816796538 黄孟霞
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:43:45,562 - houseDetail.py[line:29] - INFO: 获取到号码：13682289209 邱振良
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:43:51,565 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:43:57,059 - houseDetail.py[line:29] - INFO: 获取到号码：18617331349 张玲
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:44:03,073 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:44:03,194 - houseDetail.py[line:29] - INFO: 获取到号码：18613061434 管格强
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:44:12,200 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:44:18,250 - houseDetail.py[line:29] - INFO: 获取到号码：15918578302 许妙霞
+2018-12-06 19:44:23,717 - houseDetail.py[line:29] - INFO: 获取到号码：15521403588 周晓林
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:44:29,720 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:44:35,401 - houseDetail.py[line:29] - INFO: 获取到号码：17728185875 谭秀美
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:44:42,405 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:44:48,015 - houseDetail.py[line:29] - INFO: 获取到号码：15013052128 钟晓炎
+广州市宏斌房地产代理有限公司
+宏斌地产
+2018-12-06 19:44:56,016 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:45:02,048 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:45:02,096 - houseDetail.py[line:29] - INFO: 获取到号码：13809239335 陈宏杰
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:45:10,101 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:45:15,161 - houseDetail.py[line:29] - INFO: 获取到号码：18122797717 郑刘涛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:45:22,165 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:45:28,015 - houseDetail.py[line:29] - INFO: 获取到号码：18520341599 李秋君
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 19:45:35,017 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:45:39,286 - houseDetail.py[line:29] - INFO: 获取到号码：17728185875 谭秀美
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:45:47,016 - houseDetail.py[line:29] - INFO: 获取到号码：13302274927 巫海涛
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:45:54,892 - houseDetail.py[line:29] - INFO: 获取到号码：18818806924 林国老
+广州瀚信置业有限公司
+瀚信置业
+2018-12-06 19:46:00,168 - houseDetail.py[line:29] - INFO: 获取到号码：19924534921 王翠燕
+2018-12-06 19:46:08,655 - houseDetail.py[line:29] - INFO: 获取到号码：18617344321 陈庆杰
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 19:46:14,292 - houseDetail.py[line:29] - INFO: 获取到号码：13145844168 邓旨良
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:46:19,565 - houseDetail.py[line:29] - INFO: 获取到号码：18688434279 彭奕辉
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:46:25,598 - houseDetail.py[line:29] - INFO: 获取到号码：13724106679 杨丽婷
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:46:35,602 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:46:40,812 - houseDetail.py[line:29] - INFO: 获取到号码：15819305870 杨海珠
+广州添房信息科技有限公司
+添房置业
+2018-12-06 19:46:46,398 - houseDetail.py[line:29] - INFO: 获取到号码：15521400147 岑玉仙
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:46:54,779 - houseDetail.py[line:29] - INFO: 获取到号码：13430384480 陈宗毅
+广州爱回家置业有限公司
+爱回家置业
+2018-12-06 19:47:03,782 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:47:09,236 - houseDetail.py[line:29] - INFO: 获取到号码：19926461260 杨云宁
+广州市群鑫地产代理有限公司
+群鑫地产
+2018-12-06 19:47:19,242 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:47:25,003 - houseDetail.py[line:29] - INFO: 获取到号码：15521190565 林少丽
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:47:34,006 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:47:39,232 - houseDetail.py[line:29] - INFO: 获取到号码：13924128395 张东辉
+广州优居房地产经纪有限公司
+优居地产
+2018-12-06 19:47:45,045 - houseDetail.py[line:29] - INFO: 获取到号码：15918761255 方租杰
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:47:51,046 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:47:56,325 - houseDetail.py[line:29] - INFO: 获取到号码：17612030488 林贤利
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:48:02,329 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:48:07,132 - houseDetail.py[line:29] - INFO: 获取到号码：13434168533 刘爱明
+广州碧桂园物业服务有限公司租售服务中心
+碧桂园物业
+2018-12-06 19:48:13,496 - houseDetail.py[line:29] - INFO: 获取到号码：18602000117 何洁琼
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:48:21,105 - houseDetail.py[line:29] - INFO: 获取到号码：18588883067 韩欢茂
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:48:27,114 - houseDetail.py[line:29] - INFO: 获取到号码：13580129088 李梅
+广州市中营房地产代理有限公司
+中营地产
+2018-12-06 19:48:37,118 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:48:43,147 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:48:43,211 - houseDetail.py[line:29] - INFO: 获取到号码：18575550970 黄文杰
+2018-12-06 19:48:50,490 - houseDetail.py[line:29] - INFO: 获取到号码：15013226553 蔡达成
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:49:00,493 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:49:04,658 - houseDetail.py[line:29] - INFO: 获取到号码：15011698171 吴超龙
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:49:13,311 - houseDetail.py[line:29] - INFO: 获取到号码：15920196255 吴华根
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:49:20,640 - houseDetail.py[line:29] - INFO: 获取到号码：13798073994 郑少彬
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:49:30,644 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:49:36,367 - houseDetail.py[line:29] - INFO: 获取到号码：13434143371 吴清华
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:49:43,368 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:49:48,513 - houseDetail.py[line:29] - INFO: 获取到号码：13922790276 梁伟
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:49:53,832 - houseDetail.py[line:29] - INFO: 获取到号码：17520077798 邹家琪
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:49:59,835 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:50:05,323 - houseDetail.py[line:29] - INFO: 获取到号码：13416287292 叶冠邦
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:50:12,326 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:50:18,309 - houseDetail.py[line:29] - INFO: 获取到号码：15889952283 侯剑华
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:50:26,006 - houseDetail.py[line:29] - INFO: 获取到号码：19928491585 秦小宝
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 19:50:32,009 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:50:38,288 - houseDetail.py[line:29] - INFO: 获取到号码：18218766885 戚炳辉
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:50:47,339 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:50:47,464 - houseDetail.py[line:29] - INFO: 获取到号码：18825080441 袁杰豪
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:50:57,482 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:50:57,565 - houseDetail.py[line:29] - INFO: 获取到号码：13263060319 陈礼义
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:51:06,921 - houseDetail.py[line:29] - INFO: 获取到号码：18578677097 倪浩生
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:51:13,924 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:51:19,456 - houseDetail.py[line:29] - INFO: 获取到号码：13825715472 欧志雄
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:51:25,459 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:51:31,201 - houseDetail.py[line:29] - INFO: 获取到号码：15768874030 张攀羽
+2018-12-06 19:51:39,203 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:51:44,621 - houseDetail.py[line:29] - INFO: 获取到号码：15918706233 彭邦梁
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:51:54,625 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:52:00,647 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:52:00,818 - houseDetail.py[line:29] - INFO: 获取到号码：13924286136 窦诗婷
+广州泰福房地产中介服务有限公司
+泰福房地产
+2018-12-06 19:52:06,821 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:52:11,979 - houseDetail.py[line:29] - INFO: 获取到号码：15013033087 林燕丽
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 19:52:20,865 - houseDetail.py[line:29] - INFO: 获取到号码：19902276290 蔡鑫
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:52:29,867 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:52:35,773 - houseDetail.py[line:29] - INFO: 获取到号码：15918850014 戚冬梅
+广州市中营房地产代理有限公司
+中营地产
+2018-12-06 19:52:43,778 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:52:48,770 - houseDetail.py[line:29] - INFO: 获取到号码：13502545360 胡瑜
+广州星原网络科技有限公司
+星原地产
+2018-12-06 19:52:58,877 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:52:58,996 - houseDetail.py[line:29] - INFO: 获取到号码：18620640818 陈奕民
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 19:53:09,000 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:53:14,381 - houseDetail.py[line:29] - INFO: 获取到号码：15113872661 叶梓轩
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:53:23,290 - houseDetail.py[line:29] - INFO: 获取到号码：18218265006 陈远炽
+中原
+好盘在线1
+2018-12-06 19:53:28,918 - houseDetail.py[line:29] - INFO: 获取到号码：17896659002 张正伟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:53:38,838 - houseDetail.py[line:29] - INFO: 获取到号码：15521407319 易琼华
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:53:45,842 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:53:51,644 - houseDetail.py[line:29] - INFO: 获取到号码：13560382783 黄涛
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:53:58,647 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:54:03,441 - houseDetail.py[line:29] - INFO: 获取到号码：18122797717 郑刘涛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:54:11,276 - houseDetail.py[line:29] - INFO: 获取到号码：18778548145 张玲
+广东创世置业代理有限公司
+创世置业
+2018-12-06 19:54:16,641 - houseDetail.py[line:29] - INFO: 获取到号码：15521405920 刘碧娟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:54:22,644 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:54:28,000 - houseDetail.py[line:29] - INFO: 获取到号码：13711095002 黄伟林
+广州市团结房地产代理有限公司
+团结地产
+2018-12-06 19:54:35,005 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:54:40,601 - houseDetail.py[line:29] - INFO: 获取到号码：18211530950 欧云海
+2018-12-06 19:54:48,604 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:54:54,418 - houseDetail.py[line:29] - INFO: 获取到号码：17620842426 吴小燕
+广州市万联房地产代理有限公司
+万联地产
+2018-12-06 19:55:03,431 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:55:08,737 - houseDetail.py[line:29] - INFO: 获取到号码：15521044406 伍仲成
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 19:55:18,742 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:55:24,512 - houseDetail.py[line:29] - INFO: 获取到号码：13560364664 陈景敏
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:55:34,305 - houseDetail.py[line:29] - INFO: 获取到号码：17666035656 范贰女
+北京好租科技发展有限公司
+广州好租
+2018-12-06 19:55:40,332 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:55:40,381 - houseDetail.py[line:29] - INFO: 获取到号码：13202537654 李永赋
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 19:55:49,397 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:55:49,456 - houseDetail.py[line:29] - INFO: 获取到号码：19924254405 蔡北海
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:55:57,244 - houseDetail.py[line:29] - INFO: 获取到号码：15013331163 曹威
+2018-12-06 19:56:07,247 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:56:12,457 - houseDetail.py[line:29] - INFO: 获取到号码：13502545360 胡瑜
+广州星原网络科技有限公司
+星原地产
+2018-12-06 19:56:18,007 - houseDetail.py[line:29] - INFO: 获取到号码：18922805252 温林洪
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 19:56:24,010 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:56:29,888 - houseDetail.py[line:29] - INFO: 获取到号码：13002021648 范兰奕
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 19:56:34,707 - houseDetail.py[line:29] - INFO: 获取到号码：18122797717 郑刘涛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:56:42,755 - houseDetail.py[line:29] - INFO: 获取到号码：18664887450 陈良泉
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:56:52,759 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:56:58,798 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:56:58,826 - houseDetail.py[line:29] - INFO: 获取到号码：15018360798 林博卫
+广州市天睿地产代理有限公司
+天睿地产
+2018-12-06 19:57:07,842 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:57:07,950 - houseDetail.py[line:29] - INFO: 获取到号码：13825194523 徐洁仪
+广州中祈房地产中介服务有限公司
+中祈地产
+2018-12-06 19:57:17,953 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:57:23,407 - houseDetail.py[line:29] - INFO: 获取到号码：18819130912 陈业若
+广州万众房地产代理有限公司
+万众地产
+2018-12-06 19:57:30,410 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:57:36,193 - houseDetail.py[line:29] - INFO: 获取到号码：17512033330 翟翔宇
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:57:41,746 - houseDetail.py[line:29] - INFO: 获取到号码：13826061810 梁华荣
+广州创熠房地产代理有限公司
+创熠地产
+2018-12-06 19:57:51,749 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:57:56,775 - houseDetail.py[line:29] - INFO: 获取到号码：13413164706 李学铭
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:58:02,779 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:58:08,671 - houseDetail.py[line:29] - INFO: 获取到号码：18702077889 陈小军
+2018-12-06 19:58:16,676 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:58:21,717 - houseDetail.py[line:29] - INFO: 获取到号码：18102644488 崔哲灏
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 19:58:27,736 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:58:33,276 - houseDetail.py[line:29] - INFO: 获取到号码：15521400062 赖增捷
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 19:58:43,279 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:58:48,377 - houseDetail.py[line:29] - INFO: 获取到号码：13434143371 吴清华
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:58:55,979 - houseDetail.py[line:29] - INFO: 获取到号码：13751775348 刘力夫
+广州市庆佳房地产中介有限责任公司光塔路分公司
+庆佳地产
+2018-12-06 19:59:02,982 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:59:08,765 - houseDetail.py[line:29] - INFO: 获取到号码：13434143371 吴清华
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 19:59:18,733 - houseDetail.py[line:29] - INFO: 获取到号码：18502018544 郑智造
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 19:59:25,783 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 19:59:25,871 - houseDetail.py[line:29] - INFO: 获取到号码：18318884050 冼玉林
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 19:59:35,838 - houseDetail.py[line:29] - INFO: 获取到号码：18024660499 何爱香
+广州贯诚房地产代理有限公司
+贯诚地产
+2018-12-06 19:59:42,844 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 19:59:48,137 - houseDetail.py[line:29] - INFO: 获取到号码：13265933960 黄伟基
+广州市番禺区钟村世代房地产中介服务部
+世代地产
+2018-12-06 19:59:55,141 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:00:00,078 - houseDetail.py[line:29] - INFO: 获取到号码：18688483942 曾德沛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:00:05,466 - houseDetail.py[line:29] - INFO: 获取到号码：18218265006 陈远炽
+中原
+好盘在线1
+2018-12-06 20:00:13,470 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:00:19,426 - houseDetail.py[line:29] - INFO: 获取到号码：15986937277 唐仁先
+广州市言成房地产有限公司
+言成地产
+2018-12-06 20:00:28,661 - houseDetail.py[line:29] - INFO: 获取到号码：14758732460 潘启合
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 20:00:35,684 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 20:00:35,775 - houseDetail.py[line:29] - INFO: 获取到号码：13808893934 陈运飞
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:00:45,778 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:00:51,125 - houseDetail.py[line:29] - INFO: 获取到号码：18928719775 陈长金
+广州广厦房地产中介有限公司
+广厦置业
+2018-12-06 20:00:56,072 - houseDetail.py[line:29] - INFO: 获取到号码：19926461260 杨云宁
+广州市群鑫地产代理有限公司
+群鑫地产
+2018-12-06 20:01:02,022 - houseDetail.py[line:29] - INFO: 获取到号码：18825080441 袁杰豪
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 20:01:11,026 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:01:16,690 - houseDetail.py[line:29] - INFO: 获取到号码：15521400946 唐上梁
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:01:24,694 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:01:30,045 - houseDetail.py[line:29] - INFO: 获取到号码：17896659002 张正伟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:01:37,048 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:01:43,005 - houseDetail.py[line:29] - INFO: 获取到号码：18520341599 李秋君
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 20:01:52,009 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:01:58,190 - houseDetail.py[line:29] - INFO: 获取到号码：18588883067 韩欢茂
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:02:04,193 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:02:08,733 - houseDetail.py[line:29] - INFO: 获取到号码：18664342987 杨永杰
+广州广雅房地产中介有限公司
+广雅置业
+2018-12-06 20:02:15,736 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:02:20,661 - houseDetail.py[line:29] - INFO: 获取到号码：13138643603 麦海志
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 20:02:28,213 - houseDetail.py[line:29] - INFO: 获取到号码：15521405364 黄远华
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:02:37,217 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:02:42,944 - houseDetail.py[line:29] - INFO: 获取到号码：13809239335 陈宏杰
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:02:48,948 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:02:54,908 - houseDetail.py[line:29] - INFO: 获取到号码：15322230087 刘钟元
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 20:03:02,808 - houseDetail.py[line:29] - INFO: 获取到号码：17676536118 覃挥峻
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:03:08,562 - houseDetail.py[line:29] - INFO: 获取到号码：15819297731 徐浩泉
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:03:13,980 - houseDetail.py[line:29] - INFO: 获取到号码：18620733394 陈飞
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 20:03:19,798 - houseDetail.py[line:29] - INFO: 获取到号码：13430394345 黄文翰
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 20:03:28,802 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:03:34,418 - houseDetail.py[line:29] - INFO: 获取到号码：17666045077 王国锋
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:03:40,960 - houseDetail.py[line:29] - INFO: 获取到号码：15521406294 叶才标
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:03:46,963 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:03:52,631 - houseDetail.py[line:29] - INFO: 获取到号码：18819359583 欧阳杰荣
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 20:04:01,665 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 20:04:01,805 - houseDetail.py[line:29] - INFO: 获取到号码：13570113300 李国缘
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 20:04:11,809 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:04:16,937 - houseDetail.py[line:29] - INFO: 获取到号码：13802747431 路可攀
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:04:25,941 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:04:30,585 - houseDetail.py[line:29] - INFO: 获取到号码：18011985928 黄林英
+2018-12-06 20:04:37,588 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:04:42,601 - houseDetail.py[line:29] - INFO: 获取到号码：13570263882 姚迪权
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 20:04:48,605 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:04:54,490 - houseDetail.py[line:29] - INFO: 获取到号码：18218278951 邓以鑫
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 20:05:02,493 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:05:08,444 - houseDetail.py[line:29] - INFO: 获取到号码：13925911802 周家胜
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:05:16,867 - houseDetail.py[line:29] - INFO: 获取到号码：18122307378 鄢来虎
+广州优居房地产经纪有限公司
+优居地产
+2018-12-06 20:05:26,871 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:05:31,967 - houseDetail.py[line:29] - INFO: 获取到号码：13760647607 张健
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 20:05:38,970 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:05:44,618 - houseDetail.py[line:29] - INFO: 获取到号码：13710025259 黎顺利
+广州德诺房地产咨询有限公司
+德诺地产
+2018-12-06 20:05:52,622 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:05:57,019 - houseDetail.py[line:29] - INFO: 获取到号码：13928745566 苏丝连
+广州市良辰房地产代理有限公司
+良辰地产
+2018-12-06 20:06:03,022 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:06:07,766 - houseDetail.py[line:29] - INFO: 获取到号码：15521407128 胡楠
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:06:14,364 - houseDetail.py[line:29] - INFO: 获取到号码：18407576811 王顺
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:06:24,368 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:06:29,454 - houseDetail.py[line:29] - INFO: 获取到号码：13226612423 郑银生
+广州市一居房地产代理有限公司
+一居地产
+2018-12-06 20:06:39,459 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:06:44,492 - houseDetail.py[line:29] - INFO: 获取到号码：18529211998 王杰
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 20:06:50,680 - houseDetail.py[line:29] - INFO: 获取到号码：15521400265 郭亮
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:06:59,792 - houseDetail.py[line:29] - INFO: 获取到号码：13535082544 林俊毅
+广州市鼎亿房地产代理有限公司
+鼎亿地产
+2018-12-06 20:07:08,882 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 20:07:08,977 - houseDetail.py[line:29] - INFO: 获取到号码：15347429533 林志星
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 20:07:18,628 - houseDetail.py[line:29] - INFO: 获取到号码：13922410479 黄艳兰
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:07:27,005 - houseDetail.py[line:29] - INFO: 获取到号码：18122797717 郑刘涛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:07:37,007 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:07:42,915 - houseDetail.py[line:29] - INFO: 获取到号码：13422020440 梁健锋
+广州爱回家置业有限公司
+爱回家置业
+2018-12-06 20:07:50,920 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:07:56,740 - houseDetail.py[line:29] - INFO: 获取到号码：18476570272 李旋波
+2018-12-06 20:08:02,743 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:08:07,874 - houseDetail.py[line:29] - INFO: 获取到号码：18529435556 焦莉
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:08:17,335 - houseDetail.py[line:29] - INFO: 获取到号码：15521400987 许克贤
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 20:08:25,338 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:08:31,217 - houseDetail.py[line:29] - INFO: 获取到号码：13143701101 谢振龙
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:08:40,217 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:08:46,091 - houseDetail.py[line:29] - INFO: 获取到号码：13710831150 戚健庭
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 20:08:53,094 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:08:57,816 - houseDetail.py[line:29] - INFO: 获取到号码：13533794292 阮伟辉
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:09:03,838 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:09:08,664 - houseDetail.py[line:29] - INFO: 获取到号码：18665090666 吴喜林
+广州中祈房地产中介服务有限公司
+中祈地产
+2018-12-06 20:09:18,688 - houseDetail.py[line:29] - INFO: 获取到号码：18818408936 李观明
+广州中凯房地产中介有限公司
+中凯地产
+2018-12-06 20:09:28,693 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:09:34,801 - houseDetail.py[line:29] - INFO: 获取到号码：13622863056 杨晓萍
+广州市德程地产代理有限公司
+德程地产
+2018-12-06 20:09:44,803 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:09:49,109 - houseDetail.py[line:29] - INFO: 获取到号码：18589241275 黄小慧
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:09:59,112 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:10:05,148 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 20:10:05,200 - houseDetail.py[line:29] - INFO: 获取到号码：17377857385 骆缘威
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 20:10:13,203 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:10:18,528 - houseDetail.py[line:29] - INFO: 获取到号码：13602807503 李冠莲
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 20:10:26,651 - houseDetail.py[line:29] - INFO: 获取到号码：13202027235 骆永辉
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 20:10:34,667 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 20:10:34,775 - houseDetail.py[line:29] - INFO: 获取到号码：13826020724 章越
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:10:41,848 - houseDetail.py[line:29] - INFO: 获取到号码：18589266436 李玲燕
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 20:10:51,016 - houseDetail.py[line:29] - INFO: 获取到号码：18620640818 陈奕民
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 20:10:57,019 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:11:02,953 - houseDetail.py[line:29] - INFO: 获取到号码：18578783364 沈丕超
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 20:11:08,956 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 20:11:10,627 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 20:11:10,628 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 22:30:43,451 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 22:30:43,607 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER
+2018-12-06 22:30:49,707 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 22:30:54,875 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:30:54,923 - houseDetail.py[line:29] - INFO: 获取到号码：13711041093 李东
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 22:31:03,926 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:31:09,128 - houseDetail.py[line:29] - INFO: 获取到号码：18588873818 陆婷婷
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:31:15,869 - houseDetail.py[line:29] - INFO: 获取到号码：13711041093 李东
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 22:31:21,473 - houseDetail.py[line:29] - INFO: 获取到号码：16620012562 李舒敏
+2018-12-06 22:31:28,539 - houseDetail.py[line:29] - INFO: 获取到号码：15914447147 杨创荣
+广州市智佳房地产代理有限公司
+智佳地产
+2018-12-06 22:31:34,542 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:31:39,483 - houseDetail.py[line:29] - INFO: 获取到号码：18102644488 崔哲灏
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:31:48,489 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:31:53,473 - houseDetail.py[line:29] - INFO: 获取到号码：18578617468 胡鹏
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 22:32:03,476 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:32:09,223 - houseDetail.py[line:29] - INFO: 获取到号码：15279493486 陈文
+广州华江置业有限公司
+华江置业
+2018-12-06 22:32:16,226 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:32:21,561 - houseDetail.py[line:29] - INFO: 获取到号码：13725287373 陈彩明
+广州市宏斌房地产代理有限公司
+宏斌地产
+2018-12-06 22:32:28,273 - houseDetail.py[line:29] - INFO: 获取到号码：18588516776 杨家宇
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:32:38,276 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:32:43,453 - houseDetail.py[line:29] - INFO: 获取到号码：13724106679 杨丽婷
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 22:32:53,456 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:32:59,078 - houseDetail.py[line:29] - INFO: 获取到号码：13178859341 黄源浩
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 22:33:08,559 - houseDetail.py[line:29] - INFO: 获取到号码：13145844168 邓旨良
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:33:14,177 - houseDetail.py[line:29] - INFO: 获取到号码：13249191807 韦康健
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 22:33:23,539 - houseDetail.py[line:29] - INFO: 获取到号码：18144639399 刘芳华
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:33:32,625 - houseDetail.py[line:29] - INFO: 获取到号码：18520112214 张惠
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:33:41,364 - houseDetail.py[line:29] - INFO: 获取到号码：18613038973 钟志富
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:33:47,529 - houseDetail.py[line:29] - INFO: 获取到号码：18826085221 邱俊利
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:33:57,532 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:34:03,625 - houseDetail.py[line:29] - INFO: 获取到号码：18824149119 胡子煊
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 22:34:09,618 - houseDetail.py[line:29] - INFO: 获取到号码：13929534979 甘保贵
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:34:18,368 - houseDetail.py[line:29] - INFO: 获取到号码：13510477907 汤爱宝
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:34:24,372 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:34:30,407 - houseDetail.py[line:29] - INFO: 获取到号码：18998290418 黎新冠
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:34:37,977 - houseDetail.py[line:29] - INFO: 获取到号码：18011985928 黄林英
+2018-12-06 22:34:43,721 - houseDetail.py[line:29] - INFO: 获取到号码：18819185428 杨豹
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:34:53,726 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:34:59,743 - houseDetail.py[line:29] - INFO: 获取到号码：16620355561 李富
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 22:35:04,289 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 22:35:04,290 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 22:35:48,398 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 22:35:48,427 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)
+2018-12-06 22:35:54,506 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 22:35:59,681 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:35:59,778 - houseDetail.py[line:29] - INFO: 获取到号码：17520077798 邹家琪
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:36:07,380 - houseDetail.py[line:29] - INFO: 获取到号码：15013331163 曹威
+2018-12-06 22:36:17,013 - houseDetail.py[line:29] - INFO: 获取到号码：17324042973 王明
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 22:36:25,015 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:36:31,117 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:36:31,269 - houseDetail.py[line:29] - INFO: 获取到号码：18002201540 许贵新
+广州市祈安地产代理有限公司
+祈安地产
+2018-12-06 22:36:39,888 - houseDetail.py[line:29] - INFO: 获取到号码：18819378102 韦桂雪
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 22:36:45,891 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:36:51,907 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:36:51,982 - houseDetail.py[line:29] - INFO: 获取到号码：13826021010 黄志颖
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:36:58,984 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:37:05,013 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:37:05,058 - houseDetail.py[line:29] - INFO: 获取到号码：17620985243 乔中意
+广州市天睿地产代理有限公司
+天睿地产
+2018-12-06 22:37:14,059 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:37:16,055 - houseDetail.py[line:29] - INFO: 获取到号码：18602000117 何洁琼
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:37:22,059 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:37:23,986 - houseDetail.py[line:29] - INFO: 获取到号码：13539434110 陈亦锋
+2018-12-06 22:37:30,075 - houseDetail.py[line:29] - INFO: 获取到号码：18928719775 陈长金
+广州广厦房地产中介有限公司
+广厦置业
+2018-12-06 22:37:32,217 - houseDetail.py[line:29] - INFO: 获取到号码：15347429533 林志星
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:37:37,842 - houseDetail.py[line:29] - INFO: 获取到号码：15800017094 叶竞
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:37:47,845 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:37:49,900 - houseDetail.py[line:29] - INFO: 获取到号码：13928779291 陈永培
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 22:37:51,765 - houseDetail.py[line:29] - INFO: 获取到号码：18502018544 郑智造
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:37:57,913 - houseDetail.py[line:29] - INFO: 获取到号码：18620640818 陈奕民
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 22:38:00,987 - houseDetail.py[line:29] - INFO: 获取到号码：13434168533 刘爱明
+广州碧桂园物业服务有限公司租售服务中心
+碧桂园物业
+2018-12-06 22:38:10,990 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:38:13,157 - houseDetail.py[line:29] - INFO: 获取到号码：15989097570 李创阳
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:38:21,161 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:38:23,825 - houseDetail.py[line:29] - INFO: 获取到号码：13538862169 刘运英
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:38:26,135 - houseDetail.py[line:29] - INFO: 获取到号码：13172203839 许子鸿
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:38:35,140 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:38:37,125 - houseDetail.py[line:29] - INFO: 获取到号码：19879360986 李涌
+安居乐地产
+安居乐地产
+2018-12-06 22:38:46,130 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:38:48,769 - houseDetail.py[line:29] - INFO: 获取到号码：13232869610 何志鸿
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:38:57,773 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:39:01,042 - houseDetail.py[line:29] - INFO: 获取到号码：13925045628 郑丽璇
+广州市中凰房地产代理有限公司
+中凰地产
+2018-12-06 22:39:10,046 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:39:12,428 - houseDetail.py[line:29] - INFO: 获取到号码：18664697009 许泽涛
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:39:19,431 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:39:22,121 - houseDetail.py[line:29] - INFO: 获取到号码：13928766840 张海锋
+广州中铭房地产中介服务有限公司
+中铭地产
+2018-12-06 22:39:24,049 - houseDetail.py[line:29] - INFO: 获取到号码：13802940695 何磊
+中原
+好盘在线1
+2018-12-06 22:39:30,052 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:39:32,642 - houseDetail.py[line:29] - INFO: 获取到号码：13719294343 涂国笙
+宜德居（广州）置业投资顾问有限公司
+宜德居（广州）置业投资有限公司
+2018-12-06 22:39:40,647 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:39:42,450 - houseDetail.py[line:29] - INFO: 获取到号码：17620161593 陈顾家
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 22:39:49,453 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:39:51,555 - houseDetail.py[line:29] - INFO: 获取到号码：18620579490 谢乐平
+广州市群鑫地产代理有限公司
+群鑫地产
+2018-12-06 22:39:54,897 - houseDetail.py[line:29] - INFO: 获取到号码：13138484410 杨玉奎
+广东创世置业代理有限公司
+创世置业
+2018-12-06 22:40:03,900 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:40:05,653 - houseDetail.py[line:29] - INFO: 获取到号码：18520487370 高凯强
+广州华江置业有限公司
+华江置业
+2018-12-06 22:40:09,542 - houseDetail.py[line:29] - INFO: 获取到号码：13825194523 徐洁仪
+广州中祈房地产中介服务有限公司
+中祈地产
+2018-12-06 22:40:15,546 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:40:17,392 - houseDetail.py[line:29] - INFO: 获取到号码：13826476332 蔡忠强
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 22:40:20,242 - houseDetail.py[line:29] - INFO: 获取到号码：13922138604 李幸丹
+广州市创融房地产代理有限公司
+创融地产
+2018-12-06 22:40:25,339 - houseDetail.py[line:29] - INFO: 获取到号码：18816801060 符同超
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:40:29,328 - houseDetail.py[line:29] - INFO: 获取到号码：13570520032 梁君豪
+广州市番禺区钟村信轩房地产中介有限公司
+信轩地产
+2018-12-06 22:40:36,332 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:40:38,338 - houseDetail.py[line:29] - INFO: 获取到号码：18148995258 邱晓龙
+广东创世置业代理有限公司
+创世置业
+2018-12-06 22:40:43,006 - houseDetail.py[line:29] - INFO: 获取到号码：18620733394 陈飞
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:40:52,923 - houseDetail.py[line:29] - INFO: 获取到号码：17728025969 邱金春
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:40:59,926 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:41:05,977 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:41:06,069 - houseDetail.py[line:29] - INFO: 获取到号码：18620983002 郭霖源
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:41:15,072 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:41:20,986 - houseDetail.py[line:29] - INFO: 获取到号码：18814093494 朱智静
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 22:41:29,994 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:41:30,108 - houseDetail.py[line:29] - INFO: 获取到号码：13570967896 朱智华
+广州市宏斌房地产代理有限公司
+宏斌地产
+2018-12-06 22:41:35,358 - houseDetail.py[line:29] - INFO: 获取到号码：13724106679 杨丽婷
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 22:41:43,375 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:41:43,469 - houseDetail.py[line:29] - INFO: 获取到号码：18705793987 谢家奇
+肇庆高新区誉光电子商务有限公司
+誉光置业
+2018-12-06 22:41:49,482 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:41:49,526 - houseDetail.py[line:29] - INFO: 获取到号码：13602850771 吴意姝
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:41:55,528 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:42:01,098 - houseDetail.py[line:29] - INFO: 获取到号码：13823432669 陈启君
+广州裕鑫置业有限公司
+裕鑫置业
