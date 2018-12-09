@@ -15,8 +15,8 @@ fp.update_preferences()
 cap = webdriver.DesiredCapabilities.FIREFOX
 cap['firefox_profile'] = fp.encoded
 
-# driver = webdriver.Firefox(executable_path="./geckodriver",firefox_options=fireFoxOptions,firefox_profile =fp)
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(executable_path="./geckodriver",firefox_options=fireFoxOptions,firefox_profile =fp)
+# driver = webdriver.Firefox()
 
 driver.get("https://httpbin.org/get?show_env=1")
 html = driver.find_element_by_xpath("//*").get_attribute("outerHTML")

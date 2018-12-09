@@ -39,11 +39,15 @@ class MyRedis(object):
         result = my_redis.srandmember(key)
         return result
     #爬完一个就删除掉一个，并进行备份
-    def removeHouseItemUrl(self,item):
+    def removeHouseItemUrl(self,item,type=1):
         my_redis = self.getConnect()
-        #保存已经采集过的页面
-        key_bak = "ganji:houseitemurlbak"
-        my_redis.sadd(key_bak,item)#保存已经处理的链接
+        if type==1:#如果为1则保存，如果不为1，则删除
+            #保存已经采集过的页面
+            key_bak = "ganji:houseitemurlbak"
+            my_redis.sadd(key_bak,item)#保存已经处理的链接
+        else:
+            key_bak = "ganji:houseitemurlbakerr"
+            my_redis.sadd(key_bak,item)#保存错误的链接
         key = "ganji:houseitemurl"
         result = my_redis.srem(key,item)#删除链接
     #添加手机号
@@ -51,3 +55,47 @@ class MyRedis(object):
         my_redis = self.getConnect()
         key = "ganji:housephone"
         my_redis.hset(key,phone,value)
+
+    #获取所有的手机号
+    def getHousePhoneList(self):
+        my_redis = self.getConnect()
+        key = "ganji:housephone"
+        return my_redis.hkeys(key)
+    #获取用户基本信息
+    def getUserInfo(self,phone):
+        my_redis = self.getConnect()
+        key = "ganji:housephone"
+        result = my_redis.hget(key,phone)
+        # print(result)
+        result = result.split()
+        res = {}
+        try:
+            res['name'] = result[0].decode()
+        except Exception as e:
+            res['name'] = 0
+        try:
+            res['company'] = result[1].decode()
+        except Exception as e:
+            res['company'] = 0
+        try:
+            res['com_desc'] = result[2].decode()
+        except Exception as e:
+            res['com_desc'] = 0
+        if not res['name'] and not res['company'] and not res['com_desc']:
+            res = {}
+        return res
+    #删除手机号数据，并添加到备份redis中
+    def removeHousePhone(self,phone):
+        my_redis = self.getConnect()
+        key = "ganji:housephone"
+        userInfo = my_redis.hget(key,phone)
+
+        keybak = "ganji:housephonebak"
+        my_redis.hset(keybak,phone,userInfo)
+
+        my_redis.hdel(key,phone)
+
+
+
+
+

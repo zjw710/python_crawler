@@ -1,6 +1,7 @@
 #coding=utf-8
-#百度手机卫士
-#13800138006 ，18122363191 ， 02039999993
+'''
+采集详情页，拿到用户手机号
+'''
 import sys
 from Common.MyDriver import MyDriver
 from Common.common import *
@@ -29,16 +30,20 @@ class housesDetail(object):
                 my_log.logger.info("获取到号码：%s %s"%(phone,user_info))
                 my_redis.removeHouseItemUrl(url)
 
-                sleep_time = random.randint(1,10)
+                # sleep_time = random.randint(1,2)
+                sleep_time=1
                 time.sleep(sleep_time)
                 print("sleep %s秒"%sleep_time)
             except Exception as e:
                 my_log.logger.error("查找异常")
                 my_log.logger.error(e)
+                error_tips = driver.find_element_by_class_name("error-tips1").text
+                if error_tips == '对不起！您要查看的页面没有找到或已删除。':
+                    my_log.logger.error(error_tips)
+                    my_redis.removeHouseItemUrl(url,2)
                 sleep_time = random.randint(1,5)
                 time.sleep(sleep_time)
                 print("sleep %s秒"%sleep_time)
-                break
         # result = remark
 
 def get_data(ganji):

@@ -2163,3 +2163,1571 @@
 2018-12-06 22:42:01,098 - houseDetail.py[line:29] - INFO: 获取到号码：13823432669 陈启君
 广州裕鑫置业有限公司
 裕鑫置业
+2018-12-06 22:42:09,101 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:42:15,125 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:42:15,203 - houseDetail.py[line:29] - INFO: 获取到号码：14748567290 杨田英
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:42:21,206 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:42:27,213 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:42:27,404 - houseDetail.py[line:29] - INFO: 获取到号码：15521406465 刘晨旭
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:42:36,071 - houseDetail.py[line:29] - INFO: 获取到号码：18211432876 李慧
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:42:45,072 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:42:51,223 - houseDetail.py[line:29] - INFO: 获取到号码：18144639399 刘芳华
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:42:58,224 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:43:00,552 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 22:43:00,553 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 22:44:01,566 - common.py[line:17] - INFO: ['firefox', '', 'PyCheckPhone', 'Py CheckPhone', '1', '0', '1.0.0.1']
+2018-12-06 22:44:01,608 - MyDriver.py[line:35] - INFO: get random user_agent:Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5
+2018-12-06 22:44:07,542 - common.py[line:17] - INFO: 打开浏览器成功Open browser successfully
+2018-12-06 22:44:12,558 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:44:12,594 - houseDetail.py[line:29] - INFO: 获取到号码：13246859466 伍春燕
+广州市言成房地产有限公司
+言成地产
+2018-12-06 22:44:20,595 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:44:26,621 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:44:26,720 - houseDetail.py[line:29] - INFO: 获取到号码：18529204068 吴浩
+广州世代房地产有限公司
+世代
+2018-12-06 22:44:35,723 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:44:40,062 - houseDetail.py[line:29] - INFO: 获取到号码：13724106679 杨丽婷
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 22:44:48,280 - houseDetail.py[line:29] - INFO: 获取到号码：17576085919 戚林
+广州市好房好屋房地产代理有限公司
+好房好屋
+2018-12-06 22:44:54,286 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:44:59,292 - houseDetail.py[line:29] - INFO: 获取到号码：13711041093 李东
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 22:45:06,292 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:45:11,414 - houseDetail.py[line:29] - INFO: 获取到号码：17576005625 张彩丽
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:45:19,417 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:45:24,677 - houseDetail.py[line:29] - INFO: 获取到号码：17377857385 骆缘威
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:45:32,875 - houseDetail.py[line:29] - INFO: 获取到号码：17620029067 吴新梅
+广州市名成置业房地产咨询有限公司
+中盟置业
+2018-12-06 22:45:42,023 - houseDetail.py[line:29] - INFO: 获取到号码：18589293636 曾楚杰
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:45:50,473 - houseDetail.py[line:29] - INFO: 获取到号码：18664719090 戚灼荣
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:45:56,572 - houseDetail.py[line:29] - INFO: 获取到号码：16620355561 李富
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 22:46:04,575 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:46:10,657 - houseDetail.py[line:29] - INFO: 获取到号码：13265933960 黄伟基
+广州市番禺区钟村世代房地产中介服务部
+世代地产
+2018-12-06 22:46:15,029 - houseDetail.py[line:29] - INFO: 获取到号码：18802010073 胡廷银
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:46:21,032 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:46:25,979 - houseDetail.py[line:29] - INFO: 获取到号码：13829771996 李济伶
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 22:46:33,739 - houseDetail.py[line:29] - INFO: 获取到号码：15915980612 王春博
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:46:42,234 - houseDetail.py[line:29] - INFO: 获取到号码：13249191807 韦康健
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 22:46:49,237 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:46:53,898 - houseDetail.py[line:29] - INFO: 获取到号码：18102644488 崔哲灏
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:46:58,369 - houseDetail.py[line:29] - INFO: 获取到号码：13430384480 陈宗毅
+广州爱回家置业有限公司
+爱回家置业
+2018-12-06 22:47:06,372 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:47:10,732 - houseDetail.py[line:29] - INFO: 获取到号码：18816796538 黄孟霞
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:47:16,602 - houseDetail.py[line:29] - INFO: 获取到号码：13189155721 王荣伟
+广州市方庭房地产代理有限公司
+方庭置业
+2018-12-06 22:47:25,269 - houseDetail.py[line:29] - INFO: 获取到号码：18520487370 高凯强
+广州华江置业有限公司
+华江置业
+2018-12-06 22:47:34,275 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:47:38,936 - houseDetail.py[line:29] - INFO: 获取到号码：18588516776 许雄
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:47:45,938 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:47:51,125 - houseDetail.py[line:29] - INFO: 获取到号码：15521405364 黄远华
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:47:57,276 - houseDetail.py[line:29] - INFO: 获取到号码：13580538381 王创
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:48:06,279 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:48:11,141 - houseDetail.py[line:29] - INFO: 获取到号码：13570510908 谢海辉
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:48:19,144 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:48:24,180 - houseDetail.py[line:29] - INFO: 获取到号码：13178859341 黄源浩
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 22:48:33,183 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:48:38,266 - houseDetail.py[line:29] - INFO: 获取到号码：17688461386 王锡炎
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:48:46,272 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:48:49,079 - houseDetail.py[line:29] - INFO: 获取到号码：18300125872 魏权洲
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:48:57,084 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:49:01,983 - houseDetail.py[line:29] - INFO: 获取到号码：13539438551 谢振东
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:49:07,750 - houseDetail.py[line:29] - INFO: 获取到号码：18617385376 李心兰
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:49:12,790 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 22:49:12,792 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 22:49:22,796 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:49:28,736 - houseDetail.py[line:29] - INFO: 获取到号码：13922410479 黄艳兰
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:49:34,426 - houseDetail.py[line:29] - INFO: 获取到号码：13570255304 李耀武
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 22:49:40,430 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:49:45,091 - houseDetail.py[line:29] - INFO: 获取到号码：18312221011 李悦安
+广州市鼎瞻物业房地产代理有限公司
+鼎瞻物业
+2018-12-06 22:49:54,095 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:49:59,530 - houseDetail.py[line:29] - INFO: 获取到号码：18102246435 张先生
+2018-12-06 22:50:06,233 - houseDetail.py[line:29] - INFO: 获取到号码：18620733394 陈飞
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:50:12,381 - houseDetail.py[line:29] - INFO: 获取到号码：13760813589 李娥
+广州谊安居房地产有限公司
+谊安居地产
+2018-12-06 22:50:21,013 - houseDetail.py[line:29] - INFO: 获取到号码：18814095716 全文景
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:50:29,030 - houseDetail.py[line:29] - INFO: 获取到号码：13660716859 郭学平
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:50:35,033 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:50:41,048 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:50:41,242 - houseDetail.py[line:29] - INFO: 获取到号码：13126226547 李梅
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:50:45,921 - houseDetail.py[line:29] - INFO: 获取到号码：17688455926 蔡宁川
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:50:53,924 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:50:59,036 - houseDetail.py[line:29] - INFO: 获取到号码：13428151727 马炜育
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:51:07,039 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:51:12,042 - houseDetail.py[line:29] - INFO: 获取到号码：13751866724 谢梦静
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:51:17,201 - houseDetail.py[line:29] - INFO: 获取到号码：13826021010 黄志颖
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:51:25,203 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:51:30,273 - houseDetail.py[line:29] - INFO: 获取到号码：13808893934 陈运飞
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 22:51:40,276 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:51:45,167 - houseDetail.py[line:29] - INFO: 获取到号码：18620093370 冯继立
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:51:51,204 - houseDetail.py[line:29] - INFO: 获取到号码：13924293936 李铸友
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:51:58,286 - houseDetail.py[line:29] - INFO: 获取到号码：19902276290 蔡鑫
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:52:05,342 - houseDetail.py[line:29] - INFO: 获取到号码：15015704426 植思华
+中原
+好盘在线1
+2018-12-06 22:52:10,855 - houseDetail.py[line:29] - INFO: 获取到号码：13527638145 邓庆
+2018-12-06 22:52:18,858 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:52:23,894 - houseDetail.py[line:29] - INFO: 获取到号码：13202027235 骆永辉
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 22:52:30,898 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:52:36,454 - houseDetail.py[line:29] - INFO: 获取到号码：16620355561 李富
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 22:52:42,457 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:52:48,506 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 22:52:48,594 - houseDetail.py[line:29] - INFO: 获取到号码：13711291375 李阳娇
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 22:52:57,598 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:53:02,855 - houseDetail.py[line:29] - INFO: 获取到号码：18620557575 李国栋
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 22:53:10,451 - houseDetail.py[line:29] - INFO: 获取到号码：13560296370 肖智彬
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:53:18,454 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:53:22,845 - houseDetail.py[line:29] - INFO: 获取到号码：15521400062 赖增捷
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:53:28,848 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:53:33,572 - houseDetail.py[line:29] - INFO: 获取到号码：15374048191 胡伟杰
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 22:53:37,857 - houseDetail.py[line:29] - INFO: 获取到号码：13138484410 杨玉奎
+广东创世置业代理有限公司
+创世置业
+2018-12-06 22:53:40,877 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 22:53:40,878 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 22:53:52,881 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:53:57,986 - houseDetail.py[line:29] - INFO: 获取到号码：13724106679 杨丽婷
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 22:54:06,019 - houseDetail.py[line:29] - INFO: 获取到号码：13928811120 何晓娟
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:54:13,023 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:54:17,602 - houseDetail.py[line:29] - INFO: 获取到号码：13824403108 刘柏熙
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:54:25,605 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:54:30,260 - houseDetail.py[line:29] - INFO: 获取到号码：17666552699 梁琴
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:54:35,796 - houseDetail.py[line:29] - INFO: 获取到号码：13826027258 何昌章
+广州市满业房地产代理有限公司
+满业地产
+2018-12-06 22:54:44,801 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:54:49,721 - houseDetail.py[line:29] - INFO: 获取到号码：15918867324 温玉林
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:54:56,724 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:55:02,243 - houseDetail.py[line:29] - INFO: 获取到号码：13622256860 姚水旺
+广州市中营房地产代理有限公司
+中营地产
+2018-12-06 22:55:08,572 - houseDetail.py[line:29] - INFO: 获取到号码：15975628980 呼桂萍
+广州添房信息科技有限公司
+添房置业
+2018-12-06 22:55:16,575 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:55:21,346 - houseDetail.py[line:29] - INFO: 获取到号码：13189492350 卢柳明
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 22:55:28,349 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:55:32,786 - houseDetail.py[line:29] - INFO: 获取到号码：13760813589 李娥
+广州谊安居房地产有限公司
+谊安居地产
+2018-12-06 22:55:40,684 - houseDetail.py[line:29] - INFO: 获取到号码：13533794292 阮伟辉
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:55:45,624 - houseDetail.py[line:29] - INFO: 获取到号码：15627623190 曾少波
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 22:55:53,627 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:55:58,759 - houseDetail.py[line:29] - INFO: 获取到号码：13611472344 朱明亮
+广州市盈客置业有限公司
+盈客置业
+2018-12-06 22:56:06,517 - houseDetail.py[line:29] - INFO: 获取到号码：16620111553 谢宝华
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:56:15,986 - houseDetail.py[line:29] - INFO: 获取到号码：13798073994 郑少彬
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:56:22,989 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:56:27,786 - houseDetail.py[line:29] - INFO: 获取到号码：13659787792 梁其国
+广州市群鑫地产代理有限公司
+群鑫地产
+2018-12-06 22:56:36,681 - houseDetail.py[line:29] - INFO: 获取到号码：18529400637 张俊雄
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:56:40,618 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 22:56:40,619 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 22:56:51,622 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:56:56,493 - houseDetail.py[line:29] - INFO: 获取到号码：15915824304 梁日红
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 22:57:03,489 - houseDetail.py[line:29] - INFO: 获取到号码：18588777985 林华瑞
+广州市合德置业有限公司
+合德置业
+2018-12-06 22:57:12,522 - houseDetail.py[line:29] - INFO: 获取到号码：13719313307 王德森
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 22:57:21,108 - houseDetail.py[line:29] - INFO: 获取到号码：15914362797 李东方
+广州房帮房地产中介有限公司
+楼帮地产
+2018-12-06 22:57:29,112 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:57:33,974 - houseDetail.py[line:29] - INFO: 获取到号码：13316138866 黄健雄
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 22:57:41,377 - houseDetail.py[line:29] - INFO: 获取到号码：15521408044 王宇
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:57:49,378 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:57:54,299 - houseDetail.py[line:29] - INFO: 获取到号码：15626285106 王舒敏
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 22:58:01,303 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:58:05,778 - houseDetail.py[line:29] - INFO: 获取到号码：17728185875 谭秀美
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 22:58:09,793 - houseDetail.py[line:29] - INFO: 获取到号码：18122797717 郑刘涛
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:58:15,795 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:58:20,888 - houseDetail.py[line:29] - INFO: 获取到号码：13570113300 李国缘
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 22:58:28,890 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:58:34,243 - houseDetail.py[line:29] - INFO: 获取到号码：13318737899 贺茂奎
+广州市鼎和房地产代理有限公司
+广州市鼎和房地产代理有限公司
+2018-12-06 22:58:42,776 - houseDetail.py[line:29] - INFO: 获取到号码：17377857385 骆缘威
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:58:51,782 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:58:56,740 - houseDetail.py[line:29] - INFO: 获取到号码：18814121169 吴明斌
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:59:04,926 - houseDetail.py[line:29] - INFO: 获取到号码：15918867324 温玉林
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:59:13,930 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 22:59:18,381 - houseDetail.py[line:29] - INFO: 获取到号码：18613038973 钟志富
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 22:59:23,740 - houseDetail.py[line:29] - INFO: 获取到号码：13760813589 李娥
+广州谊安居房地产有限公司
+谊安居地产
+2018-12-06 22:59:32,464 - houseDetail.py[line:29] - INFO: 获取到号码：18589241275 黄小慧
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 22:59:38,542 - houseDetail.py[line:29] - INFO: 获取到号码：18594981698 陈泽浩
+广州毅信房地产代理有限公司
+毅信地产
+2018-12-06 22:59:47,868 - houseDetail.py[line:29] - INFO: 获取到号码：13724089300 陈正章
+广州市宗正房地产中介有限公司
+宗正地产
+2018-12-06 22:59:55,686 - houseDetail.py[line:29] - INFO: 获取到号码：15975362530 许鹏
+广州市鹏安房地产代理有限公司
+鹏安地产
+2018-12-06 23:00:01,250 - houseDetail.py[line:29] - INFO: 获取到号码：17377857385 骆缘威
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:00:08,252 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:00:12,763 - houseDetail.py[line:29] - INFO: 获取到号码：15521407128 胡楠
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:00:21,767 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:00:26,834 - houseDetail.py[line:29] - INFO: 获取到号码：13580129088 李梅
+广州市中营房地产代理有限公司
+中营地产
+2018-12-06 23:00:32,836 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:00:38,484 - houseDetail.py[line:29] - INFO: 获取到号码：13570519526 李玉梅
+广州市盈客置业有限公司
+盈客置业
+2018-12-06 23:00:44,019 - houseDetail.py[line:29] - INFO: 获取到号码：18588564222 郑煜锦
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:00:53,023 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:00:59,112 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:00:59,296 - houseDetail.py[line:29] - INFO: 获取到号码：18620783823 唐波
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:01:09,299 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:01:14,144 - houseDetail.py[line:29] - INFO: 获取到号码：18620733394 陈飞
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:01:20,147 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:01:24,086 - houseDetail.py[line:29] - INFO: 获取到号码：18589241275 黄小慧
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:01:31,089 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:01:35,963 - houseDetail.py[line:29] - INFO: 获取到号码：13189151994 杨成锋
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:01:41,053 - houseDetail.py[line:29] - INFO: 获取到号码：13802940695 何磊
+中原
+好盘在线1
+2018-12-06 23:01:50,088 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:01:50,164 - houseDetail.py[line:29] - INFO: 获取到号码：13922330834 邓俊宇
+广州市盈城房地产代理有限公司
+盈城地产
+2018-12-06 23:01:54,964 - houseDetail.py[line:29] - INFO: 获取到号码：13826074441 敖旭东
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:02:02,967 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:02:07,806 - houseDetail.py[line:29] - INFO: 获取到号码：13178868430 卓杰
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:02:11,596 - houseDetail.py[line:29] - INFO: 获取到号码：13802940695 何磊
+中原
+好盘在线1
+2018-12-06 23:02:19,838 - houseDetail.py[line:29] - INFO: 获取到号码：13202537654 李永赋
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 23:02:23,838 - houseDetail.py[line:29] - INFO: 获取到号码：15521400265 郭亮
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:02:28,539 - houseDetail.py[line:29] - INFO: 获取到号码：18814095716 全文景
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:02:38,542 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:02:44,219 - houseDetail.py[line:29] - INFO: 获取到号码：13538862169 刘运英
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:02:53,221 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:02:57,914 - houseDetail.py[line:29] - INFO: 获取到号码：15096681791 李强
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:03:04,917 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:03:10,023 - houseDetail.py[line:29] - INFO: 获取到号码：13609719293 周伟
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:03:17,954 - houseDetail.py[line:29] - INFO: 获取到号码：13560448216 吴展华
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:03:24,959 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:03:30,414 - houseDetail.py[line:29] - INFO: 获取到号码：18520400715 梁俊辉
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:03:36,746 - houseDetail.py[line:29] - INFO: 获取到号码：13922450302 廖华锋
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:03:43,651 - houseDetail.py[line:29] - INFO: 获取到号码：18620640818 陈奕民
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 23:03:50,655 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:03:55,888 - houseDetail.py[line:29] - INFO: 获取到号码：18620730674 罗添和
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:04:01,890 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:04:07,861 - houseDetail.py[line:29] - INFO: 获取到号码：13923095085 林永乐
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:04:13,035 - houseDetail.py[line:29] - INFO: 获取到号码：18825067023 蔡少威
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:04:20,730 - houseDetail.py[line:29] - INFO: 获取到号码：13970187309 张清芳
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 23:04:28,963 - houseDetail.py[line:29] - INFO: 获取到号码：17520077798 邹家琪
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:04:37,234 - houseDetail.py[line:29] - INFO: 获取到号码：15915960846 黎华炀
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:04:46,240 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:04:51,915 - houseDetail.py[line:29] - INFO: 获取到号码：13392615721 陈楼蔚
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:04:59,921 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:05:04,378 - houseDetail.py[line:29] - INFO: 获取到号码：18102586977 王宇航
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:05:10,467 - houseDetail.py[line:29] - INFO: 获取到号码：13922138604 李幸丹
+广州市创融房地产代理有限公司
+创融地产
+2018-12-06 23:05:17,608 - houseDetail.py[line:29] - INFO: 获取到号码：18613008537 童多佳
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:05:24,236 - houseDetail.py[line:29] - INFO: 获取到号码：13527817895 凌土生
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:05:30,871 - houseDetail.py[line:29] - INFO: 获取到号码：17612059070 李文龙
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:05:40,204 - houseDetail.py[line:29] - INFO: 获取到号码：13434281654 严泽鹏
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:05:45,407 - houseDetail.py[line:29] - INFO: 获取到号码：13535037433 黄俊杰
+2018-12-06 23:05:53,411 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:05:57,996 - houseDetail.py[line:29] - INFO: 获取到号码：13503096068 邓昭祥
+广州市正赢房地产代理有限公司
+正赢地产
+2018-12-06 23:06:06,503 - houseDetail.py[line:29] - INFO: 获取到号码：18664671054 肖太平
+广州美联港置房地产代理有限公司
+美联物业
+2018-12-06 23:06:14,653 - houseDetail.py[line:29] - INFO: 获取到号码：13928899710 李炜杰
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 23:06:23,223 - houseDetail.py[line:29] - INFO: 获取到号码：18028051332 杨智
+广州市保利房地产中介有限公司
+保利地产
+2018-12-06 23:06:33,226 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:06:38,104 - houseDetail.py[line:29] - INFO: 获取到号码：17520077798 邹家琪
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:06:47,108 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:06:52,354 - houseDetail.py[line:29] - INFO: 获取到号码：13570113300 李国缘
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 23:06:58,339 - houseDetail.py[line:29] - INFO: 获取到号码：15876549117 戴梓贤
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:07:07,344 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:07:13,378 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:07:13,424 - houseDetail.py[line:29] - INFO: 获取到号码：15521400265 郭亮
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:07:19,230 - houseDetail.py[line:29] - INFO: 获取到号码：13590318467 刘南海
+2018-12-06 23:07:29,233 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:07:34,440 - houseDetail.py[line:29] - INFO: 获取到号码：15622110555 莫贤萍
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 23:07:39,144 - houseDetail.py[line:29] - INFO: 获取到号码：14737678151 李文翔
+广东创世置业代理有限公司
+创世置业
+2018-12-06 23:07:46,311 - houseDetail.py[line:29] - INFO: 获取到号码：18665584280 江永
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:07:52,171 - houseDetail.py[line:29] - INFO: 获取到号码：13434143371 吴清华
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 23:08:02,176 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:08:06,721 - houseDetail.py[line:29] - INFO: 获取到号码：13809239335 陈宏杰
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:08:13,726 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:08:18,619 - houseDetail.py[line:29] - INFO: 获取到号码：13318731852 陆英豪
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:08:24,622 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:08:29,555 - houseDetail.py[line:29] - INFO: 获取到号码：18665676909 林玉冠
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:08:39,559 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:08:44,651 - houseDetail.py[line:29] - INFO: 获取到号码：18620691312 谭家伟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:08:52,520 - houseDetail.py[line:29] - INFO: 获取到号码：18664779378 詹培莹
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:08:58,941 - houseDetail.py[line:29] - INFO: 获取到号码：15918706233 彭邦梁
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:09:07,946 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:09:12,657 - houseDetail.py[line:29] - INFO: 获取到号码：13250790915 孙建明
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:09:18,907 - houseDetail.py[line:29] - INFO: 获取到号码：15112121633 陈文斌
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:09:26,913 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:09:31,782 - houseDetail.py[line:29] - INFO: 获取到号码：15817029249 许文璇
+广东古格控股股份有限公司
+古格地产
+2018-12-06 23:09:38,786 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:09:43,569 - houseDetail.py[line:29] - INFO: 获取到号码：18664719090 戚灼荣
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:09:50,572 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:09:55,312 - houseDetail.py[line:29] - INFO: 获取到号码：18620451783 黎丽欣
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:10:02,773 - houseDetail.py[line:29] - INFO: 获取到号码：13826062534 黄世运
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:10:06,874 - houseDetail.py[line:29] - INFO: 获取到号码：13392455011 杨環菁
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 23:10:12,369 - houseDetail.py[line:29] - INFO: 获取到号码：13711501445 黄江彬
+广州市恒兆电子商务有限公司
+恒兆电商
+2018-12-06 23:10:20,374 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:10:25,305 - houseDetail.py[line:29] - INFO: 获取到号码：13928740793 梁柏杰
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:10:32,309 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:10:37,592 - houseDetail.py[line:29] - INFO: 获取到号码：18529211998 王杰
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 23:10:46,595 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:10:50,904 - houseDetail.py[line:29] - INFO: 获取到号码：15521508435 关志豪
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:10:57,903 - houseDetail.py[line:29] - INFO: 获取到号码：13570123410 林科成
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:11:05,710 - houseDetail.py[line:29] - INFO: 获取到号码：15622110555 莫贤萍
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 23:11:10,589 - houseDetail.py[line:29] - INFO: 获取到号码：15521400265 郭亮
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:11:19,592 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:11:24,223 - houseDetail.py[line:29] - INFO: 获取到号码：13825102483 李淑玲
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 23:11:30,226 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:11:35,188 - houseDetail.py[line:29] - INFO: 获取到号码：18922805252 温林洪
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 23:11:44,211 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:11:49,197 - houseDetail.py[line:29] - INFO: 获取到号码：18617322721 林小凤
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:11:56,200 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:12:00,832 - houseDetail.py[line:29] - INFO: 获取到号码：13318737899 贺茂奎
+广州市鼎和房地产代理有限公司
+广州市鼎和房地产代理有限公司
+2018-12-06 23:12:09,548 - houseDetail.py[line:29] - INFO: 获取到号码：13922251043 于梦文
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 23:12:17,487 - houseDetail.py[line:29] - INFO: 获取到号码：15915779806 林水锦
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:12:24,490 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:12:28,586 - houseDetail.py[line:29] - INFO: 获取到号码：13288832912 全华超
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:12:33,299 - houseDetail.py[line:29] - INFO: 获取到号码：18899726365 谭小盼
+广州裕鑫置业有限公司
+裕鑫置业
+2018-12-06 23:12:43,302 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:12:48,092 - houseDetail.py[line:29] - INFO: 获取到号码：13434168533 刘爱明
+广州碧桂园物业服务有限公司租售服务中心
+碧桂园物业
+2018-12-06 23:12:54,694 - houseDetail.py[line:29] - INFO: 获取到号码：18620895764 林峰
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:13:00,696 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:13:05,237 - houseDetail.py[line:29] - INFO: 获取到号码：15813302181 熊儒星
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:13:10,539 - houseDetail.py[line:29] - INFO: 获取到号码：15767795258 林润华
+2018-12-06 23:13:15,805 - houseDetail.py[line:29] - INFO: 获取到号码：13609719293 周伟
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:13:21,808 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:13:26,828 - houseDetail.py[line:29] - INFO: 获取到号码：15989163074 何萌
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:13:35,832 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:13:40,085 - houseDetail.py[line:29] - INFO: 获取到号码：18502097557 陈晓娜
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:13:47,062 - houseDetail.py[line:29] - INFO: 获取到号码：18200886520 施圣迪
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:13:53,309 - houseDetail.py[line:29] - INFO: 获取到号码：13250563249 蔡瑞东
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:13:59,312 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:14:03,426 - houseDetail.py[line:29] - INFO: 获取到号码：13922782335 莫耀发
+2018-12-06 23:14:12,280 - houseDetail.py[line:29] - INFO: 获取到号码：16620355561 李富
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 23:14:19,286 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:14:23,977 - houseDetail.py[line:29] - INFO: 获取到号码：17896659002 张正伟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:14:29,980 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:14:34,526 - houseDetail.py[line:29] - INFO: 获取到号码：18602000117 何洁琼
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:14:42,529 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:14:47,145 - houseDetail.py[line:29] - INFO: 获取到号码：13826462421 王耀权
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 23:14:52,848 - houseDetail.py[line:29] - INFO: 获取到号码：15989097570 李创阳
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:14:55,846 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:14:55,848 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:15:06,848 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:15:11,434 - houseDetail.py[line:29] - INFO: 获取到号码：13533455687 叶敏贤
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:15:18,438 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:15:23,244 - houseDetail.py[line:29] - INFO: 获取到号码：18588873818 陆婷婷
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:15:30,247 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:15:34,871 - houseDetail.py[line:29] - INFO: 获取到号码：16620355561 李富
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 23:15:42,384 - houseDetail.py[line:29] - INFO: 获取到号码：13263060319 陈礼义
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 23:15:50,388 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:15:55,302 - houseDetail.py[line:29] - INFO: 获取到号码：18613109264 许秋航
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:16:03,306 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:16:08,052 - houseDetail.py[line:29] - INFO: 获取到号码：18588873818 李晓颖
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:16:17,055 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:16:21,671 - houseDetail.py[line:29] - INFO: 获取到号码：13318799767 蔡镇生
+广州市群鑫地产代理有限公司
+群鑫地产
+2018-12-06 23:16:31,676 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:16:36,585 - houseDetail.py[line:29] - INFO: 获取到号码：13798073994 郑少彬
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:16:42,023 - houseDetail.py[line:29] - INFO: 获取到号码：13138643603 麦海志
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:16:50,026 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:16:55,247 - houseDetail.py[line:29] - INFO: 获取到号码：13632107345 欧绮杏
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 23:17:05,250 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:17:10,275 - houseDetail.py[line:29] - INFO: 获取到号码：17576085919 戚林
+广州市好房好屋房地产代理有限公司
+好房好屋
+2018-12-06 23:17:16,874 - houseDetail.py[line:29] - INFO: 获取到号码：15014268966 何厚华
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:17:23,878 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:17:29,901 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:17:29,976 - houseDetail.py[line:29] - INFO: 获取到号码：15521403939 秦肖娟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:17:35,858 - houseDetail.py[line:29] - INFO: 获取到号码：15986937277 唐仁先
+广州市言成房地产有限公司
+言成地产
+2018-12-06 23:17:44,434 - houseDetail.py[line:29] - INFO: 获取到号码：18613061434 管格强
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:17:52,438 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:17:57,174 - houseDetail.py[line:29] - INFO: 获取到号码：18666014512 曾宜洪
+广州市领盛房地产经纪有限公司
+领盛地产
+2018-12-06 23:18:05,180 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:18:10,651 - houseDetail.py[line:29] - INFO: 获取到号码：18926104973 叶梦霞
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:18:20,664 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:18:25,983 - houseDetail.py[line:29] - INFO: 获取到号码：18520321108 朱钦
+广州市德程地产代理有限公司
+德程地产
+2018-12-06 23:18:32,986 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:18:37,931 - houseDetail.py[line:29] - INFO: 获取到号码：18613038973 钟志富
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:18:45,937 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:18:51,957 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:18:52,055 - houseDetail.py[line:29] - INFO: 获取到号码：13719313307 王德森
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 23:19:00,213 - houseDetail.py[line:29] - INFO: 获取到号码：18202068007 杨楚
+广州置鼎房地产代理有限公司
+置鼎地产
+2018-12-06 23:19:06,216 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:19:11,292 - houseDetail.py[line:29] - INFO: 获取到号码：15999948313 胡志龙
+广州市置赢房地产有限公司
+置赢地产
+2018-12-06 23:19:20,296 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:19:25,421 - houseDetail.py[line:29] - INFO: 获取到号码：13145844168 邓旨良
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:19:34,048 - houseDetail.py[line:29] - INFO: 获取到号码：15088095295 黄鉴廷
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:19:43,049 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:19:47,674 - houseDetail.py[line:29] - INFO: 获取到号码：13672451928 周丽
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:19:54,872 - houseDetail.py[line:29] - INFO: 获取到号码：15521409519 谢汝雄
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:20:04,875 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:20:10,276 - houseDetail.py[line:29] - INFO: 获取到号码：13719313307 王德森
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 23:20:16,796 - houseDetail.py[line:29] - INFO: 获取到号码：13829704083 石焕梅
+广州市保值房地产代理有限公司
+保值地产
+2018-12-06 23:20:23,894 - houseDetail.py[line:29] - INFO: 获取到号码：13802773209 陈廷坤
+广州市鼎瞻物业房地产代理有限公司
+鼎瞻物业
+2018-12-06 23:20:29,907 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:20:30,052 - houseDetail.py[line:29] - INFO: 获取到号码：13602850771 吴意姝
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:20:38,053 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:20:43,016 - houseDetail.py[line:29] - INFO: 获取到号码：13538862169 刘运英
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:20:51,017 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:20:55,657 - houseDetail.py[line:29] - INFO: 获取到号码：15800232073 李圆圆
+广州英腾房地产代理有限公司
+英腾地产
+2018-12-06 23:21:01,661 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:21:07,691 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:21:07,783 - houseDetail.py[line:29] - INFO: 获取到号码：18617306943 王维
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:21:15,484 - houseDetail.py[line:29] - INFO: 获取到号码：15800286814 霍启竞
+广州市益众房地产代理有限公司
+益众地产
+2018-12-06 23:21:20,336 - houseDetail.py[line:29] - INFO: 获取到号码：18620124913 雷心宇
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:21:26,339 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:21:31,719 - houseDetail.py[line:29] - INFO: 获取到号码：17727667557 叶佐华
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 23:21:41,723 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:21:47,006 - houseDetail.py[line:29] - INFO: 获取到号码：15014268966 何厚华
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:21:54,009 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:21:59,380 - houseDetail.py[line:29] - INFO: 获取到号码：16620053543 叶君
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:22:08,082 - houseDetail.py[line:29] - INFO: 获取到号码：13145724979 陈慧
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 23:22:17,086 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:22:22,655 - houseDetail.py[line:29] - INFO: 获取到号码：13129397413 黄型焕
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:22:28,657 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:22:32,835 - houseDetail.py[line:29] - INFO: 获取到号码：13622863056 杨晓萍
+广州市德程地产代理有限公司
+德程地产
+2018-12-06 23:22:42,838 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:22:47,627 - houseDetail.py[line:29] - INFO: 获取到号码：13922787080 侯碧昌
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 23:22:57,630 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:23:01,996 - houseDetail.py[line:29] - INFO: 获取到号码：18825067023 蔡少威
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:23:10,555 - houseDetail.py[line:29] - INFO: 获取到号码：13318723637 陈伟健
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:23:18,062 - houseDetail.py[line:29] - INFO: 获取到号码：18898578106 林善正
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:23:27,068 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:23:31,411 - houseDetail.py[line:29] - INFO: 获取到号码：13145793990 陈秋霞
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:23:36,476 - houseDetail.py[line:29] - INFO: 获取到号码：18244902990 熊权顺
+广州市宏斌房地产代理有限公司
+宏斌地产
+2018-12-06 23:23:42,125 - houseDetail.py[line:29] - INFO: 获取到号码：18011985928 黄林英
+2018-12-06 23:23:49,003 - houseDetail.py[line:29] - INFO: 获取到号码：13533455687 叶敏贤
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:23:56,987 - houseDetail.py[line:29] - INFO: 获取到号码：18318016992 曹永钊
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:24:04,798 - houseDetail.py[line:29] - INFO: 获取到号码：15013331163 曹威
+2018-12-06 23:24:11,709 - houseDetail.py[line:29] - INFO: 获取到号码：18565164380 潘育华
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:24:20,323 - houseDetail.py[line:29] - INFO: 获取到号码：17728185875 谭秀美
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:24:28,223 - houseDetail.py[line:29] - INFO: 获取到号码：13610216018 李佰武
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:24:36,901 - houseDetail.py[line:29] - INFO: 获取到号码：13922720351 陈微
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:24:41,841 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:24:41,842 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:24:56,845 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:25:01,907 - houseDetail.py[line:29] - INFO: 获取到号码：13022044148 罗良斌
+广州市番禺区钟村世代房地产中介服务部
+世代地产
+2018-12-06 23:25:10,684 - houseDetail.py[line:29] - INFO: 获取到号码：18578677097 倪浩生
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:25:17,155 - houseDetail.py[line:29] - INFO: 获取到号码：18319237117 崔汉强
+2018-12-06 23:25:24,720 - houseDetail.py[line:29] - INFO: 获取到号码：15521404988 陈倩
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:25:32,721 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:25:37,039 - houseDetail.py[line:29] - INFO: 获取到号码：13922138604 李幸丹
+广州市创融房地产代理有限公司
+创融地产
+2018-12-06 23:25:45,043 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:25:49,720 - houseDetail.py[line:29] - INFO: 获取到号码：13427682786 申常俏
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:25:58,723 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:26:03,069 - houseDetail.py[line:29] - INFO: 获取到号码：17666176235 陈柳妮
+广州华江置业有限公司
+华江置业
+2018-12-06 23:26:10,071 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:26:14,986 - houseDetail.py[line:29] - INFO: 获取到号码：13265933960 黄伟基
+广州市番禺区钟村世代房地产中介服务部
+世代地产
+2018-12-06 23:26:21,990 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:26:27,313 - houseDetail.py[line:29] - INFO: 获取到号码：13356539506 庞百峰
+广州连家地产代理有限公司
+连家地产
+2018-12-06 23:26:37,318 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:26:41,769 - houseDetail.py[line:29] - INFO: 获取到号码：13802809053 肖晓冲
+广州满贯房地产代理有限公司
+满贯地产
+2018-12-06 23:26:47,772 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:26:52,569 - houseDetail.py[line:29] - INFO: 获取到号码：15016528770 严辉财
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:27:01,573 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:27:06,332 - houseDetail.py[line:29] - INFO: 获取到号码：18680516160 吴志
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:27:12,335 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:27:16,795 - houseDetail.py[line:29] - INFO: 获取到号码：18320444042 刘洋
+广州市领盛房地产经纪有限公司
+领盛地产
+2018-12-06 23:27:22,463 - houseDetail.py[line:29] - INFO: 获取到号码：17727667557 叶佐华
+广州正富房地产代理有限公司
+正富地产
+2018-12-06 23:27:27,357 - houseDetail.py[line:29] - INFO: 获取到号码：18818409704 马观土
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:27:33,622 - houseDetail.py[line:29] - INFO: 获取到号码：15013052128 钟晓炎
+广州市宏斌房地产代理有限公司
+宏斌地产
+2018-12-06 23:27:41,614 - houseDetail.py[line:29] - INFO: 获取到号码：13925028775 龚国清
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:27:48,617 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:27:53,039 - houseDetail.py[line:29] - INFO: 获取到号码：15083754896 刘诗铭
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 23:28:00,405 - houseDetail.py[line:29] - INFO: 获取到号码：15989111892 钟伦飞
+2018-12-06 23:28:06,408 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:28:10,598 - houseDetail.py[line:29] - INFO: 获取到号码：19879360986 李涌
+安居乐地产
+安居乐地产
+2018-12-06 23:28:18,345 - houseDetail.py[line:29] - INFO: 获取到号码：13826462421 王耀权
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 23:28:24,887 - houseDetail.py[line:29] - INFO: 获取到号码：13826058448 郑晓芳
+广州市德才房地产代理有限公司
+德诚行地产
+2018-12-06 23:28:32,891 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:28:37,989 - houseDetail.py[line:29] - INFO: 获取到号码：13202537654 李永赋
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 23:28:44,582 - houseDetail.py[line:29] - INFO: 获取到号码：18602000117 何洁琼
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:28:51,584 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:28:57,615 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:28:57,723 - houseDetail.py[line:29] - INFO: 获取到号码：15521400162 马文辉
+中原
+好盘在线1
+2018-12-06 23:29:06,559 - houseDetail.py[line:29] - INFO: 获取到号码：15119517701 吴凯瑞
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:29:16,562 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:29:20,983 - houseDetail.py[line:29] - INFO: 获取到号码：13580129088 李梅
+广州市中营房地产代理有限公司
+中营地产
+2018-12-06 23:29:27,384 - houseDetail.py[line:29] - INFO: 获取到号码：13829771996 李济伶
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:29:37,387 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:29:43,421 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:29:43,471 - houseDetail.py[line:29] - INFO: 获取到号码：15521409519 谢汝雄
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:29:53,476 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:29:58,877 - houseDetail.py[line:29] - INFO: 获取到号码：13035743035 刘嘉贤
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:30:06,214 - houseDetail.py[line:29] - INFO: 获取到号码：13903074193 黄丹
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:30:15,217 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:30:20,665 - houseDetail.py[line:29] - INFO: 获取到号码：16620355561 李富
+广州合赢房地产中介有限公司
+合赢地产
+2018-12-06 23:30:29,667 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:30:34,604 - houseDetail.py[line:29] - INFO: 获取到号码：17875434696 黄福康
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:30:40,747 - houseDetail.py[line:29] - INFO: 获取到号码：13828430569 李树茂
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:30:48,579 - houseDetail.py[line:29] - INFO: 获取到号码：13829769861 袁慧姻
+广州市星海房地产代理有限公司
+星海地产
+2018-12-06 23:30:58,584 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:31:03,526 - houseDetail.py[line:29] - INFO: 获取到号码：13414902141 何华丽
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:31:10,065 - houseDetail.py[line:29] - INFO: 获取到号码：18578677097 倪浩生
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:31:17,068 - houseDetail.py[line:29] - INFO: 获取到号码：15102046699 姚韩凯
+广州中铭房地产中介服务有限公司
+中铭地产
+2018-12-06 23:31:24,071 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:31:29,260 - houseDetail.py[line:29] - INFO: 获取到号码：15017820398 黄乙钦
+广州市祈安地产代理有限公司
+祈安地产
+2018-12-06 23:31:36,558 - houseDetail.py[line:29] - INFO: 获取到号码：16620012562 李舒敏
+2018-12-06 23:31:46,561 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:31:51,776 - houseDetail.py[line:29] - INFO: 获取到号码：13538862169 刘运英
+广州裕丰咨询顾问有限公司
+裕丰地产
+2018-12-06 23:32:01,793 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:32:01,861 - houseDetail.py[line:29] - INFO: 获取到号码：18575550970 黄文杰
+2018-12-06 23:32:08,874 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:32:08,950 - houseDetail.py[line:29] - INFO: 获取到号码：18620933491 黄荣华
+广州市群鑫地产代理有限公司
+群鑫地产
+2018-12-06 23:32:14,971 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:32:15,081 - houseDetail.py[line:29] - INFO: 获取到号码：18898578106 林善正
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:32:21,084 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:32:25,834 - houseDetail.py[line:29] - INFO: 获取到号码：13808891036 梁成集
+广州皇朝置业有限公司
+皇朝置业
+2018-12-06 23:32:34,835 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:32:39,602 - houseDetail.py[line:29] - INFO: 获取到号码：18675822182 石远煌
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:32:49,605 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:32:54,270 - houseDetail.py[line:29] - INFO: 获取到号码：13826450289 钟敬欢
+广州中向房地产中介有限公司
+中向地产
+2018-12-06 23:33:01,982 - houseDetail.py[line:29] - INFO: 获取到号码：18620691312 谭家伟
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:33:06,283 - houseDetail.py[line:29] - INFO: 获取到号码：18520739585 王秀文
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:33:11,696 - houseDetail.py[line:29] - INFO: 获取到号码：18620552113 罗苑聪
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:33:20,509 - houseDetail.py[line:29] - INFO: 获取到号码：15989111892 钟伦飞
+2018-12-06 23:33:29,858 - houseDetail.py[line:29] - INFO: 获取到号码：15875841798 蒋韦俞
+广州添房信息科技有限公司
+添房置业
+2018-12-06 23:33:34,653 - houseDetail.py[line:29] - INFO: 获取到号码：18211530950 欧云海
+2018-12-06 23:33:41,657 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:33:46,651 - houseDetail.py[line:29] - INFO: 获取到号码：15322293795 谢秋南
+广东创世置业代理有限公司
+创世置业
+2018-12-06 23:33:55,655 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:34:00,950 - houseDetail.py[line:29] - INFO: 获取到号码：15915720824 钟伟杰
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:34:10,954 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:34:15,905 - houseDetail.py[line:29] - INFO: 获取到号码：18620083933 孙银秋
+广州东晟房地产有限公司
+东晟地产
+2018-12-06 23:34:24,595 - houseDetail.py[line:29] - INFO: 获取到号码：13556022753 马绍琼
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:34:29,068 - houseDetail.py[line:29] - INFO: 获取到号码：13922138604 李幸丹
+广州市创融房地产代理有限公司
+创融地产
+2018-12-06 23:34:36,502 - houseDetail.py[line:29] - INFO: 获取到号码：17674542813 李伟
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:34:46,036 - houseDetail.py[line:29] - INFO: 获取到号码：18145713302 周贻锦
+中原
+好盘在线1
+2018-12-06 23:34:51,180 - houseDetail.py[line:29] - INFO: 获取到号码：18826431020 杨灵丽
+广州市名成置业房地产咨询有限公司
+中盟置业
+2018-12-06 23:34:58,184 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:35:02,917 - houseDetail.py[line:29] - INFO: 获取到号码：13420988872 马玮
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:35:10,615 - houseDetail.py[line:29] - INFO: 获取到号码：18218278951 邓以鑫
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:35:18,618 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:35:23,181 - houseDetail.py[line:29] - INFO: 获取到号码：13828430569 李树茂
+广东合富房地产置业有限公司
+合富置业
+2018-12-06 23:35:31,183 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:35:35,595 - houseDetail.py[line:29] - INFO: 获取到号码：15013331163 曹威
+2018-12-06 23:35:42,598 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:35:47,842 - houseDetail.py[line:29] - INFO: 获取到号码：18620895764 林峰
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:35:56,844 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:35:58,776 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:35:58,778 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:36:09,779 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:36:14,148 - houseDetail.py[line:29] - INFO: 获取到号码：17620785611 赵锦锦
+广州市祈安地产代理有限公司
+祈安地产
+2018-12-06 23:36:21,151 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:36:25,931 - houseDetail.py[line:29] - INFO: 获取到号码：18102644488 崔哲灏
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:36:30,540 - houseDetail.py[line:29] - INFO: 获取到号码：14718175116 李天雄
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:36:36,555 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:36:36,667 - houseDetail.py[line:29] - INFO: 获取到号码：18818804034 邓国栋
+广州市堂正置业有限公司
+堂正地产
+2018-12-06 23:36:42,325 - houseDetail.py[line:29] - INFO: 获取到号码：13729885713 潘永祥
+广州市远见房地产代理有限公司
+远见地产
+2018-12-06 23:36:50,489 - houseDetail.py[line:29] - INFO: 获取到号码：18620418702 黄洁洁
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:37:00,493 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:37:05,012 - houseDetail.py[line:29] - INFO: 获取到号码：13428850021 陈刚
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:37:11,016 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:37:15,128 - houseDetail.py[line:29] - INFO: 获取到号码：13702685027 赖秋思
+广州市乐有家房产经纪有限公司
+乐有家
+2018-12-06 23:37:22,127 - houseDetail.py[line:29] - INFO: 获取到号码：15083754896 刘诗铭
+广州市领盛地产代理有限公司
+广州市领盛地产
+2018-12-06 23:37:27,138 - houseDetail.py[line:29] - INFO: 获取到号码：13415150489 陈钊鹏
+广州科明地产代理有限公司
+科明地产
+2018-12-06 23:37:34,141 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:37:39,381 - houseDetail.py[line:29] - INFO: 获取到号码：18565527930 欧玉娣
+肇庆高新区景崇电子商务有限公司
+景崇置业
+2018-12-06 23:37:47,628 - houseDetail.py[line:29] - INFO: 获取到号码：13570263202 赵才林
+广州市满业房地产代理有限公司
+满业地产
+2018-12-06 23:37:53,644 - MyDriver.py[line:98] - INFO: Message: Timeout loading page after 5000ms
+
+2018-12-06 23:37:53,720 - houseDetail.py[line:29] - INFO: 获取到号码：15521400891 冯继立
+广东中原房地产代理有限公司
+中原地产
+2018-12-06 23:38:02,723 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:38:04,539 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:38:04,539 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:38:17,543 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:38:19,453 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:38:19,454 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:38:29,457 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:38:30,724 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:38:30,726 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:38:43,729 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:38:45,007 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:38:45,009 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:38:56,013 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:38:57,252 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:38:57,253 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:39:10,257 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:39:11,701 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:39:11,703 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:39:26,707 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:39:27,951 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:39:27,953 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:39:37,956 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:39:39,221 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:39:39,223 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:39:54,226 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:39:55,502 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:39:55,503 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:40:10,506 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:40:11,747 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:40:11,749 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:40:26,753 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:40:27,967 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:40:27,970 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:40:37,973 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:40:39,203 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:40:39,203 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:40:51,207 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:40:52,450 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:40:52,450 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:41:07,454 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:41:08,693 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:41:08,694 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:41:21,696 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:41:22,915 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:41:22,917 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:41:33,921 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:41:35,161 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:41:35,161 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:41:46,165 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:41:47,415 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:41:47,417 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:41:59,421 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:42:00,657 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:42:00,658 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:42:11,661 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:42:12,907 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:42:12,908 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:42:22,913 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:42:24,161 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:42:24,163 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:42:38,164 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:42:39,414 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:42:39,417 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:42:50,417 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:42:51,687 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:42:51,688 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:43:05,690 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:43:06,944 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:43:06,944 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:43:18,947 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:43:20,161 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:43:20,161 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:43:35,164 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:43:36,387 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:43:36,388 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:43:46,391 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:43:47,648 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:43:47,648 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:44:01,653 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:44:02,894 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:44:02,897 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:44:17,898 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:44:19,125 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:44:19,127 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:44:32,128 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:44:33,358 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:44:33,359 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:44:48,364 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:44:49,581 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:44:49,582 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:44:59,585 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:45:00,834 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:45:00,835 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:45:14,838 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:45:16,068 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:45:16,069 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:45:27,072 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:45:28,335 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:45:28,338 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:45:38,355 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:45:39,588 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:45:39,591 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:45:51,594 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:45:52,835 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:45:52,835 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:46:07,839 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:46:09,096 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:46:09,098 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:46:19,099 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:46:20,335 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:46:20,336 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:46:33,341 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:46:34,559 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:46:34,562 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:46:44,563 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:46:46,049 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:46:46,052 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:47:01,055 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:47:02,265 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:47:02,266 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:47:13,270 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:47:14,549 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:47:14,551 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:47:24,552 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:47:25,846 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:47:25,848 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:47:37,851 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:47:39,085 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:47:39,085 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:47:51,088 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:47:52,348 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:47:52,348 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:48:05,351 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:48:06,594 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:48:06,595 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:48:17,598 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:48:18,789 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:48:18,790 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:48:31,795 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:48:33,026 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:48:33,028 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:48:44,030 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:48:45,230 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:48:45,232 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:49:00,236 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:49:01,493 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:49:01,494 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:49:16,499 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:49:17,736 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:49:17,737 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:49:29,740 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:49:30,987 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:49:30,989 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:49:44,992 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:49:46,213 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:49:46,213 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:49:57,217 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:49:58,457 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:49:58,460 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:50:09,463 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:50:10,696 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:50:10,697 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:50:20,700 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:50:21,938 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:50:21,940 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:50:31,944 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:50:33,187 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:50:33,187 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:50:44,191 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:50:45,440 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:50:45,440 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:50:55,444 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:50:56,681 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:50:56,684 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:51:07,687 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:51:08,934 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:51:08,937 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:51:19,940 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:51:21,151 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:51:21,154 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:51:34,155 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:51:35,384 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:51:35,387 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:51:46,388 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:51:47,848 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:51:47,849 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:51:58,852 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:52:00,088 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:52:00,091 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:52:13,094 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:52:14,328 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:52:14,331 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:52:28,332 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:52:29,601 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:52:29,601 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:52:42,604 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:52:43,880 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:52:43,881 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:52:55,884 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:52:57,131 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:52:57,132 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:53:08,137 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:53:09,375 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:53:09,378 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:53:21,381 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:53:22,644 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:53:22,645 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:53:35,648 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:53:37,191 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:53:37,193 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:53:47,197 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:53:48,444 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:53:48,446 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:54:03,450 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:54:04,691 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:54:04,693 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:54:15,696 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:54:16,944 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:54:16,946 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:54:26,950 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:54:28,188 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:54:28,190 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:54:39,193 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:54:40,405 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:54:40,407 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:54:50,411 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:54:51,644 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:54:51,645 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:55:04,648 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:55:05,875 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:55:05,877 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:55:19,878 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:55:21,108 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:55:21,111 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:55:31,115 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:55:32,335 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:55:32,336 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:55:47,342 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:55:48,608 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:55:48,609 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:55:58,615 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:56:00,022 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:56:00,023 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:56:15,026 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:56:16,288 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:56:16,289 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:56:27,292 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:56:28,522 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:56:28,523 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:56:39,526 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:56:40,730 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:56:40,730 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:56:54,734 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:56:56,013 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:56:56,015 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:57:11,019 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:57:12,263 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:57:12,265 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:57:26,267 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:57:27,486 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:57:27,489 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:57:39,490 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:57:40,732 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:57:40,733 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:57:50,736 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:57:51,966 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:57:51,967 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:58:02,971 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:58:04,226 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:58:04,226 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:58:18,230 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:58:19,456 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:58:19,457 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:58:32,459 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:58:33,701 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:58:33,703 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:58:47,707 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:58:48,940 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:58:48,953 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:59:02,957 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:59:04,181 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:59:04,184 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:59:14,187 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:59:15,457 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:59:15,459 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:59:25,461 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:59:26,727 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:59:26,729 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:59:40,732 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:59:41,996 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:59:41,997 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+
+2018-12-06 23:59:52,003 - common.py[line:21] - ERROR: GetUrl error:[Errno 10053] ,try again
+2018-12-06 23:59:53,259 - houseDetail.py[line:36] - ERROR: 查找异常
+2018-12-06 23:59:53,259 - houseDetail.py[line:37] - ERROR: Message: Unable to locate element: .user-info-top
+

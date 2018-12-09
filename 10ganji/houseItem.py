@@ -1,6 +1,7 @@
 #coding=utf-8
-#百度手机卫士
-#13800138006 ，18122363191 ， 02039999993
+'''
+采集列表页面
+'''
 import sys
 from Common.MyDriver import MyDriver
 from Common.common import *
