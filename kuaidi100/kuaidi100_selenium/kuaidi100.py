@@ -10,7 +10,8 @@ import cgi
 class kuaidi100(object):
     def __init__(self):
         self.com = "tiantian"
-        self.url = "http://m.kuaidi100.com/result.jsp?com="+self.com
+        # self.url = "http://m.kuaidi100.com/result.jsp?com="+self.com
+        self.url = "http://m.kuaidi100.com/result.jsp"
         pass
     def kuaidi(self):
         driver = webdriver.Firefox()
@@ -33,17 +34,21 @@ class kuaidi100(object):
                     time.sleep(10)
                     continue
                 keyword = str(data[0])
+                # keyword = '75126733636764'
+                # print(keyword)
 
-                search_input = driver.find_element_by_id("queryInput")
+                # search_input = driver.find_element_by_id("queryInput")
+                search_input = driver.find_element_by_xpath('//*[@id="main"]/div[2]/div[1]/div[2]/input')
                 search_input.clear()
                 search_input.send_keys(keyword)
-
-                search_btn = driver.find_element_by_id("queryBtn")
+                # print("++++++++++")
+                # break
+                # search_btn = driver.find_element_by_id("queryBtn")#//*[@id="main"]/div[2]/div[1]/div[3]
+                search_btn = driver.find_element_by_xpath('//*[@id="main"]/div[2]/div[1]/div[3]')
                 search_btn.click()
-                time.sleep(1)
 
                 #Check whether the delivery order is invalid. If invalid, update the invoice number is invalid.
-                success = driver.find_element_by_id('success')
+                success = driver.find_element_by_class_name('result-success')
                 if not success.is_displayed():
                     log_info("The express number(%s) is invalid."%keyword)
                     u_sql = "update cmf_kuaidinum set status=3 where kd_num=%s"%keyword
@@ -51,19 +56,20 @@ class kuaidi100(object):
                     continue
                 #Courier list is valid, get express data.
                 kd_list = driver.find_element_by_id('result').get_attribute("innerHTML")
+                # print(re.escape(kd_list))
+
                 #Get cell phone number
-                end_pos = kd_list.index(u'正在派件')-5
-                if end_pos>0:
-                    start_pos = end_pos-11
+                start_pos = kd_list.index(u'tel:')+3
+                if start_pos>0:
+                    end_pos = start_pos+11
                     mobile = kd_list[start_pos+1:end_pos+1]
                 else:
                     mobile = 0
-
+                # print('mobile:'+mobile)
                 company = self.com
                 num = keyword
                 url = self.url+"&nu="+num
                 kd_list = re.escape(kd_list)
-                # print(cgi.escape(kd_list))
                 #Querying whether the phone number exists, and if it exists, write the duplicate table.
                 s_mobile_sql = "select mobile from cmf_kuaidi100 where mobile=%s limit 1"%mobile
                 mobile_data = cursor.execute(s_mobile_sql)
