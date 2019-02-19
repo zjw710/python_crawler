@@ -8,7 +8,7 @@ import math
 
 matplotlib.rc("font", family = "MicroSoft YaHei", weight = "bold")
 
-duration = 4
+duration = 2
 fig,ax = plt.subplots(figsize=(10, 10)
                       # ,facecolor='black'
                     )#设置
@@ -22,11 +22,12 @@ def make_frame(t):
     # t=0
     rot_dif = 90
     rot = max(min(100*t,90+rot_dif),rot_dif)#最小90度，最大180度
+    rot = 90
     # rot = max(100*t,rot_dif)
 
-    r = 0.2#半径
+    r = 0.3#半径
+    x = 0+r*np.cos(rot*math.pi/180)
     y = 0+r*np.sin(rot*math.pi/180)
-    x = 0.5+r*np.cos(rot*math.pi/180)
 
     t1 = t
     rot_dif1 = 90
@@ -36,9 +37,9 @@ def make_frame(t):
     y1 = 0+r1*np.sin(rot1*math.pi/180)
 
     plt.text(x, y, u'test',horizontalalignment='left',verticalalignment='bottom',
-             fontdict = {'size': 30, 'color': 'red','rotation':rot-rot_dif})
-    plt.text(x1, y1, u'testhello这个是测试',
-             fontdict = {'size': 30, 'color': 'red','rotation':rot1-rot_dif1,'ha':"left",'va':"bottom"})
+             fontdict = {'size': 54, 'color': 'red','rotation':rot-rot_dif})
+    # plt.text(x1, y1, u'testhello这个是测试',
+    #          fontdict = {'size': 30, 'color': 'red','rotation':rot1-rot_dif1,'ha':"left",'va':"bottom"})
     return mplfig_to_npimage(fig)#生成一帧
 
 animation = VideoClip(make_frame, duration=duration)
